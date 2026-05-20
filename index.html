@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>战争技术金融事件可视化平台</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://map.qq.com/api/gljs?v=1.exp&key=CJVBZ-RCLEQ-UNW5P-4BWFK-IHQYS-CMF33&libraries=visualization"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @layer base {
+            body {
+                font-family: 'Inter', sans-serif;
+                background: #0a0a0f;
+                color: #e5e5e5;
+            }
+            h1, h2, h3 {
+                font-family: 'Playfair Display', serif;
+            }
+        }
+        @layer components {
+            .glass-panel {
+                background: rgba(20, 20, 30, 0.8);
+                backdrop-filter: blur(15px);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+            }
+            .gradient-text {
+                background: linear-gradient(135deg, #ff6b6b 0%, #feca57 50%, #48dbfb 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            .event-card {
+                transition: all 0.3s ease;
+                cursor: pointer;
+            }
+            .event-card:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            }
+            .tab-button {
+                transition: all 0.2s ease;
+            }
+            .tab-button.active {
+                background: rgba(255, 255, 255, 0.1);
+                border-bottom: 2px solid #48dbfb;
+            }
+            .timeline-item {
+                position: relative;
+                padding-left: 30px;
+                border-left: 2px solid rgba(255, 255, 255, 0.1);
+            }
+            .timeline-item::before {
+                content: '';
+                position: absolute;
+                left: -6px;
+                top: 0;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background: #48dbfb;
+            }
+            .war-event::before { background: #ff6b6b; }
+            .tech-event::before { background: #feca57; }
+            .finance-event::before { background: #48dbfb; }
+            .relation-event::before { background: #ff9ff3; }
+            
+            #map {
+                height: 100vh;
+                width: 100%;
+                background: #0a0a0f;
+            }
+            .impact-badge {
+                padding: 2px 8px;
+                border-radius: 12px;
+                font-size: 10px;
+                font-weight: 600;
+            }
+            .impact-very_high { background: rgba(255, 107, 107, 0.2); color: #ff6b6b; }
+            .impact-high { background: rgba(254, 202, 87, 0.2); color: #feca57; }
+            .impact-medium { background: rgba(72, 219, 251, 0.2); color: #48dbfb; }
+            .impact-low { background: rgba(150, 206, 180, 0.2); color: #96ceb4; }
+            
+            .custom-info-window {
+                background: rgba(30, 30, 40, 0.95);
+                backdrop-filter: blur(10px);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-radius: 12px;
+                padding: 16px;
+                color: #e5e5e5;
+                min-width: 280px;
+                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            }
+            
+            .loading-overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(10, 10, 15, 0.9);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 9999;
+            }
+        }
+    </style>
+</head>
+<body class="antialiased overflow-hidden">
+    <div id="loading" class="loading-overlay">
+        <div class="text-center">
+            <div class="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-500 mx-auto mb-4"></div>
+            <p class="text-gray-300 text-lg">正在加载地图数据...</p>
+            <p class="text-gray-500 text-sm mt-2">初始化腾讯地图API</p>
+        </div>
+    </div>
+
+    <div class="flex h-screen">
+        <div class="w-96 glass-panel p-6 overflow-y-auto z-20 flex flex-col">
+            <div class="mb-6">
+                <h1 class="text-2xl font-bold gradient-text mb-2">战争技术金融事件</h1>
+                <p class="text-sm text-gray-400">历史事件关联分析平台</p>
+                <div class="text-xs text-gray-500 mt-2">1837 - 2020 | 腾讯地图</div>
+            </div>
+
+            <div class="mb-6">
+                <div class="flex gap-2 mb-4">
+                    <button class="tab-button active flex-1 py-2 px-3 rounded-lg text-sm" data-tab="overview">概览</button>
+                    <button class="tab-button flex-1 py-2 px-3 rounded-lg text-sm" data-tab="timeline">时间线</button>
+                    <button class="tab-button flex-1 py-2 px-3 rounded-lg text-sm" data-tab="relations">关系</button>
+                </div>
+            </div>
+
+            <div id="tab-overview" class="tab-content flex-1 overflow-y-auto">
+                <div class="mb-6 space-y-3">
+                    <div class="glass-panel rounded-lg p-4">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <div class="text-2xl font-bold text-red-400" id="total-wars">10</div>
+                                <div class="text-xs text-gray-400">战争事件</div>
+                            </div>
+                            <div class="w-10 h-10 rounded-full bg-red-400 bg-opacity-20 flex items-center justify-center">
+                                <span class="text-red-400">⚔️</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-panel rounded-lg p-4">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <div class="text-2xl font-bold text-yellow-400" id="total-tech">22</div>
+                                <div class="text-xs text-gray-400">技术事件</div>
+                            </div>
+                            <div class="w-10 h-10 rounded-full bg-yellow-400 bg-opacity-20 flex items-center justify-center">
+                                <span class="text-yellow-400">⚡</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-panel rounded-lg p-4">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <div class="text-2xl font-bold text-blue-400" id="total-finance">16</div>
+                                <div class="text-xs text-gray-400">金融事件</div>
+                            </div>
+                            <div class="w-10 h-10 rounded-full bg-blue-400 bg-opacity-20 flex items-center justify-center">
+                                <span class="text-blue-400">💰</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-panel rounded-lg p-4">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <div class="text-2xl font-bold text-pink-400" id="total-relations">15</div>
+                                <div class="text-xs text-gray-400">关联关系</div>
+                            </div>
+                            <div class="w-10 h-10 rounded-full bg-pink-400 bg-opacity-20 flex items-center justify-center">
+                                <span class="text-pink-400">🔗</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-3">事件类型筛选</h3>
+                    <div class="space-y-2">
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-white hover:bg-opacity-10 cursor-pointer">
+                            <input type="checkbox" checked class="event-filter" data-type="war">
+                            <div class="w-4 h-4 rounded-full bg-red-400"></div>
+                            <span class="text-sm">战争事件</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-white hover:bg-opacity-10 cursor-pointer">
+                            <input type="checkbox" checked class="event-filter" data-type="technology">
+                            <div class="w-4 h-4 rounded-full bg-yellow-400"></div>
+                            <span class="text-sm">技术事件</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-white hover:bg-opacity-10 cursor-pointer">
+                            <input type="checkbox" checked class="event-filter" data-type="finance">
+                            <div class="w-4 h-4 rounded-full bg-blue-400"></div>
+                            <span class="text-sm">金融事件</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-3">影响程度筛选</h3>
+                    <div class="space-y-2">
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-white hover:bg-opacity-10 cursor-pointer">
+                            <input type="checkbox" checked class="impact-filter" data-level="very_high">
+                            <span class="impact-badge impact-very_high">极高</span>
+                            <span class="text-sm">Very High</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-white hover:bg-opacity-10 cursor-pointer">
+                            <input type="checkbox" checked class="impact-filter" data-level="high">
+                            <span class="impact-badge impact-high">高</span>
+                            <span class="text-sm">High</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-white hover:bg-opacity-10 cursor-pointer">
+                            <input type="checkbox" checked class="impact-filter" data-level="medium">
+                            <span class="impact-badge impact-medium">中</span>
+                            <span class="text-sm">Medium</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-3">时间范围</h3>
+                    <div class="space-y-3">
+                        <div>
+                            <label class="text-sm text-gray-400 mb-1 block">开始年份</label>
+                            <input type="number" id="start-year" min="1837" max="2020" value="1837" 
+                                   class="w-full bg-gray-800 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                        </div>
+                        <div>
+                            <label class="text-sm text-gray-400 mb-1 block">结束年份</label>
+                            <input type="number" id="end-year" min="1837" max="2020" value="2020" 
+                                   class="w-full bg-gray-800 border border-gray-600 rounded-lg px-3 py-2 text-sm">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-timeline" class="tab-content hidden flex-1 overflow-y-auto">
+                <div id="timeline-container" class="space-y-4">
+                </div>
+            </div>
+
+            <div id="tab-relations" class="tab-content hidden flex-1 overflow-y-auto">
+                <div id="relations-container" class="space-y-3">
+                </div>
+            </div>
+
+            <div id="event-details" class="hidden mt-4 pt-4 border-t border-gray-700">
+                <h3 class="text-lg font-semibold mb-3">事件详情</h3>
+                <div id="event-details-content" class="glass-panel rounded-lg p-4">
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-1 relative">
+            <div id="map"></div>
+            
+            <div class="absolute top-4 right-4 z-10 space-y-2">
+                <button id="reset-view" class="glass-panel px-4 py-2 rounded-lg text-sm hover:bg-white hover:bg-opacity-20 transition">
+                    重置视图
+                </button>
+                <button id="toggle-sidebar" class="glass-panel px-4 py-2 rounded-lg text-sm hover:bg-white hover:bg-opacity-20 transition">
+                    切换面板
+                </button>
+            </div>
+
+            <div class="absolute bottom-4 left-4 z-10">
+                <div class="glass-panel rounded-lg px-3 py-2 text-xs text-gray-400">
+                    Data: war_tech_finance_dataset.csv | Map: 腾讯地图
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let map;
+        let dotLayer;
+        let infoWindow;
+        let allEvents = [];
+        let filteredEvents = [];
+
+        const EVENT_COLORS = {
+            war: '#ff6b6b',
+            technology: '#feca57',
+            finance: '#48dbfb',
+            relation: '#ff9ff3'
+        };
+
+        const EVENT_ICONS = {
+            war: '⚔️',
+            technology: '⚡',
+            finance: '💰',
+            relation: '🔗'
+        };
+
+        const LOCATION_COORDINATES = {
+            '克里米亚半岛': [45.0, 34.0],
+            '法国-普鲁士边境': [49.0, 6.0],
+            '欧洲/中东/非洲': [30.0, 20.0],
+            '全球': [20.0, 0.0],
+            '朝鲜半岛': [38.0, 127.0],
+            '越南': [14.0, 108.0],
+            '伊拉克/科威特': [32.0, 44.0],
+            '阿富汗': [33.0, 65.0],
+            '伊拉克': [33.0, 44.0],
+            '乌克兰': [49.0, 31.0],
+            '英国/欧洲': [50.0, 0.0],
+            '普鲁士': [52.0, 13.0],
+            '法国/美国': [40.0, -5.0],
+            '美国': [38.0, -97.0],
+            '法国': [46.0, 2.0],
+            '德国': [51.0, 10.0],
+            '英国': [55.0, -3.0],
+            '德国/英国': [48.0, -5.0],
+            '美国/以色列': [35.0, -30.0],
+            '美国/中国': [35.0, -50.0],
+            '主要工业国': [45.0, 0.0],
+            '纽约证券交易所': [40.7, -74.0],
+            '欧洲': [48.0, 10.0],
+            'OPEC': [25.0, 45.0],
+            '亚洲': [20.0, 100.0],
+            '纳斯达克': [37.0, -122.0],
+            '中国': [35.0, 105.0],
+            '日本': [36.0, 138.0],
+            '美苏冷战': [55.0, -30.0]
+        };
+
+        function getCoordinates(location) {
+            if (LOCATION_COORDINATES[location]) {
+                return LOCATION_COORDINATES[location];
+            }
+            
+            for (const key in LOCATION_COORDINATES) {
+                if (location.includes(key) || key.includes(location)) {
+                    return LOCATION_COORDINATES[key];
+                }
+            }
+            
+            return [20.0, 0.0];
+        }
+
+        function parseCSVData() {
+            const csvData = `event_id,event_type,event_name,start_date,end_date,location,parties_involved,description,impact_level,related_war_id,related_tech_id,related_finance_id,data_source
+W001,war,克里米亚战争,1853-10-16,1856-03-30,克里米亚半岛,俄罗斯 vs 英法土联军,19世纪中期重要国际战争，现代化战争开端，催生了战地医疗和铁路军事运输,high,,,,UCDP/PRIO
+W002,war,普法战争,1870-07-19,1871-05-10,法国-普鲁士边境,普鲁士 vs 法国,德意志统一的关键战争，展示了铁路动员和总参谋部制度的优势,high,,,,UCDP/PRIO
+W003,war,第一次世界大战,1914-07-28,1918-11-11,欧洲/中东/非洲,同盟国 vs 协约国,人类历史上首次全球性战争，催生了坦克、毒气、飞机等新技术，导致四大帝国崩溃,very_high,,,,UCDP/PRIO
+W004,war,第二次世界大战,1939-09-01,1945-09-02,全球,轴心国 vs 同盟国,人类历史上规模最大的战争，催生了雷达、原子弹、青霉素等重大技术突破，重塑了世界秩序,very_high,,,,UCDP/PRIO
+W005,war,朝鲜战争,1950-06-25,1953-07-27,朝鲜半岛,朝鲜/中国 vs 韩国/联合国军,冷战时期第一场热战，推动了喷气式战斗机和直升机技术的发展,high,,,,UCDP/PRIO
+W006,war,越南战争,1955-11-01,1975-04-30,越南,北越 vs 南越/美国,美国历史上最长的战争，催生了精确制导武器和电子战技术,high,,,,UCDP/PRIO
+W007,war,海湾战争,1990-08-02,1991-02-28,伊拉克/科威特,伊拉克 vs 多国部队,展示了信息化战争的威力，GPS和精确制导武器首次大规模应用,high,,,,UCDP/PRIO
+W008,war,阿富汗战争,2001-10-07,2021-08-30,阿富汗,塔利班 vs 美国/北约,美国历史上最长的战争，推动了无人机和网络战技术的发展,medium,,,,UCDP/PRIO
+W009,war,伊拉克战争,2003-03-20,2011-12-15,伊拉克,伊拉克 vs 美国/联军,展示了网络中心战的概念，但也暴露了军事占领的困难,medium,,,,UCDP/PRIO
+W010,war,俄乌冲突,2014-03-18,进行中,乌克兰,俄罗斯 vs 乌克兰,21世纪规模最大的地面战争，展示了混合战争和网络战的新形态,high,,,,UCDP/PRIO
+T001,technology,电报技术,1837-01-01,1844-01-01,全球,塞缪尔·莫尔斯,第一次实现远距离即时通信，革命性地改变了军事指挥和商业通信,high,,,,专利数据库
+T002,technology,铁路技术,1825-01-01,1850-01-01,英国/欧洲,乔治·史蒂芬森,实现了人员和物资的快速大规模运输，改变了战争动员方式,high,,,,专利数据库
+T003,technology,后装填步枪,1841-01-01,1866-01-01,普鲁士,德莱塞,普鲁士军队在普奥战争中取得优势的关键技术,high,,,,军事史文献
+T004,technology,铁甲舰,1859-01-01,1862-01-01,法国/美国,法国海军,克里米亚战争后发展，改变了海战形态，标志着风帆战舰时代的结束,high,,,,军事史文献
+T005,technology,机关枪,1862-01-01,1884-01-01,美国,加特林/马克沁,大大提高了步兵火力密度，导致一战堑壕战的产生,very_high,,,,专利数据库
+T006,technology,无烟火药,1884-01-01,1886-01-01,法国,保罗·维埃耶,减少了枪口烟雾，提高了射击精度和隐蔽性,high,,,,专利数据库
+T007,technology,坦克,1916-09-15,1918-11-11,英国,英国陆军,一战中为打破堑壕战僵局而发明，改变了陆战形态,very_high,,,,军事史文献
+T008,technology,毒气战,1915-04-22,1918-11-11,德国,弗里茨·哈伯,首次大规模化学武器使用，催生了防毒面具和化学工业,high,,,,军事史文献
+T009,technology,军用飞机,1914-08-01,1918-11-11,法国/德国,多国,从一战的侦察机发展到战斗机和轰炸机，改变了战争维度,very_high,,,,航空史文献
+T010,technology,航空母舰,1917-01-01,1941-12-07,英国/美国,英国海军,二战中成为海战主力，日本偷袭珍珠港证明了其价值,very_high,,,,军事史文献
+T011,technology,雷达,1935-01-01,1940-01-01,英国/德国,罗伯特·沃森-瓦特,二战三大发明之一，不列颠空战的关键技术，被称为保命的技术,very_high,,,,专利数据库
+T012,technology,原子弹,1945-07-16,1945-08-09,美国,曼哈顿计划,二战三大发明之一，改变了战争性质和国际关系，被称为丧命的技术,very_high,,,,核物理文献
+T013,technology,青霉素,1928-09-01,1943-01-01,英国/美国,亚历山大·弗莱明,二战三大发明之一，大大降低了战场伤亡率，被称为救命的技术,very_high,,,,医学史文献
+T014,technology,喷气式发动机,1939-08-27,1944-01-01,德国/英国,汉斯·冯·奥海恩/弗兰克·惠特尔,大大提高了飞机速度和高度，改变了空战形态,high,,,,航空史文献
+T015,technology,计算机ENIAC,1946-02-14,1951-01-01,美国,宾夕法尼亚大学,为计算弹道而发明，开启了信息时代,very_high,,,,计算机史文献
+T016,technology,晶体管,1947-12-16,1954-01-01,美国,贝尔实验室,取代了真空管，为现代电子设备和计算机奠定基础,very_high,,,,专利数据库
+T017,technology,集成电路,1958-09-12,1961-01-01,美国,杰克·基尔比/罗伯特·诺伊斯,使电子设备小型化，催生了现代计算机产业,very_high,,,,专利数据库
+T018,technology,互联网ARPANET,1969-10-29,1983-01-01,美国,美国国防部,冷战期间为军事通信而建立，最终演变为全球互联网,very_high,,,,互联网史文献
+T019,technology,GPS全球定位系统,1978-02-22,1995-07-17,美国,美国国防部,为军事导航而开发，现已广泛应用于民用领域,high,,,,航天史文献
+T020,technology,无人机,1995-01-01,2001-10-01,美国/以色列,美国军方,从侦察工具发展为精确打击平台，改变了现代战争形态,high,,,,军事技术文献
+T021,technology,网络战技术,2007-01-01,2010-01-01,美国/以色列,各国军方,震网病毒攻击伊朗核设施，开启了网络战时代,high,,,,网络安全文献
+T022,technology,人工智能军事应用,2010-01-01,2020-01-01,美国/中国,各国军方,自动驾驶、目标识别、决策辅助等AI技术在军事领域的应用,high,,,,军事技术文献
+F001,finance,美国内战战争债券,1861-01-01,1865-01-01,美国,美国联邦政府,大规模发行战争债券融资，建立了现代国债体系,high,,,,金融史文献
+F002,finance,金本位制确立,1870-01-01,1914-01-01,全球,主要工业国,确立了国际货币体系，促进了全球贸易和投资,high,,,,金融史文献
+F003,finance,1929年华尔街股灾,1929-10-24,1929-10-29,美国,纽约证券交易所,引发了全球大萧条，改变了金融监管体系,very_high,,,,金融史文献
+F004,finance,布雷顿森林体系建立,1944-07-01,1944-07-22,美国,44国代表,确立了美元-黄金本位制，建立了IMF和世界银行,very_high,,,,金融史文献
+F005,finance,马歇尔计划,1948-04-03,1952-01-01,欧洲,美国,130亿美元援助西欧重建，推动了欧洲一体化,high,,,,经济史文献
+F006,finance,1971年尼克松冲击,1971-08-15,1971-08-15,美国,尼克松政府,美元与黄金脱钩，布雷顿森林体系开始崩溃,very_high,,,,金融史文献
+F007,finance,1973年石油危机,1973-10-17,1974-03-18,全球,OPEC,石油价格暴涨，引发了全球经济危机，催生了节能技术,very_high,,,,经济史文献
+F008,finance,1979年第二次石油危机,1979-01-01,1980-01-01,全球,OPEC,伊朗革命导致石油供应中断，再次引发能源危机,high,,,,经济史文献
+F009,finance,广场协议,1985-09-22,1985-09-22,美国,五国财长,美元贬值协议，影响了日本经济泡沫的形成,high,,,,金融史文献
+F010,finance,1987年黑色星期一,1987-10-19,1987-10-19,全球,全球股市,道琼斯指数单日暴跌22.6%，引发全球股市崩盘,high,,,,金融史文献
+F011,finance,1997年亚洲金融危机,1997-07-02,1998-01-01,亚洲,泰国/印尼/韩国等,货币贬值、股市崩盘，IMF救助计划,high,,,,金融史文献
+F012,finance,2000年互联网泡沫破裂,2000-03-10,2002-10-09,美国,纳斯达克,科技股暴跌，互联网公司大量倒闭,high,,,,金融史文献
+F013,finance,2008年全球金融危机,2008-09-15,2009-01-01,全球,雷曼兄弟等,次贷危机引发全球金融海啸，改变了金融监管体系,very_high,,,,金融史文献
+F014,finance,量化宽松政策,2008-11-25,2014-10-29,美国,美联储,大规模购买资产，影响全球资本流动,high,,,,金融史文献
+F015,finance,2015年人民币汇改,2015-08-11,2015-08-11,中国,中国人民银行,人民币汇率形成机制改革，影响全球外汇市场,medium,,,,金融史文献
+F016,finance,2020年新冠疫情金融冲击,2020-03-01,2020-04-01,全球,全球金融市场,股市暴跌、油价崩盘、大规模财政刺激,high,,,,金融史文献
+R001,relation,催生,1914-07-28,1918-11-11,欧洲,W003,T007,一战催生了坦克技术的发明和应用,high,W003,T007,,关系数据库
+R002,relation,催生,1939-09-01,1945-09-02,全球,W004,T011,二战催生了雷达技术的快速发展,very_high,W004,T011,,关系数据库
+R003,relation,催生,1939-09-01,1945-09-02,全球,W004,T012,曼哈顿计划是二战最大的科研项目,very_high,W004,T012,,关系数据库
+R004,relation,催生,1939-09-01,1945-09-02,全球,W004,T013,二战需求推动了青霉素的工业化生产,very_high,W004,T013,,关系数据库
+R005,relation,应用于,1940-01-01,1945-09-02,英国,W004,T011,雷达在不列颠空战中发挥了关键作用,very_high,W004,T011,,关系数据库
+R006,relation,应用于,1945-08-06,1945-08-09,日本,W004,T012,原子弹在广岛和长崎的使用结束了二战,very_high,W004,T012,,关系数据库
+R007,relation,融资,1941-01-01,1945-09-02,美国,W004,F004,二战推动了布雷顿森林体系的建立,very_high,W004,F004,,关系数据库
+R008,relation,影响,1914-07-28,1929-10-24,全球,W003,F003,一战后的经济问题为1929年大萧条埋下伏笔,high,W003,F003,,关系数据库
+R009,relation,影响,1929-10-24,1939-09-01,全球,F003,W004,大萧条为二战爆发创造了条件,high,F003,W004,,关系数据库
+R010,relation,投资,1969-01-01,1983-01-01,美国,T018,F004,冷战期间美国国防部投资建立了ARPANET,high,T018,F004,,关系数据库
+R011,relation,商业化,1990-01-01,2000-03-10,美国,T018,F012,互联网商业化催生了科技股泡沫,high,T018,F012,,关系数据库
+R012,relation,投资,1957-10-04,1969-07-20,美苏冷战,T016,F004,太空竞赛推动了集成电路和计算机的发展,high,T016,F004,,关系数据库
+R013,relation,应用于,1991-01-17,1991-02-28,伊拉克,W007,T019,GPS在海湾战争中首次大规模军事应用,high,W007,T019,,关系数据库
+R014,relation,应用于,2001-10-07,2021-08-30,阿富汗,W008,T020,无人机在阿富汗战争中得到广泛应用,high,W008,T020,,关系数据库
+R015,relation,融资,2008-09-15,2014-10-29,美国,F013,F014,金融危机催生了量化宽松政策,high,F013,F014,,关系数据库`;
+
+            const lines = csvData.split('\n');
+            const headers = lines[0].split(',');
+            
+            for (let i = 1; i < lines.length; i++) {
+                const values = lines[i].split(',');
+                if (values.length < 12) continue;
+                
+                const event = {
+                    event_id: values[0],
+                    event_type: values[1],
+                    event_name: values[2],
+                    start_date: values[3],
+                    end_date: values[4],
+                    location: values[5],
+                    parties_involved: values[6],
+                    description: values[7],
+                    impact_level: values[8],
+                    related_war_id: values[9],
+                    related_tech_id: values[10],
+                    related_finance_id: values[11],
+                    data_source: values[12]
+                };
+                
+                const coords = getCoordinates(event.location);
+                event.lat = coords[0];
+                event.lng = coords[1];
+                event.color = EVENT_COLORS[event.event_type] || '#888888';
+                event.icon = EVENT_ICONS[event.event_type] || '📌';
+                
+                allEvents.push(event);
+            }
+            
+            filteredEvents = [...allEvents];
+        }
+
+        function initMap() {
+            try {
+                map = new TMap.Map('map', {
+                    center: new TMap.LatLng(30, 10),
+                    zoom: 2,
+                    mapStyleId: 'style1',
+                    viewMode: '2D'
+                });
+
+                infoWindow = new TMap.InfoWindow({
+                    map: map,
+                    position: new TMap.LatLng(30, 10),
+                    offset: new TMap.Point(0, -32)
+                });
+                infoWindow.close();
+
+                console.log('腾讯地图初始化成功');
+            } catch (error) {
+                console.error('腾讯地图初始化失败:', error);
+                document.getElementById('loading').innerHTML = `
+                    <div class="text-center">
+                        <p class="text-red-500 text-lg mb-4">地图初始化失败</p>
+                        <p class="text-gray-400 text-sm">请检查腾讯地图API密钥配置</p>
+                        <p class="text-gray-500 text-xs mt-2">错误信息: ${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        function renderEventMarkers() {
+            if (!map || !dotLayer) {
+                console.warn('地图或图层未初始化');
+                return;
+            }
+
+            const dotData = filteredEvents.map(event => ({
+                lat: event.lat,
+                lng: event.lng,
+                styleId: `event_${event.event_type}_${event.impact_level}`,
+                properties: event
+            }));
+
+            try {
+                dotLayer.setData(dotData);
+                console.log(`成功渲染 ${dotData.length} 个事件标记`);
+            } catch (error) {
+                console.error('渲染事件标记失败:', error);
+            }
+        }
+
+        function createDotLayer() {
+            if (!map) {
+                console.warn('地图未初始化，无法创建图层');
+                return;
+            }
+
+            try {
+                const styles = {};
+                
+                Object.keys(EVENT_COLORS).forEach(eventType => {
+                    ['very_high', 'high', 'medium'].forEach(impact => {
+                        const styleKey = `event_${eventType}_${impact}`;
+                        const radius = impact === 'very_high' ? 12 : impact === 'high' ? 9 : 6;
+                        
+                        styles[styleKey] = {
+                            type: 'circle',
+                            fillColor: EVENT_COLORS[eventType],
+                            radius: radius,
+                            strokeColor: 'rgba(255, 255, 255, 0.8)',
+                            strokeWidth: 2,
+                            fillOpacity: 0.8
+                        };
+                    });
+                });
+
+                dotLayer = new TMap.visualization.Dot({
+                    styles: styles,
+                    faceTo: 'screen',
+                    enableBloom: true,
+                    processAnimation: {
+                        enable: true,
+                        animationType: 'radiated',
+                        duration: 2000,
+                        repeat: Infinity
+                    }
+                }).addTo(map);
+
+                dotLayer.on('click', function(evt) {
+                    if (evt.detail && evt.detail.dot && evt.detail.dot.properties) {
+                        const event = evt.detail.dot.properties;
+                        showEventInfo(event);
+                        map.setCenter(new TMap.LatLng(event.lat, event.lng));
+                    }
+                });
+
+                dotLayer.on('hover', function(evt) {
+                    if (evt.detail && evt.detail.dot) {
+                        document.getElementById('map').style.cursor = 'pointer';
+                    } else {
+                        document.getElementById('map').style.cursor = 'default';
+                    }
+                });
+
+                console.log('散点图层创建成功');
+            } catch (error) {
+                console.error('创建散点图层失败:', error);
+            }
+        }
+
+        function showEventInfo(event) {
+            const content = `
+                <div class="custom-info-window">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-2xl">${event.icon}</span>
+                        <div class="font-bold text-lg">${event.event_name}</div>
+                    </div>
+                    <div class="mb-3">
+                        <span class="impact-badge impact-${event.impact_level}">${event.impact_level}</span>
+                    </div>
+                    <div class="space-y-2 text-sm">
+                        <div><strong>ID:</strong> ${event.event_id}</div>
+                        <div><strong>类型:</strong> ${event.event_type}</div>
+                        <div><strong>时间:</strong> ${event.start_date} - ${event.end_date}</div>
+                        <div><strong>地点:</strong> ${event.location}</div>
+                        <div><strong>参与方:</strong> ${event.parties_involved}</div>
+                    </div>
+                    <div class="mt-3 pt-3 border-t border-gray-600">
+                        <strong>描述:</strong>
+                        <p class="text-gray-300 text-sm mt-1">${event.description}</p>
+                    </div>
+                    <div class="text-xs text-gray-500 mt-3">
+                        数据来源: ${event.data_source}
+                    </div>
+                </div>
+            `;
+
+            infoWindow.setContent(content);
+            infoWindow.setPosition(new TMap.LatLng(event.lat, event.lng));
+            infoWindow.open();
+
+            showEventDetails(event);
+        }
+
+        function showEventDetails(event) {
+            const detailsPanel = document.getElementById('event-details');
+            const detailsContent = document.getElementById('event-details-content');
+            
+            let relatedEvents = '';
+            if (event.related_war_id) {
+                const relatedWar = allEvents.find(e => e.event_id === event.related_war_id);
+                if (relatedWar) {
+                    relatedEvents += `<div class="text-sm p-2 bg-red-900 bg-opacity-20 rounded mt-2">
+                        <strong>相关战争:</strong> ${relatedWar.event_name}
+                    </div>`;
+                }
+            }
+            if (event.related_tech_id) {
+                const relatedTech = allEvents.find(e => e.event_id === event.related_tech_id);
+                if (relatedTech) {
+                    relatedEvents += `<div class="text-sm p-2 bg-yellow-900 bg-opacity-20 rounded mt-2">
+                        <strong>相关技术:</strong> ${relatedTech.event_name}
+                    </div>`;
+                }
+            }
+            if (event.related_finance_id) {
+                const relatedFinance = allEvents.find(e => e.event_id === event.related_finance_id);
+                if (relatedFinance) {
+                    relatedEvents += `<div class="text-sm p-2 bg-blue-900 bg-opacity-20 rounded mt-2">
+                        <strong>相关金融:</strong> ${relatedFinance.event_name}
+                    </div>`;
+                }
+            }
+
+            detailsContent.innerHTML = `
+                <div class="space-y-3">
+                    <div class="flex items-center gap-2">
+                        <span class="text-2xl">${event.icon}</span>
+                        <div class="font-bold text-lg">${event.event_name}</div>
+                    </div>
+                    <div>
+                        <span class="impact-badge impact-${event.impact_level}">${event.impact_level}</span>
+                    </div>
+                    <div class="text-sm text-gray-400">
+                        <div><strong>ID:</strong> ${event.event_id}</div>
+                        <div><strong>类型:</strong> ${event.event_type}</div>
+                        <div><strong>时间:</strong> ${event.start_date} - ${event.end_date}</div>
+                        <div><strong>地点:</strong> ${event.location}</div>
+                        <div><strong>参与方:</strong> ${event.parties_involved}</div>
+                    </div>
+                    <div class="text-sm border-t border-gray-700 pt-3">
+                        <strong>描述:</strong>
+                        <p class="text-gray-300 mt-1">${event.description}</p>
+                    </div>
+                    ${relatedEvents ? `<div class="border-t border-gray-700 pt-3">${relatedEvents}</div>` : ''}
+                    <div class="text-xs text-gray-500 pt-2">
+                        数据来源: ${event.data_source}
+                    </div>
+                </div>
+            `;
+            
+            detailsPanel.classList.remove('hidden');
+        }
+
+        function renderTimeline() {
+            const container = document.getElementById('timeline-container');
+            container.innerHTML = '';
+
+            const sortedEvents = [...filteredEvents].sort((a, b) => 
+                new Date(a.start_date) - new Date(b.start_date)
+            );
+
+            sortedEvents.forEach(event => {
+                const item = document.createElement('div');
+                item.className = `timeline-item ${event.event_type}-event pb-4`;
+                item.innerHTML = `
+                    <div class="event-card glass-panel rounded-lg p-3">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="text-lg">${event.icon}</span>
+                            <div class="font-semibold text-sm">${event.event_name}</div>
+                        </div>
+                        <div class="text-xs text-gray-400 mb-1">${event.start_date}</div>
+                        <div class="text-xs text-gray-500 line-clamp-2">${event.description}</div>
+                        <div class="mt-2">
+                            <span class="impact-badge impact-${event.impact_level}">${event.impact_level}</span>
+                        </div>
+                    </div>
+                `;
+                item.addEventListener('click', () => {
+                    showEventDetails(event);
+                    if (map) {
+                        map.setCenter(new TMap.LatLng(event.lat, event.lng));
+                        map.setZoom(4);
+                    }
+                });
+                container.appendChild(item);
+            });
+        }
+
+        function renderRelations() {
+            const container = document.getElementById('relations-container');
+            container.innerHTML = '';
+
+            const relations = filteredEvents.filter(e => e.event_type === 'relation');
+
+            relations.forEach(relation => {
+                const item = document.createElement('div');
+                item.className = 'event-card glass-panel rounded-lg p-3';
+                
+                let sourceEvent = allEvents.find(e => e.event_id === relation.related_war_id) ||
+                                  allEvents.find(e => e.event_id === relation.related_tech_id) ||
+                                  allEvents.find(e => e.event_id === relation.related_finance_id);
+                
+                let targetEvent = allEvents.find(e => e.event_id === relation.related_tech_id) ||
+                                  allEvents.find(e => e.event_id === relation.related_finance_id);
+
+                item.innerHTML = `
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="text-lg">🔗</span>
+                        <div class="font-semibold text-sm">${relation.event_name}</div>
+                    </div>
+                    <div class="text-xs text-gray-400 mb-2">${relation.start_date}</div>
+                    <div class="text-xs text-gray-300 mb-2">${relation.description}</div>
+                    ${sourceEvent ? `
+                    <div class="text-xs p-2 bg-gray-800 rounded mb-1">
+                        <strong>来源:</strong> ${sourceEvent.event_name}
+                    </div>` : ''}
+                    ${targetEvent ? `
+                    <div class="text-xs p-2 bg-gray-800 rounded">
+                        <strong>目标:</strong> ${targetEvent.event_name}
+                    </div>` : ''}
+                    <div class="mt-2">
+                        <span class="impact-badge impact-${relation.impact_level}">${relation.impact_level}</span>
+                    </div>
+                `;
+                container.appendChild(item);
+            });
+        }
+
+        function applyFilters() {
+            const enabledTypes = Array.from(document.querySelectorAll('.event-filter:checked'))
+                .map(cb => cb.dataset.type);
+            
+            const enabledImpacts = Array.from(document.querySelectorAll('.impact-filter:checked'))
+                .map(cb => cb.dataset.level);
+            
+            const startYear = parseInt(document.getElementById('start-year').value);
+            const endYear = parseInt(document.getElementById('end-year').value);
+
+            filteredEvents = allEvents.filter(event => {
+                const typeMatch = enabledTypes.includes(event.event_type);
+                const impactMatch = enabledImpacts.includes(event.impact_level);
+                const yearMatch = event.start_date >= `${startYear}-01-01` && 
+                                 event.start_date <= `${endYear}-12-31`;
+                
+                return typeMatch && impactMatch && yearMatch;
+            });
+
+            renderEventMarkers();
+            renderTimeline();
+            renderRelations();
+            updateStats();
+        }
+
+        function updateStats() {
+            const wars = filteredEvents.filter(e => e.event_type === 'war').length;
+            const tech = filteredEvents.filter(e => e.event_type === 'technology').length;
+            const finance = filteredEvents.filter(e => e.event_type === 'finance').length;
+            const relations = filteredEvents.filter(e => e.event_type === 'relation').length;
+
+            document.getElementById('total-wars').textContent = wars;
+            document.getElementById('total-tech').textContent = tech;
+            document.getElementById('total-finance').textContent = finance;
+            document.getElementById('total-relations').textContent = relations;
+        }
+
+        function initEventListeners() {
+            document.querySelectorAll('.tab-button').forEach(button => {
+                button.addEventListener('click', function() {
+                    document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    document.querySelectorAll('.tab-content').forEach(content => {
+                        content.classList.add('hidden');
+                    });
+                    
+                    const tabId = `tab-${this.dataset.tab}`;
+                    document.getElementById(tabId).classList.remove('hidden');
+                });
+            });
+
+            document.querySelectorAll('.event-filter, .impact-filter').forEach(filter => {
+                filter.addEventListener('change', applyFilters);
+            });
+
+            document.getElementById('start-year').addEventListener('change', applyFilters);
+            document.getElementById('end-year').addEventListener('change', applyFilters);
+
+            document.getElementById('reset-view').addEventListener('click', () => {
+                if (map) {
+                    map.setCenter(new TMap.LatLng(30, 10));
+                    map.setZoom(2);
+                }
+                document.getElementById('event-details').classList.add('hidden');
+                if (infoWindow) {
+                    infoWindow.close();
+                }
+            });
+
+            document.getElementById('toggle-sidebar').addEventListener('click', () => {
+                const sidebar = document.querySelector('.w-96');
+                sidebar.classList.toggle('hidden');
+            });
+        }
+
+        function initApp() {
+            console.log('开始初始化应用...');
+            
+            parseCSVData();
+            console.log(`解析了 ${allEvents.length} 个事件`);
+            
+            initMap();
+            
+            setTimeout(() => {
+                if (map) {
+                    createDotLayer();
+                    renderEventMarkers();
+                    renderTimeline();
+                    renderRelations();
+                    updateStats();
+                    
+                    document.getElementById('loading').style.display = 'none';
+                    console.log('应用初始化完成');
+                } else {
+                    console.error('地图初始化超时');
+                }
+            }, 1000);
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            initEventListeners();
+            
+            if (typeof TMap !== 'undefined') {
+                initApp();
+            } else {
+                console.error('腾讯地图API未加载');
+                document.getElementById('loading').innerHTML = `
+                    <div class="text-center">
+                        <p class="text-red-500 text-lg mb-4">腾讯地图API加载失败</p>
+                        <p class="text-gray-400 text-sm">请检查网络连接和API密钥配置</p>
+                        <p class="text-gray-500 text-xs mt-2">请将代码中的 YOUR_KEY 替换为您的腾讯地图API密钥</p>
+                    </div>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>
