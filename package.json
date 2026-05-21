@@ -1,0 +1,8 @@
+{
+  "name": "war-tech-finance-visualization",
+  "version": "1.0.0",
+  "description": "战争技术金融事件可视化平台",
+  "scripts": {
+    "start": "echo 'Static HTML site - open index.html in browser'"
+  }
+}
