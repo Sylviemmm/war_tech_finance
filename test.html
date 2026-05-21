@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试页面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+        }
+        .info {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 部署测试页面</h1>
+        
+        <div class="status success">
+            <strong>✅ HTML加载成功!</strong>
+        </div>
+        
+        <div class="status info">
+            <strong>📋 系统信息:</strong>
+            <ul>
+                <li>时间: <span id="time"></span></li>
+                <li>用户代理: <span id="ua"></span></li>
+                <li>URL: <span id="url"></span></li>
+            </ul>
+        </div>
+        
+        <div class="status info">
+            <strong>🔧 JavaScript状态:</strong>
+            <p>✅ JavaScript正常运行</p>
+        </div>
+        
+        <div class="status info">
+            <strong>📝 下一步:</strong>
+            <p>如果此页面显示正常，说明基本部署成功。请检查主页面是否有JavaScript错误或API加载问题。</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('time').textContent = new Date().toLocaleString('zh-CN');
+        document.getElementById('ua').textContent = navigator.userAgent;
+        document.getElementById('url').textContent = window.location.href;
+        
+        console.log('测试页面加载成功');
+    </script>
+</body>
+</html>
