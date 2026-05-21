@@ -1,0 +1,13 @@
+# 忽略Python文件，强制使用静态HTML部署
+*.py
+requirements.txt
+models/
+routers/
+schemas/
+crud/
+utils/
+data/
+processed_data/
+war_data/
+数据文档/
+.trae/
