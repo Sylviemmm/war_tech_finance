@@ -1,0 +1,96 @@
+﻿war_id,war_name,war_type,war_type_code,start_date,end_date,belligerents_side1,belligerents_side2,initiator,outcome,total_deaths,where_fought,source_file
+IS1,Franco-Spanish War,Inter-State War (国家间战争),1,1823-04-07,1823-11-13,France,Spain,France,胜利 (Victory),1000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS4,First Russo-Turkish,Inter-State War (国家间战争),1,1828-04-26,1829-09-14,Russia,Ottoman Empire,Russia,胜利 (Victory),130000,Unknown,Inter-StateWarData_v4.0.csv
+IS7,Mexican-American,Inter-State War (国家间战争),1,1846-04-25,1847-09-14,United States of America,Mexico,United States of America,胜利 (Victory),19283,北美 (North America),Inter-StateWarData_v4.0.csv
+IS10,Austro-Sardinian,Inter-State War (国家间战争),1,1848-03-29,1848-08-09,Austria,Tuscany; Italy; Modena,Modena,胜利 (Victory),7527,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS13,First Schleswig-Holstein,Inter-State War (国家间战争),1,1848-04-10,1848-08-26,Prussia,Denmark,Denmark,胜利 (Victory),6000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS16,Roman Republic,Inter-State War (国家间战争),1,1849-04-30,1849-07-02,France; Two Sicilies; Austria,Papal States,Papal States,胜利 (Victory),2600,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS19,La Plata,Inter-State War (国家间战争),1,1851-07-19,1852-02-03,Brazil,Argentina,Brazil,胜利 (Victory),1300,北美 (North America),Inter-StateWarData_v4.0.csv
+IS22,Crimean,Inter-State War (国家间战争),1,1853-10-23,1856-03-01,Turkey; Italy; France; United Kingdom,Russia,Russia,胜利 (Victory),264200,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS25,Anglo-Persian,Inter-State War (国家间战争),1,1856-10-25,1857-04-05,United Kingdom,Iran,Iran,胜利 (Victory),2000,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS28,Italian Unification,Inter-State War (国家间战争),1,1859-04-29,1859-07-12,Sardinia/Piedmont; France,Austria,,胜利 (Victory),22500,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS31,First Spanish-Moroccan,Inter-State War (国家间战争),1,1859-10-22,1860-03-25,Spain,Morocco,Spain,胜利 (Victory),10000,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS34,Italian-Roman,Inter-State War (国家间战争),1,1860-09-11,1860-09-29,Sardinia/Piedmont,Papal States,Papal States,胜利 (Victory),1000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS37,Neapolitan,Inter-State War (国家间战争),1,1860-10-15,1861-02-13,Sardinia/Piedmont,Two Sicilies,Sardinia/Piedmont,胜利 (Victory),1000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS40,Franco-Mexican,Inter-State War (国家间战争),1,1862-04-16,1867-02-05,Mexico,France,,转型 (Transformed),20000,北美 (North America),Inter-StateWarData_v4.0.csv
+IS43,Ecuadorian-Colombian,Inter-State War (国家间战争),1,1863-11-22,1863-12-06,Colombia,Ecuador,Ecuador,胜利 (Victory),1000,北美 (North America),Inter-StateWarData_v4.0.csv
+IS46,Second Schleswig-Holstein,Inter-State War (国家间战争),1,1864-02-01,1864-04-25,Germany; Austria,Denmark,Denmark,胜利 (Victory),4481,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS49,Lopez,Inter-State War (国家间战争),1,1865-03-05,1870-03-01,Argentina; Brazil,Paraguay,,胜利 (Victory),310000,北美 (North America),Inter-StateWarData_v4.0.csv
+IS52,Naval War,Inter-State War (国家间战争),1,1865-09-25,1866-05-09,Chile; Peru,Spain,,胜利 (Victory),1000,北美 (North America),Inter-StateWarData_v4.0.csv
+IS55,Seven Weeks,Inter-State War (国家间战争),1,1866-06-20,1866-07-26,Italy; Germany; Mecklenburg Schwerin,Hesse Grand Ducal; Wuerttemburg; Bavaria; Austria; Hesse Electoral; Saxony; Baden; Hanover,Hanover,胜利 (Victory),44100,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS58,Franco-Prussian,Inter-State War (国家间战争),1,1870-07-19,1870-11-25,Wuerttemburg; Baden; Germany; Bavaria,France,,胜利 (Victory),204313,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS60,First Central American,Inter-State War (国家间战争),1,1876-03-27,1876-04-25,Guatemala,El Salvador,El Salvador,胜利 (Victory),4000,北美 (North America),Inter-StateWarData_v4.0.csv
+IS61,Second Russo-Turkish,Inter-State War (国家间战争),1,1877-04-24,1878-01-31,Russia,Turkey,Russia,胜利 (Victory),285000,Unknown,Inter-StateWarData_v4.0.csv
+IS64,War of the Pacific,Inter-State War (国家间战争),1,1879-02-14,1883-12-11,Chile,Peru; Bolivia,Bolivia,胜利 (Victory),13868,北美 (North America),Inter-StateWarData_v4.0.csv
+IS65,Conquest of Egypt,Inter-State War (国家间战争),1,1882-07-11,1882-09-15,United Kingdom,Egypt,United Kingdom,胜利 (Victory),10079,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS67,Sino-French,Inter-State War (国家间战争),1,1884-06-15,1885-06-09,France,China,China,胜利 (Victory),12100,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS70,Second Central American,Inter-State War (国家间战争),1,1885-03-28,1885-04-15,El Salvador,Guatemala,,胜利 (Victory),1000,北美 (North America),Inter-StateWarData_v4.0.csv
+IS73,First Sino-Japanese,Inter-State War (国家间战争),1,1894-07-25,1895-03-30,Japan,China,Japan,胜利 (Victory),15000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS76,Greco-Turkish,Inter-State War (国家间战争),1,1897-02-15,1897-05-19,Turkey,Greece,,胜利 (Victory),2000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS79,Spanish-American,Inter-State War (国家间战争),1,1898-04-22,1898-08-12,United States of America,Spain,United States of America,胜利 (Victory),3685,Unknown,Inter-StateWarData_v4.0.csv
+IS82,Boxer Rebellion,Inter-State War (国家间战争),1,1900-06-17,1900-08-14,Russia; Japan; United States of America; United Kingdom; France,China,France,胜利 (Victory),3003,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS83,Sino-Russian,Inter-State War (国家间战争),1,1900-07-17,1900-10-10,Russia,China,China,胜利 (Victory),4000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS85,Russo-Japanese,Inter-State War (国家间战争),1,1904-02-08,1905-09-15,Japan,Russia,Russia,胜利 (Victory),151831,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS88,Third Central American,Inter-State War (国家间战争),1,1906-05-27,1906-07-20,Guatemala,Honduras; El Salvador,Guatemala,胜利 (Victory),1000,北美 (North America),Inter-StateWarData_v4.0.csv
+IS91,Fourth Central American,Inter-State War (国家间战争),1,1907-02-19,1907-04-23,Nicaragua,El Salvador; Honduras,Honduras,胜利 (Victory),1000,北美 (North America),Inter-StateWarData_v4.0.csv
+IS94,Second Spanish-Moroccan,Inter-State War (国家间战争),1,1909-07-07,1910-03-23,Spain,Morocco,Morocco,胜利 (Victory),10000,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS97,Italian-Turkish,Inter-State War (国家间战争),1,1911-09-29,1912-10-18,Italy,Turkey,Turkey,胜利 (Victory),20000,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS100,First Balkan,Inter-State War (国家间战争),1,1912-10-17,1913-04-19,Greece; Bulgaria; Yugoslavia,Turkey,Yugoslavia,胜利 (Victory),82000,Unknown,Inter-StateWarData_v4.0.csv
+IS103,Second Balkan,Inter-State War (国家间战争),1,1913-07-15,1913-07-30,Turkey; Yugoslavia; Greece; Romania,Bulgaria,,胜利 (Victory),60500,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS106,World War I,Inter-State War (国家间战争),1,1914-07-29,1918-11-11,Yugoslavia; Russia; United Kingdom; Japan; Portugal; Belgium; Greece; Romania; France; Italy; United States of America,Bulgaria; Turkey; Germany; Austria-Hungary,Germany,胜利 (Victory),8578031,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS107,Estonian Liberation,Inter-State War (国家间战争),1,1918-11-22,1920-01-03,Estonia; Finland,Russia,,胜利 (Victory),11750,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS108,Latvian Liberation,Inter-State War (国家间战争),1,1918-12-07,1919-04-15,Germany; Estonia; Latvia,Russia; Germany,Germany,胜利 (Victory),13246,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS109,Russo-Polish,Inter-State War (国家间战争),1,1919-02-14,1920-10-18,Poland,Russia,,胜利 (Victory),100000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS112,Hungarian Adversaries,Inter-State War (国家间战争),1,1919-04-16,1919-08-04,Czechoslovakia; Romania,Hungary,Romania,胜利 (Victory),11000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS115,Second Greco-Turkish,Inter-State War (国家间战争),1,1919-05-05,1922-10-11,Turkey,Greece,,胜利 (Victory),50000,Unknown,Inter-StateWarData_v4.0.csv
+IS116,Franco-Turkish,Inter-State War (国家间战争),1,1919-11-01,1921-10-20,France,Turkey,France,妥协 (Compromise),40000,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS117,Lithuanian-Polish,Inter-State War (国家间战争),1,1920-07-15,1920-12-01,Poland,Lithuania,Poland,胜利 (Victory),1000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS118,Manchurian,Inter-State War (国家间战争),1,1929-08-17,1929-12-03,USSR,China,China,胜利 (Victory),3200,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS121,Second Sino-Japanese,Inter-State War (国家间战争),1,1931-12-19,1933-05-22,Japan,China,China,胜利 (Victory),60000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS124,Chaco,Inter-State War (国家间战争),1,1932-06-15,1935-06-12,Paraguay,Bolivia,,胜利 (Victory),92661,北美 (North America),Inter-StateWarData_v4.0.csv
+IS125,Saudi-Yemeni,Inter-State War (国家间战争),1,1934-03-20,1934-05-13,Saudi Arabia,Yemen Arab Republic,Yemen Arab Republic,胜利 (Victory),2100,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS127,Conquest of Ethiopia,Inter-State War (国家间战争),1,1935-10-03,1936-05-09,Italy,Ethiopia,Ethiopia,胜利 (Victory),20000,拉美 (Latin America),Inter-StateWarData_v4.0.csv
+IS130,Third Sino-Japanese,Inter-State War (国家间战争),1,1937-07-07,1941-12-06,Japan,China,Japan,胜利 (Victory),1000000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS133,Changkufeng,Inter-State War (国家间战争),1,1938-07-29,1938-08-11,Japan,USSR,Japan,失败 (Defeat),1726,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS136,Nomonhan,Inter-State War (国家间战争),1,1939-05-11,1939-09-16,USSR; Mongolia,Japan,,胜利 (Victory),28000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS139,World War II,Inter-State War (国家间战争),1,1941-06-27,1945-01-20,Belgium; Yugoslavia; Norway; Canada; United States of America; United Kingdom; Netherlands; Romania; Bulgaria; Greece; Brazil; Italy; Australia; New Zealand; USSR; Poland; France; Mongolia; China; South Africa; Ethiopia,Hungary; France; Finland; Italy; Romania; Bulgaria; Germany; Japan,Japan,胜利 (Victory),16634907,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS142,Russo-Finnish,Inter-State War (国家间战争),1,1939-11-30,1940-03-12,USSR,Finland,USSR,胜利 (Victory),151798,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS145,Franco-Thai,Inter-State War (国家间战争),1,1940-12-01,1941-01-28,Thailand,France,Thailand,胜利 (Victory),1400,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS147,First Kashmir,Inter-State War (国家间战争),1,1947-10-26,1949-01-01,India,Pakistan,Pakistan,僵局 (Stalemate),3500,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS148,Arab-Israeli,Inter-State War (国家间战争),1,1948-05-15,1948-07-18,Israel,Egypt; Syria; Lebanon; Jordan; Iraq,Iraq,胜利 (Victory),8000,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS151,Korean,Inter-State War (国家间战争),1,1950-10-27,1953-07-27,Belgium; Canada; Colombia; United Kingdom; Netherlands; Greece; France; Turkey; Philippines; Thailand; Ethiopia; Australia; South Korea; United States of America,China; North Korea,China,僵局 (Stalemate),910084,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS153,Off-shore Islands,Inter-State War (国家间战争),1,1954-09-03,1955-04-23,China,Taiwan,Taiwan,胜利 (Victory),2370,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS155,Sinai War,Inter-State War (国家间战争),1,1956-10-31,1956-11-06,France; Israel; United Kingdom,Egypt,Egypt,胜利 (Victory),3221,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS156,Soviet Invasion of Hungary,Inter-State War (国家间战争),1,1956-11-04,1956-11-14,USSR,Hungary,USSR,胜利 (Victory),2426,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS158,IfniWar,Inter-State War (国家间战争),1,1958-02-10,1958-04-10,France; Spain,Morocco,,胜利 (Victory),1122,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS159,Taiwan Straits,Inter-State War (国家间战争),1,1958-08-23,1958-11-23,China (PRC),Taiwan (ROC),Taiwan (ROC),僵局 (Stalemate),1800,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS160,Assam,Inter-State War (国家间战争),1,1962-10-20,1962-11-22,China (PRC),India,China (PRC),胜利 (Victory),1853,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS163,"Vietnam War, Phase 2",Inter-State War (国家间战争),1,1965-02-07,1973-01-27,Vietnam,United States of America; Cambodia; South Korea; Philippines; South Vietnam; Thailand; Australia,Australia,胜利 (Victory),1021442,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS166,Second Kashmir,Inter-State War (国家间战争),1,1965-08-05,1965-09-23,Pakistan,India,Pakistan,胜利 (Victory),7061,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS169,Six Day War,Inter-State War (国家间战争),1,1967-06-05,1967-06-10,Israel,Egypt; Jordan; Syria,Syria,胜利 (Victory),19600,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS170,"Second Laotian, Phase 2",Inter-State War (国家间战争),1,1968-01-13,1973-04-17,Vietnam,United States of America; Thailand; Laos,Vietnam,胜利 (Victory),13875,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS172,War of Attrition,Inter-State War (国家间战争),1,1969-03-06,1970-08-07,Israel,Egypt,,僵局 (Stalemate),5368,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS175,Football War,Inter-State War (国家间战争),1,1969-07-14,1969-07-18,El Salvador,Honduras,El Salvador,胜利 (Victory),1900,北美 (North America),Inter-StateWarData_v4.0.csv
+IS176,Communist Coalition,Inter-State War (国家间战争),1,1970-03-23,1971-07-02,Vietnam,United States of America; Cambodia; South Vietnam,South Vietnam,转型 (Transformed),6525,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS178,Bangladesh,Inter-State War (国家间战争),1,1971-12-03,1971-12-17,India,Pakistan,,胜利 (Victory),11223,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS181,Yom Kippur War,Inter-State War (国家间战争),1,1973-10-06,1973-10-24,Israel,Egypt; Saudi Arabia; Jordan; Syria; Iraq,Iraq,胜利 (Victory),14439,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS184,Turco-Cypriot,Inter-State War (国家间战争),1,1974-07-20,1974-07-29,Turkey,Cyprus,Cyprus,胜利 (Victory),1500,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS186,War over Angola,Inter-State War (国家间战争),1,1975-10-23,1976-02-12,Cuba; Angola,South Africa; Democratic Republic of the Congo,Democratic Republic of the Congo,转型 (Transformed),2700,拉美 (Latin America),Inter-StateWarData_v4.0.csv
+IS187,"Second Ogaden War, Phase 2",Inter-State War (国家间战争),1,1977-07-23,1978-03-09,Ethiopia; Cuba,Somalia,,转型 (Transformed),10500,拉美 (Latin America),Inter-StateWarData_v4.0.csv
+IS189,Vietnamese-Cambodian,Inter-State War (国家间战争),1,1977-09-24,1979-01-08,Vietnam,Cambodia,,转型 (Transformed),8000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS190,Ugandian-Tanzanian,Inter-State War (国家间战争),1,1978-10-28,1979-04-11,Tanzania,Uganda; Libya,Libya,胜利 (Victory),3000,拉美 (Latin America),Inter-StateWarData_v4.0.csv
+IS193,Sino-Vietnamese Punitive,Inter-State War (国家间战争),1,1979-02-17,1979-03-16,China,Vietnam,Vietnam,胜利 (Victory),21000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS199,Iran-Iraq,Inter-State War (国家间战争),1,1980-09-22,1988-08-20,Iran,Iraq,,僵局 (Stalemate),1250000,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS202,Falkland Islands,Inter-State War (国家间战争),1,1982-03-25,1982-06-15,United Kingdom,Argentina,,胜利 (Victory),1001,北美 (North America),Inter-StateWarData_v4.0.csv
+IS205,War over Lebanon,Inter-State War (国家间战争),1,1982-04-21,1982-09-15,Israel,Syria,Syria,僵局 (Stalemate),1655,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS207,War over the Aouzou Strip,Inter-State War (国家间战争),1,1986-11-15,1987-09-11,Chad,Libya,Libya,胜利 (Victory),8000,Unknown,Inter-StateWarData_v4.0.csv
+IS208,Sino-Vietnamese Border War,Inter-State War (国家间战争),1,1987-01-05,1987-02-06,China,Vietnam,China,僵局 (Stalemate),4000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS211,Gulf War,Inter-State War (国家间战争),1,1990-08-02,1991-04-11,Kuwait; United States of America; Canada; United Kingdom; Italy; Morocco; Egypt; Oman; France; United Arab Emirates; Qatar; Saudi Arabia; Syria,Iraq,,胜利 (Victory),41466,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS215,Bosnian Independence,Inter-State War (国家间战争),1,1992-04-07,1992-05-13,Croatia; Bosnia,Yugoslavia,,转型 (Transformed),5240,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS216,Azeri-Armenian,Inter-State War (国家间战争),1,1993-02-06,1994-05-12,Armenia,Azerbaijan,Armenia,胜利 (Victory),14000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS217,Cenepa Valley,Inter-State War (国家间战争),1,1995-01-09,1995-02-27,Peru,Ecuador,,妥协 (Compromise),1500,北美 (North America),Inter-StateWarData_v4.0.csv
+IS219,Badme Border,Inter-State War (国家间战争),1,1998-05-06,2000-12-12,Eritrea,Ethiopia,Ethiopia,僵局 (Stalemate),120000,拉美 (Latin America),Inter-StateWarData_v4.0.csv
+IS221,War for Kosovo,Inter-State War (国家间战争),1,1999-03-24,1999-06-10,Turkey; Italy; United Kingdom; United States of America; Netherlands; France; Germany,Yugoslavia,Germany,胜利 (Victory),5002,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS223,Kargil War,Inter-State War (国家间战争),1,1999-05-08,1999-07-17,India,Pakistan,,胜利 (Victory),1172,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS225,Invasion of Afghanistan,Inter-State War (国家间战争),1,2001-11-15,2001-12-22,Canada; France; United Kingdom; United States of America; Australia,Afghanistan,Afghanistan,转型 (Transformed),4002,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS227,Invasion of Iraq,Inter-State War (国家间战争),1,2003-03-19,2003-05-02,Australia; United Kingdom; United States of America,Iraq,Iraq,转型 (Transformed),7173,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv

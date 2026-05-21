@@ -1,0 +1,164 @@
+﻿war_id,war_name,war_type,war_type_code,start_date,end_date,belligerents_side1,belligerents_side2,initiator,outcome,total_deaths,non_state_deaths,where_fought,source_file
+ES300,Allied Bombardment of Algiers,Extra-State War (国家对外战争),3,1816-08-26,1816-08-30,Netherlands; United Kingdom,-8; Algeria,United Kingdom,胜利 (Victory),142,6000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES301,Ottoman-Wahhabi,Extra-State War (国家对外战争),3,1816-09-01,1818-09-11,Ottoman Empire,Saudi Wahhabis,Ottoman Empire,胜利 (Victory),13500,14000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES302,Liberation of Chile,Extra-State War (国家对外战争),2,1817-01-09,1818-04-05,Spain,San Martin revolutionaries,,失败 (Defeat),1700,1140,北美 (North America),Extra-StateWarData_v4.0.csv
+ES303,First Bolivar Expedition,Extra-State War (国家对外战争),2,1817-04-11,1819-08-10,Spain,New Granada,Spain,失败 (Defeat),3000,2000,北美 (North America),Extra-StateWarData_v4.0.csv
+ES304,Mexican Independence,Extra-State War (国家对外战争),2,1817-08-15,1818-01-01,Spain,Mina Expedition,,胜利 (Victory),1000,1000,北美 (North America),Extra-StateWarData_v4.0.csv
+ES305,British-Kandyan,Extra-State War (国家对外战争),2,1817-10-01,1818-11-26,United Kingdom,Kandyan rebels,,胜利 (Victory),1000,10000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES306,British-Maratha,Extra-State War (国家对外战争),2,1817-11-06,1818-06-03,United Kingdom,Marathas,,胜利 (Victory),2800,2000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES307,Ottoman Conquest of Sudan,Extra-State War (国家对外战争),3,1820-01-01,1821-06-01,Ottoman Empire,Sudan states,Ottoman Empire,胜利 (Victory),4000,2500,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES308,Second Bolivar Expedition,Extra-State War (国家对外战争),2,1821-04-28,1822-05-24,Spain,New Granada,,失败 (Defeat),1000,500,北美 (North America),Extra-StateWarData_v4.0.csv
+ES309,Turco-Persian,Extra-State War (国家对外战争),3,1821-08-01,1822-05-01,Ottoman Empire,Persia,,僵局 (Stalemate),1000,0,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES310,First British-Burmese,Extra-State War (国家对外战争),3,1823-09-24,1826-02-24,United Kingdom,Burma,,胜利 (Victory),15000,15000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES311,First British-Ashanti,Extra-State War (国家对外战争),3,1824-01-20,1826-08-07,United Kingdom,Ashanti-Ghana,,胜利 (Victory),1400,5000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES312,Liberation of Peru,Extra-State War (国家对外战争),2,1824-02-04,1825-04-02,Spain,Latin American revolutionaries,,失败 (Defeat),2000,400,北美 (North America),Extra-StateWarData_v4.0.csv
+ES313,Dutch - Javanese,Extra-State War (国家对外战争),2,1825-07-23,1830-03-28,Netherlands,Javanese rebels,,胜利 (Victory),15000,200000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES314,British-Bharatpuran,Extra-State War (国家对外战争),2,1825-11-23,1826-01-18,United Kingdom,Bharatpuran rebels,,胜利 (Victory),400,4500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES315,Brazil-Argentine,Extra-State War (国家对外战争),3,1826-01-01,1828-10-27,Brazil,Argentina,,失败 (Defeat),4000,2000,北美 (North America),Extra-StateWarData_v4.0.csv
+ES316,Russo-Persian,Extra-State War (国家对外战争),3,1826-09-28,1828-02-28,Russia,Persia,,胜利 (Victory),5000,2000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES317,Spanish Reconquest of Mexico,Extra-State War (国家对外战争),3,1829-07-16,1829-09-11,Spain,Mexico,Spain,失败 (Defeat),1700,135,北美 (North America),Extra-StateWarData_v4.0.csv
+ES319,French Occupation of Algiers,Extra-State War (国家对外战争),3,1830-06-12,1830-07-05,France,Algeria,France,胜利 (Victory),600,3000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES320,Ottoman-Bilmez-Asiri War,Extra-State War (国家对外战争),3,1832-06-01,1837-01-01,Ottoman Empire,Bilmez-Asiri,,胜利 (Victory),0,800,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES321,First British-Zulu,Extra-State War (国家对外战争),3,1838-04-17,1838-04-01,United Kingdom,Zulu tribe,United Kingdom,失败 (Defeat),800,0,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES322,First British-Afghan,Extra-State War (国家对外战争),3,1839-02-14,1842-10-12,United Kingdom,Afghanistan,United Kingdom,失败 (Defeat),20000,0,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES323,First Opium,Extra-State War (国家对外战争),3,1839-09-04,1842-08-29,United Kingdom,China,United Kingdom,胜利 (Victory),450,2000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES324,First Franco-Algerian,Extra-State War (国家对外战争),3,1839-11-01,1847-12-23,France,Algerian forces,,胜利 (Victory),15000,20000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES325,Peru-Bolivian,Extra-State War (国家对外战争),3,1841-10-19,1841-11-28,Peru,Bolivia,,失败 (Defeat),600,400,北美 (North America),Extra-StateWarData_v4.0.csv
+ES326,British-Sind,Extra-State War (国家对外战争),3,1843-01-06,1843-06-14,United Kingdom,Sind,United Kingdom,胜利 (Victory),200,4000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES327,Uruguay War,Extra-State War (国家对外战争),3,1843-02-16,1851-07-18,Argentina; -8; -8,Uruguay; United Kingdom; France,Argentina,转型 (Transformed),2500,3500,北美 (North America),Extra-StateWarData_v4.0.csv
+ES329,Gwalior,Extra-State War (国家对外战争),3,1843-12-28,1843-12-29,United Kingdom,Gwalior,United Kingdom,胜利 (Victory),106,1330,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES330,Franco-Moroccan,Extra-State War (国家对外战争),3,1844-08-06,1844-09-10,France,Morocco,France,胜利 (Victory),200,800,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES331,First British-Sikh,Extra-State War (国家对外战争),3,1845-12-13,1846-02-10,United Kingdom,Sikhs,,胜利 (Victory),1500,7000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES332,Cracow Revolt,Extra-State War (国家对外战争),3,1846-02-01,1846-03-03,Russia; Prussia; Austria,-8; -8; Cracow,,胜利 (Victory),1000,1000,西欧 (Western Europe),Extra-StateWarData_v4.0.csv
+ES333,First British-Xhosa,Extra-State War (国家对外战争),3,1846-04-16,1847-12-23,United Kingdom,Khosa,United Kingdom,胜利 (Victory),1000,2000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES334,First Dutch-Bali,Extra-State War (国家对外战争),3,1848-04-12,1848-06-21,Netherlands,Bali,Netherlands,僵局 (Stalemate),300,2000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES335,Second British-Sikh,Extra-State War (国家对外战争),3,1848-05-18,1849-03-10,United Kingdom,Sikhs,United Kingdom,胜利 (Victory),1500,5000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES336,Chinese Pirates,Extra-State War (国家对外战争),3,1849-10-20,1849-10-22,United Kingdom,Chinese Pirates,United Kingdom,胜利 (Victory),0,2800,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES337,Second British-Xhosa,Extra-State War (国家对外战争),2,1850-12-24,1852-04-08,United Kingdom,Xhosa,United Kingdom,胜利 (Victory),1400,6000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES338,Ottoman-Yam,Extra-State War (国家对外战争),3,1851-04-21,1851-07-09,Turkey/Ottoman Empire/Egypt,Yam,,胜利 (Victory),0,1600,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES339,Second British-Burmese,Extra-State War (国家对外战争),3,1852-04-05,1852-11-20,United Kingdom,Burma,United Kingdom,胜利 (Victory),400,800,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES340,French-Tukulor War,Extra-State War (国家对外战争),3,1854-01-01,1857-07-15,France,Tukulor,,僵局 (Stalemate),100,2000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES341,British-Santal,Extra-State War (国家对外战争),2,1855-01-01,1856-01-01,United Kingdom,Santal,,胜利 (Victory),0,15000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES342,Hodeida Seige,Extra-State War (国家对外战争),2,1856-01-22,1856-02-22,Ottoman Empire,Beni Aseer tribe,,僵局 (Stalemate),1700,15000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES343,Second Opium,Extra-State War (国家对外战争),3,1856-10-22,1860-10-24,United Kingdom; France,China; -8,France,胜利 (Victory),300,3000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES345,French Conquest of Kabylia,Extra-State War (国家对外战争),2,1856-05-17,1857-12-01,France,Kabylia,France,胜利 (Victory),1000,0,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES347,Indian Mutiny,Extra-State War (国家对外战争),2,1857-05-10,1859-04-07,United Kingdom,Indian sepoys,,胜利 (Victory),11000,11500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES349,First Franco-Vietnamese,Extra-State War (国家对外战争),3,1858-08-31,1862-06-05,France,Vietnam,France,胜利 (Victory),1500,2500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES350,Netherlands-Bone,Extra-State War (国家对外战争),3,1859-02-20,1860-01-20,Netherlands,Bone,Netherlands,胜利 (Victory),500,500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES351,Argentine-Buenos Aires,Extra-State War (国家对外战争),3,1859-05-29,1859-10-23,Argentina,Buenos Aires,Argentina,胜利 (Victory),500,500,北美 (North America),Extra-StateWarData_v4.0.csv
+ES352,Garibaldi Expedition,Extra-State War (国家对外战争),3,1860-05-11,1860-10-14,Two Sicilies,Red Shirts,,转型 (Transformed),4500,1500,西欧 (Western Europe),Extra-StateWarData_v4.0.csv
+ES353,Spanish-Santo Dominican,Extra-State War (国家对外战争),2,1863-04-01,1865-05-03,Spain,Santo Domingo,Spain,失败 (Defeat),28000,4000,北美 (North America),Extra-StateWarData_v4.0.csv
+ES355,British-Maori,Extra-State War (国家对外战争),2,1863-06-04,1866-01-14,United Kingdom,New Zealand Maori,United Kingdom,胜利 (Victory),700,2000,跨地区 (Multi-regional),Extra-StateWarData_v4.0.csv
+ES356,Shimonoseki War,Extra-State War (国家对外战争),3,1863-06-25,1864-09-07,United States; United Kingdom; Netherlands; France,Choshu Daimyo; -8; -8; -8,,胜利 (Victory),26,1000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES357,British Umbeyla Campaign,Extra-State War (国家对外战争),3,1863-10-20,1863-12-21,United Kingdom,Pathan tribe,United Kingdom,胜利 (Victory),900,1500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES359,Russian-Kokand,Extra-State War (国家对外战争),3,1864-04-24,1865-06-17,Russia,Kokand,Russia,胜利 (Victory),120,1500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES360,British-Bhutanese,Extra-State War (国家对外战争),3,1865-01-01,1865-11-11,United Kingdom,Bhutan,United Kingdom,胜利 (Victory),100,900,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES361,Russian-Bukharan,Extra-State War (国家对外战争),3,1866-01-12,1866-10-18,Russia,Bukhara,Russia,胜利 (Victory),100,1000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES362,British-Ethiopian,Extra-State War (国家对外战争),3,1867-12-01,1868-04-13,United Kingdom,Ethiopians,United Kingdom,胜利 (Victory),400,800,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES363,First Spanish-Cuban,Extra-State War (国家对外战争),2,1868-10-10,1878-02-11,Spain,Cuba,,胜利 (Victory),100000,50000,北美 (North America),Extra-StateWarData_v4.0.csv
+ES364,Attack on Bahr el-Ghazal,Extra-State War (国家对外战争),3,1869-01-01,1870-01-01,Egypt,Bahr el-Ghazal,Egypt,失败 (Defeat),0,1500,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES365,Ottoman Conquest of Arabia,Extra-State War (国家对外战争),3,1870-11-30,1872-12-30,Ottoman Empire,"Yemen, Asir, Hasa",,胜利 (Victory),4000,1500,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES366,Second Franco-Algerian,Extra-State War (国家对外战争),2,1871-03-01,1872-01-01,France,Algeria,,胜利 (Victory),2686,10000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES367,Second British-Ashanti,Extra-State War (国家对外战争),3,1873-01-01,1874-02-04,United Kingdom,Ashanti,,胜利 (Victory),100,1400,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES369,Second Franco-Vietnamese,Extra-State War (国家对外战争),3,1873-11-20,1874-01-01,France,Vietnam,France,妥协 (Compromise),400,600,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES370,First Dutch-Achinese,Extra-State War (国家对外战争),3,1873-03-26,1878-10-13,Netherlands,Aceh,,胜利 (Victory),12000,11000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES371,Kokand Rebellion,Extra-State War (国家对外战争),3,1875-08-09,1876-02-28,Russia,Kokand,,胜利 (Victory),100,4800,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES372,Egyptian-Ethiopian,Extra-State War (国家对外战争),3,1875-09-01,1876-03-09,Egypt,Ethiopia,Egypt,失败 (Defeat),4250,4550,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES373,Serbian-Turkish,Extra-State War (国家对外战争),3,1876-06-30,1877-04-23,Ottoman Empire,"Serbia, Montenegro",,转型 (Transformed),0,5000,西欧 (Western Europe),Extra-StateWarData_v4.0.csv
+ES374,Third British-Xhosa,Extra-State War (国家对外战争),2,1877-08-01,1878-06-01,United Kingdom,S. Africa Xhosa,,胜利 (Victory),200,3700,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES375,Egypt-Sudanese Slavers,Extra-State War (国家对外战争),3,1878-02-01,1879-07-01,Egypt,Sudanese Slavers,Egypt,胜利 (Victory),0,4000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES376,Russo-Turkoman,Extra-State War (国家对外战争),3,1878-05-01,1881-01-24,Russia,Turkomans,Russia,胜利 (Victory),2000,8000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES377,Austrian-Bosnian,Extra-State War (国家对外战争),3,1878-07-29,1878-10-01,Austria-Hungary,Bosnia,Austria-Hungary,胜利 (Victory),3500,2500,西欧 (Western Europe),Extra-StateWarData_v4.0.csv
+ES379,Second British-Afghan,Extra-State War (国家对外战争),3,1878-11-21,1879-05-26,United Kingdom,Afghanistan,United Kingdom,胜利 (Victory),10000,11000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES380,Second British-Zulu,Extra-State War (国家对外战争),3,1879-01-11,1879-07-04,United Kingdom,Zulu,United Kingdom,胜利 (Victory),2500,8000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES381,Gun War,Extra-State War (国家对外战争),2,1880-09-01,1881-04-01,United Kingdom,Basuto,United Kingdom,胜利 (Victory),0,1400,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES382,First Boer War,Extra-State War (国家对外战争),2,1880-12-16,1881-04-05,United Kingdom,Transvaal,,失败 (Defeat),900,100,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES383,Franco-Tunisian,Extra-State War (国家对外战争),3,1881-06-01,1882-04-04,France,Tunisia,,胜利 (Victory),3500,0,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES384,First British-Mahdi,Extra-State War (国家对外战争),2,1881-08-01,1882-09-15,Egypt; United Kingdom,-8; Mahdist Empire,,失败 (Defeat),30000,17000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES385,Third Franco-Vietnamese,Extra-State War (国家对外战争),3,1882-04-25,1884-06-14,France; -8,"Vietnam, Black Flag; China",France,转型 (Transformed),5500,2000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES386,First Franco-Madagascan,Extra-State War (国家对外战争),3,1883-05-07,1885-12-12,France,Madagasar,France,胜利 (Victory),300,700,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES387,Third British-Burmese,Extra-State War (国家对外战争),3,1885-11-10,1889-01-01,United Kingdom,Burma,United Kingdom,胜利 (Victory),3000,3000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES389,French-Mandinka,Extra-State War (国家对外战争),3,1885-01-01,1886-01-01,France,Mandinka,France,胜利 (Victory),1000,0,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES390,Russo-Afghan,Extra-State War (国家对外战争),3,1885-03-30,1885-04-01,Russia,Afghanistan,Russia,妥协 (Compromise),1000,0,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES391,Serbian-Bulgarian,Extra-State War (国家对外战争),3,1885-11-02,1885-12-07,Serbia,Bulgaria,Serbia,失败 (Defeat),2000,3000,西欧 (Western Europe),Extra-StateWarData_v4.0.csv
+ES392,First Italian-Ethiopian,Extra-State War (国家对外战争),3,1887-01-24,1887-03-01,Italy,Ethiopia,Italy,妥协 (Compromise),1000,400,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES393,Zambezi Conquest,Extra-State War (国家对外战争),3,1888-01-01,1888-01-01,Portugal,Prazero da Cruz,Portugal,胜利 (Victory),0,6000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES394,First Franco-Dahomeyan,Extra-State War (国家对外战争),3,1890-03-01,1890-04-20,France,Dahomey,France,胜利 (Victory),200,800,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES395,Franco-Jolof,Extra-State War (国家对外战争),3,1890-04-01,1891-02-24,France,Jolof/Tukulor,France,胜利 (Victory),100,3000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES396,Second Franco-Dahomeyan,Extra-State War (国家对外战争),3,1892-09-19,1893-11-09,France,Dahomey,France,胜利 (Victory),80,1800,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES397,Belgian-Tib,Extra-State War (国家对外战争),3,1892-10-01,1894-02-01,Belgium,Tippu Tib Empire,Belgium,胜利 (Victory),7000,13000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES398,Third British-Ashanti,Extra-State War (国家对外战争),3,1893-09-28,1894-01-01,United Kingdom,Ashanti,,胜利 (Victory),200,800,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES399,Melilla War,Extra-State War (国家对外战争),3,1893-09-29,1894-03-05,Spain,Rif tribes,,胜利 (Victory),1000,1500,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES400,Mahdist-Italian,Extra-State War (国家对外战争),3,1893-12-21,1894-07-12,Italy,Mahdist Empire,,胜利 (Victory),270,5000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES401,Second Franco-Madagascan,Extra-State War (国家对外战争),3,1894-06-16,1895-10-01,France,Madagasar,,胜利 (Victory),6000,2000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES402,Second Dutch-Bali,Extra-State War (国家对外战争),3,1894-07-01,1894-11-22,Netherlands,Bali,Netherlands,胜利 (Victory),1000,2000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES403,Portuguese-Gaza Empire,Extra-State War (国家对外战争),3,1895-02-01,1895-12-28,Portugal,Gaza Empire,Portugal,胜利 (Victory),50,2000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES404,Second Spanish-Cuban,Extra-State War (国家对外战争),2,1895-02-24,1898-04-21,Spain,Cuba,,转型 (Transformed),59000,20000,北美 (North America),Extra-StateWarData_v4.0.csv
+ES405,Japan-Taiwanese,Extra-State War (国家对外战争),2,1895-05-29,1895-10-21,Japan,Taiwanese,,胜利 (Victory),4800,7760,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES406,Mazrui Rebellion,Extra-State War (国家对外战争),3,1895-07-03,1896-04-21,United Kingdom,Mazrui clan of Kenya,,胜利 (Victory),200,800,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES407,Second Italian-Ethiopian,Extra-State War (国家对外战争),3,1895-12-07,1896-10-21,Italy,Ethiopia,Italy,失败 (Defeat),9000,7000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES409,Second British-Mahdi,Extra-State War (国家对外战争),3,1896-06-07,1899-11-24,United Kingdom,Mahdist Empire,United Kingdom,胜利 (Victory),1200,18000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES410,Spanish-Philippine,Extra-State War (国家对外战争),2,1896-08-30,1898-05-01,Spain,Philippines,,转型 (Transformed),4000,4000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES411,British-South Nigerian,Extra-State War (国家对外战争),3,1897-01-06,1897-02-25,United Kingdom,Nigeria,United Kingdom,胜利 (Victory),20,1000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES412,British-Pathan,Extra-State War (国家对外战争),2,1897-07-26,1898-03-07,United Kingdom,Pathans,,胜利 (Victory),1100,0,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES413,Hut Tax,Extra-State War (国家对外战争),2,1898-02-01,1898-05-01,United Kingdom,Sierra Leone rebels,,胜利 (Victory),400,1600,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES414,American-Philippine,Extra-State War (国家对外战争),2,1899-02-04,1902-07-04,United States of America,Philippines,,胜利 (Victory),4500,16000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES415,French Conquest of Chad,Extra-State War (国家对外战争),3,1899-07-17,1900-04-22,France,Rabih az-Zubayr,France,胜利 (Victory),125,900,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES416,Second Boer War,Extra-State War (国家对外战争),3,1899-10-11,1902-05-31,United Kingdom,Boer Republics,,胜利 (Victory),22000,8800,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES417,Last Ashanti War,Extra-State War (国家对外战争),3,1900-04-02,1900-09-30,United Kingdom,Ashanti,,胜利 (Victory),1000,1000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES419,Somali Rebellion,Extra-State War (国家对外战争),2,1901-03-22,1904-04-21,United Kingdom; Ethiopia,Mohammad Abdullah Hassans Dervishes; -8,,胜利 (Victory),400,4000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES420,Bailundu Revolt,Extra-State War (国家对外战争),3,1902-01-01,1903-01-01,Portugal,Bailundu of Angola,,胜利 (Victory),0,0,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES421,Kuanhama Rebellion,Extra-State War (国家对外战争),3,1902-01-01,1904-01-01,Portugal,Kuanhama of Angola,,僵局 (Stalemate),2000,2000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES422,British Conquest of Kano & Sokoto,Extra-State War (国家对外战争),3,1903-01-29,1903-07-27,United Kingdom,Kano & Sokoto,United Kingdom,胜利 (Victory),0,1100,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES423,South West African Revolt,Extra-State War (国家对外战争),2,1904-01-12,1906-05-04,Germany,Herero & Nama,,胜利 (Victory),1800,11000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES424,Second Dutch-Achinese,Extra-State War (国家对外战争),2,1904-01-01,1907-12-01,Netherlands,Aceh,,胜利 (Victory),13000,11200,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES425,Younghusband Expedition,Extra-State War (国家对外战争),3,1904-03-31,1904-09-07,United Kingdom,Tibet,United Kingdom,胜利 (Victory),300,2500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES426,Maji-Maji Revolt,Extra-State War (国家对外战争),2,1905-07-31,1906-06-01,Germany,Maji-Maji in Tanganyika,,胜利 (Victory),3440,5400,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES427,Sokoto Uprising,Extra-State War (国家对外战争),2,1906-01-01,1906-03-10,United Kingdom,Mahdist rebels,,胜利 (Victory),80,2000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES429,Third British-Zulu,Extra-State War (国家对外战争),2,1906-03-05,1906-06-10,United Kingdom,Zulu,,胜利 (Victory),56,2300,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES430,Dembos War,Extra-State War (国家对外战争),3,1907-01-01,1910-01-01,Portugal,Dembos,Portugal,胜利 (Victory),100,5000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES431,Anti-Foreign Revolt,Extra-State War (国家对外战争),3,1907-07-30,1910-01-01,France,Sheikh Ma Al-Ainie,France,胜利 (Victory),150,3000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES432,Japan-Korean Guerrillas,Extra-State War (国家对外战争),2,1907-08-01,1910-08-16,Japan,Korea,,胜利 (Victory),136,17600,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES433,French Conquest of Wadai,Extra-State War (国家对外战争),3,1909-05-01,1911-01-01,France,Wadai sultanate,France,胜利 (Victory),4000,8000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES434,French-Berber,Extra-State War (国家对外战争),2,1912-03-31,1912-09-06,France,Berbers,,胜利 (Victory),200,3400,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES435,First Sino-Tibetan,Extra-State War (国家对外战争),2,1912-03-01,1913-01-01,China,Tibet,,失败 (Defeat),2000,0,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES436,Moroccan Berber,Extra-State War (国家对外战争),2,1913-03-26,1915-05-16,France; Spain,Berbers; Berbers,France,释放 (Released),900,1000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES437,Moro Rebellion,Extra-State War (国家对外战争),2,1913-06-11,1913-10-22,United States,Moro,United States,胜利 (Victory),50,1500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES440,Second Sino-Tibetan,Extra-State War (国家对外战争),3,1918-01-07,1918-08-01,China,Tibet,China,僵局 (Stalemate),1000,500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES441,Caco Revolt,Extra-State War (国家对外战争),2,1918-10-17,1920-05-19,United States,Caco Rebels,,胜利 (Victory),98,2004,北美 (North America),Extra-StateWarData_v4.0.csv
+ES442,Third British-Afghan,Extra-State War (国家对外战争),3,1919-05-03,1919-08-08,United Kingdom,Afghanistan,,妥协 (Compromise),1136,1000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES443,First British-Waziristan,Extra-State War (国家对外战争),3,1919-05-26,1920-03-01,United Kingdom,Waziristan,,胜利 (Victory),800,1600,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES444,Franco-Syrian,Extra-State War (国家对外战争),3,1920-03-01,1920-08-07,France,Syrians,France,胜利 (Victory),3500,0,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES445,Iraqi-British,Extra-State War (国家对外战争),2,1920-06-05,1920-10-17,United Kingdom,Iraq,,胜利 (Victory),1040,8500,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES446,Conquest of Mongolia,Extra-State War (国家对外战争),3,1921-05-28,1921-08-22,USSR; China,-8; Baron von Ungern-Sternbergs White army,,胜利 (Victory),4000,1000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES447,Italian-Sanusi,Extra-State War (国家对外战争),2,1923-03-23,1931-09-12,Italy,Sanusi tribe,,胜利 (Victory),5000,35000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES449,Rif Rebellion,Extra-State War (国家对外战争),2,1925-04-12,1926-05-27,France; Spain,-8; Riffs,Spain,胜利 (Victory),60000,10000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES450,Moplah Rebellion,Extra-State War (国家对外战争),2,1921-08-20,1922-02-01,United Kingdom,Muslim Moplahs,,胜利 (Victory),50,2400,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES451,Franco-Druze,Extra-State War (国家对外战争),2,1925-07-18,1927-05-27,France,Druze,,胜利 (Victory),4000,2000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES452,Yen Bai Uprising,Extra-State War (国家对外战争),2,1930-02-09,1931-01-01,France,Vietnamese Nationalists,,胜利 (Victory),1,1000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES453,Saya San's Rebellion,Extra-State War (国家对外战争),2,1930-12-22,1932-06-01,United Kingdom,Peasant Rebels,,胜利 (Victory),140,1000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES454,British-Palestinian,Extra-State War (国家对外战争),2,1936-04-20,1936-10-01,United Kingdom,Palestinians,,胜利 (Victory),126,2450,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES455,Second British-Waziristan,Extra-State War (国家对外战争),3,1936-11-25,1938-01-08,United Kingdom,Pathan tribes,,胜利 (Victory),200,10000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES456,Indonesian,Extra-State War (国家对外战争),2,1945-11-10,1946-10-15,United Kingdom; Netherlands,-8; Indonesia,,妥协 (Compromise),1800,3600,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES457,French-Indochina,Extra-State War (国家对外战争),2,1946-11-20,1954-06-01,France,Vietminh,,失败 (Defeat),94500,175000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES459,Third Franco-Madagascan,Extra-State War (国家对外战争),2,1947-03-29,1948-12-01,France,Madagascar,,胜利 (Victory),1000,11200,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES460,Malayan Rebellion,Extra-State War (国家对外战争),2,1948-06-18,1957-08-31,United Kingdom,Malayan Communists,,胜利 (Victory),2400,6700,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES461,Indo-Hyderabad,Extra-State War (国家对外战争),3,1948-09-13,1948-09-17,India,Hyderabad,India,胜利 (Victory),10,1200,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES462,Third Sino-Tibetan,Extra-State War (国家对外战争),3,1950-05-01,1950-10-28,China,Tibet,China,胜利 (Victory),10000,3200,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES463,Franco-Tunisian,Extra-State War (国家对外战争),2,1952-01-18,1954-07-31,France,Tunisia,,失败 (Defeat),2000,1000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES464,British-Mau Mau,Extra-State War (国家对外战争),2,1952-10-20,1956-10-01,United Kingdom,Mau Mau,,胜利 (Victory),600,16500,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES465,Moroccan Independence,Extra-State War (国家对外战争),2,1953-08-20,1956-03-12,France,Morocco,,失败 (Defeat),2000,1000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES466,Third Franco-Algerian,Extra-State War (国家对外战争),2,1954-11-01,1962-03-17,France,Algeria,,失败 (Defeat),18000,14000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES467,French-Cameroon,Extra-State War (国家对外战争),2,1957-01-01,1958-01-05,France,UPC,,胜利 (Victory),1000,900,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES469,Angolan-Portuguese,Extra-State War (国家对外战争),2,1961-02-03,1974-10-14,Portugal,Angola,,转型 (Transformed),4000,25000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES471,Mozambique-Portuguese,Extra-State War (国家对外战争),2,1964-09-25,1975-06-25,Portugal,Mozambique,,失败 (Defeat),3500,10000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES472,"East Timorese, Phase 2",Extra-State War (国家对外战争),3,1975-10-16,1976-07-17,Indonesia,Fretilin & UDT,Indonesia,转型 (Transformed),12500,20000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES473,Namibian,Extra-State War (国家对外战争),2,1975-10-17,1988-12-13,South Africa,SWAPO-Namibia,South Africa,失败 (Defeat),1100,19000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES474,Western Saharan,Extra-State War (国家对外战争),3,1975-12-11,1983-12-23,Morocco; -8; Mauritania,Polisario; Algeria; -8,,释放 (Released),12000,4000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES475,Khmer Insurgency,Extra-State War (国家对外战争),3,1979-01-09,1989-09-25,Vietnam; Cambodia,Khmer Rouge; -8,Vietnam,转型 (Transformed),40300,0,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES476,Soviet Quagmire,Extra-State War (国家对外战争),3,1980-02-22,1989-02-15,USSR; Afghanistan,Muhajadin; -8,,转型 (Transformed),70000,50000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES477,First PKK in Iraq,Extra-State War (国家对外战争),3,1991-08-04,1992-03-25,Turkey,PKK in Iraq,Turkey,僵局 (Stalemate),300,2000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES479,Second PKK in Iraq,Extra-State War (国家对外战争),3,1997-05-14,1997-06-14,Turkey,PKK in Iraq,Turkey,僵局 (Stalemate),100,2500,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES480,Al Aqsa Intifada,Extra-State War (国家对外战争),2,2000-09-28,2003-09-09,Israel,Palestinians,,胜利 (Victory),900,3400,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES481,Afghan Resistance,Extra-State War (国家对外战争),3,2001-12-23,-007-01-01,France; Australia; Germany; United Kingdom; Canada; United States; Afghanistan,-8; -8; -8; -8; -8; al-Qaeda & Taliban; -8,Afghanistan,继续 (Ongoing),2393,12000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES482,Iraqi Resistance,Extra-State War (国家对外战争),3,2003-05-03,-007-01-01,Australia; United States; United Kingdom; Netherlands; Spain; Poland; Italy; Ukraine; Iraq; Republic of Korea,-8; al-Qaeda & Iraqi resistence; -8; -8; -8; -8; -8; -8; -8; -8,United Kingdom,继续 (Ongoing),15017,20000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv

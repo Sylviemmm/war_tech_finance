@@ -1,1 +1,655 @@
-
+﻿war_id,war_name,war_type,war_type_code,start_date,end_date,belligerents_side1,belligerents_side2,initiator,outcome,total_deaths,where_fought,source_file
+ES300,Allied Bombardment of Algiers,Extra-State War (国家对外战争),3,1816-08-26,1816-08-30,Netherlands; United Kingdom,-8; Algeria,United Kingdom,胜利 (Victory),142,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES301,Ottoman-Wahhabi,Extra-State War (国家对外战争),3,1816-09-01,1818-09-11,Ottoman Empire,Saudi Wahhabis,Ottoman Empire,胜利 (Victory),13500,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES302,Liberation of Chile,Extra-State War (国家对外战争),2,1817-01-09,1818-04-05,Spain,San Martin revolutionaries,,失败 (Defeat),1700,北美 (North America),Extra-StateWarData_v4.0.csv
+ES303,First Bolivar Expedition,Extra-State War (国家对外战争),2,1817-04-11,1819-08-10,Spain,New Granada,Spain,失败 (Defeat),3000,北美 (North America),Extra-StateWarData_v4.0.csv
+ES304,Mexican Independence,Extra-State War (国家对外战争),2,1817-08-15,1818-01-01,Spain,Mina Expedition,,胜利 (Victory),1000,北美 (North America),Extra-StateWarData_v4.0.csv
+ES305,British-Kandyan,Extra-State War (国家对外战争),2,1817-10-01,1818-11-26,United Kingdom,Kandyan rebels,,胜利 (Victory),1000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES306,British-Maratha,Extra-State War (国家对外战争),2,1817-11-06,1818-06-03,United Kingdom,Marathas,,胜利 (Victory),2800,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+NS1500,First Maori Tribal War,Non-State War (非国家战争),8,1818-01-01,1824-01-01,Te Rauparaha's Ngati Toa; -8,Taranaki; Ngai Tahu; Waikato;  Ngati Ira; Rangitikei,Te Rauparaha's Ngati Toa,胜利 (Victory),7500,跨地区 (Multi-regional),Non-StateWarData_v4.0.csv
+IN500,First Caucasus,Intra-State War (国内战争-地方政府),5,1818-06-10,1822-01-01,Russia,"Georgians, Dhagestania, Chechens",,胜利 (Victory),11000,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+NS1501,Shaka Zulu-Bantu War,Non-State War (非国家战争),8,1819-01-01,1828-09-24,Shaka Zulu; -8,Bantu; -8; -8; -8; -8,Shaka Zulu,胜利 (Victory),60000,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1502,Burma-Assam War,Non-State War (非国家战争),8,1819-01-01,1822-01-01,Burma; -8,Assam; -8; -8; -8; -8,Burma,胜利 (Victory),0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+ES307,Ottoman Conquest of Sudan,Extra-State War (国家对外战争),3,1820-01-01,1821-06-01,Ottoman Empire,Sudan states,Ottoman Empire,胜利 (Victory),4000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+NS1503,Buenos Aires War,Non-State War (非国家战争),8,1820-01-08,1820-02-23,Buenos Aires; -8,Provinces; -8; -8; -8; -8,Provinces,失败 (Defeat),0,北美 (North America),Non-StateWarData_v4.0.csv
+IN501,Sidon-Damascus,Intra-State War (国内战争-非政府),6,1820-06-01,1821-07-21,Sidon,Damascus & Aleppo,,失败 (Defeat),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN502,First Two Sicilies,Intra-State War (国内战争-中央政府),4,1821-03-01,1821-03-23,Austria; Two Sicilies,-8; Liberals,,胜利 (Victory),-35,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN505,Sardinian Revolt,Intra-State War (国内战争-中央政府),4,1821-03-10,1821-05-08,Austria; Sardinia,-8; Carbonari,,胜利 (Victory),-35,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN506,Greek Independence,Intra-State War (国内战争-地方政府),5,1821-03-25,1828-04-25,Ottoman Empire; -8; -8; -8,Greeks; United Kingdom; France; Russia,,转型 (Transformed),9156,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES308,Second Bolivar Expedition,Extra-State War (国家对外战争),2,1821-04-28,1822-05-24,Spain,New Granada,,失败 (Defeat),1000,北美 (North America),Extra-StateWarData_v4.0.csv
+ES309,Turco-Persian,Extra-State War (国家对外战争),3,1821-08-01,1822-05-01,Ottoman Empire,Persia,,僵局 (Stalemate),1000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+NS1505,Second Maori Tribal War,Non-State War (非国家战争),8,1821-09-01,1823-01-01,Hongi Hika's Nga Phuhi; -8,Ngati Paoa;  Ngati Maru;  Waikato River Maori;  Te Arawa; -8,Hongi Hika's Nga Phuhi,胜利 (Victory),2500,跨地区 (Multi-regional),Non-StateWarData_v4.0.csv
+NS1506,Siam-Kedah War,Non-State War (非国家战争),8,1821-11-01,1821-12-01,Thailand; -8,Kedah; -8; -8; -8; -8,Thailand,胜利 (Victory),0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+IN503,Spanish Royalists,Intra-State War (国内战争-中央政府),4,1821-12-01,1823-04-06,Spain,Royalists,,转型 (Transformed),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IS1,Franco-Spanish War,Inter-State War (国家间战争),1,1823-04-07,1823-11-13,France,Spain,France,胜利 (Victory),1000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+ES310,First British-Burmese,Extra-State War (国家对外战争),3,1823-09-24,1826-02-24,United Kingdom,Burma,,胜利 (Victory),15000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES311,First British-Ashanti,Extra-State War (国家对外战争),3,1824-01-20,1826-08-07,United Kingdom,Ashanti-Ghana,,胜利 (Victory),1400,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES312,Liberation of Peru,Extra-State War (国家对外战争),2,1824-02-04,1825-04-02,Spain,Latin American revolutionaries,,失败 (Defeat),2000,北美 (North America),Extra-StateWarData_v4.0.csv
+IN507,Egypt-Mehdi,Intra-State War (国内战争-非政府),6,1824-03-20,1824-04-01,Egypt,Mehdi army,,胜利 (Victory),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+NS1508,China-Kashgaria War,Non-State War (非国家战争),8,1825-01-01,1828-01-01,China; -8,Muslim rebels; -8; -8; -8; -8,China,胜利 (Victory),0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+ES313,Dutch - Javanese,Extra-State War (国家对外战争),2,1825-07-23,1830-03-28,Netherlands,Javanese rebels,,胜利 (Victory),15000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+NS1509,Mexico-Yaqui Indian War,Non-State War (非国家战争),8,1825-10-25,1827-04-13,Mexico; -8,Yaqui Indians; -8; -8; -8; -8,Mexico,妥协 (Compromise),0,北美 (North America),Non-StateWarData_v4.0.csv
+ES314,British-Bharatpuran,Extra-State War (国家对外战争),2,1825-11-23,1826-01-18,United Kingdom,Bharatpuran rebels,,胜利 (Victory),400,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+NS1510,Central American Confederation War,Non-State War (非国家战争),8,1826-01-01,1829-04-12,Conservative Confederation; -8,Liberals; -8; -8; -8; -8,Liberals,失败 (Defeat),3300,北美 (North America),Non-StateWarData_v4.0.csv
+NS1511,Viang Chan- Siamese War,Non-State War (非国家战争),8,1826-01-01,1827-05-15,Viang Chan; -8,Siam; -8; -8; -8; -8,Viang Chan,失败 (Defeat),31000,亚洲 (Asia),Non-StateWarData_v4.0.csv
+ES315,Brazil-Argentine,Extra-State War (国家对外战争),3,1826-01-01,1828-10-27,Brazil,Argentina,,失败 (Defeat),4000,北美 (North America),Extra-StateWarData_v4.0.csv
+IN508,Janissari Revolt,Intra-State War (国内战争-中央政府),4,1826-06-14,1826-09-30,Ottoman Empire,Janissaries,,胜利 (Victory),6300,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+ES316,Russo-Persian,Extra-State War (国家对外战争),3,1826-09-28,1828-02-28,Russia,Persia,,胜利 (Victory),5000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IS4,First Russo-Turkish,Inter-State War (国家间战争),1,1828-04-26,1829-09-14,Russia,Ottoman Empire,Russia,胜利 (Victory),130000,Unknown,Inter-StateWarData_v4.0.csv
+NS1512,Peru-Gran Colombia War,Non-State War (非国家战争),8,1828-07-03,1829-02-28,Peru; -8,Gran Colombia; -8; -8; -8; -8,Peru,失败 (Defeat),4000,北美 (North America),Non-StateWarData_v4.0.csv
+NS1513,Argentine War for Unity,Non-State War (非国家战争),8,1829-04-26,1831-11-30,Unitarians; -8,Provinces; -8; -8; -8; -8,Unitarians,失败 (Defeat),0,北美 (North America),Non-StateWarData_v4.0.csv
+ES317,Spanish Reconquest of Mexico,Extra-State War (国家对外战争),3,1829-07-16,1829-09-11,Spain,Mexico,Spain,失败 (Defeat),1700,北美 (North America),Extra-StateWarData_v4.0.csv
+NS1514,Sayyid Said War,Non-State War (非国家战争),8,1829-12-18,1830-05-09,Sayyid Said; -8,Mombasa; -8; -8; -8; -8,Sayyid Said,胜利 (Victory),0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+IN511,First Murid War,Intra-State War (国内战争-地方政府),5,1830-01-01,1832-10-17,Russia,Ghazi Muhammad,,胜利 (Victory),1500,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN512,First Albanian Revolt,Intra-State War (国内战争-地方政府),5,1830-02-01,1831-11-01,Ottoman Empire,Albanians,,胜利 (Victory),15000,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES319,French Occupation of Algiers,Extra-State War (国家对外战争),3,1830-06-12,1830-07-05,France,Algeria,France,胜利 (Victory),600,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN513,First French Insurrection,Intra-State War (国内战争-中央政府),4,1830-07-25,1830-07-29,France,Liberals,,失败 (Defeat),2200,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN515,Belgian Independence,Intra-State War (国内战争-地方政府),5,1830-08-25,1830-11-04,Netherlands,Belgians,,失败 (Defeat),1100,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+NS1515,China-Kokand War,Non-State War (非国家战争),8,1830-09-01,1831-11-01,China; -8,Kokand; -8; -8; -8; -8,China,胜利 (Victory),0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+IN516,Egyptian Taka Expedition,Intra-State War (国内战争-非政府),6,1831-01-01,1832-01-01,Egypt,Hadendowa,,失败 (Defeat),1491,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+NS1516,Siam-Cambodia-Vietnam War,Non-State War (非国家战争),8,1831-01-01,1834-01-01,Thailand; -8,Cambodia; Vietnam; -8; -8; -8,Thailand,失败 (Defeat),0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+IN517,First Polish,Intra-State War (国内战争-地方政府),5,1831-02-07,1831-10-18,Russia,Poles,,胜利 (Victory),35000,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN510,Miguelite War,Intra-State War (国内战争-中央政府),4,1831-07-01,1834-05-26,-8; Portugal,United Kingdom; Constitutionalists,,失败 (Defeat),20092,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN518,First Syrian,Intra-State War (国内战争-地方政府),5,1831-10-01,1832-12-27,Ottoman Empire,Egyptians & Bashir,,失败 (Defeat),12000,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN520,First Mexican,Intra-State War (国内战争-中央政府),4,1832-01-02,1832-12-11,Mexico,Liberals,,失败 (Defeat),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+ES320,Ottoman-Bilmez-Asiri War,Extra-State War (国家对外战争),3,1832-06-01,1837-01-01,Ottoman Empire,Bilmez-Asiri,,胜利 (Victory),0,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+NS1518,Argentina-Ranqueles Indian War,Non-State War (非国家战争),8,1833-03-16,1834-03-25,Argentina; -8,Ranqueles Indians; -8; -8; -8; -8,Argentina,胜利 (Victory),6000,北美 (North America),Non-StateWarData_v4.0.csv
+IN521,Egypt- Palestinian Anti-Conscription Revolt,Intra-State War (国内战争-非政府),6,1834-04-19,1834-10-01,Palestinians,Egypt,,失败 (Defeat),2000,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN523,Second Murid,Intra-State War (国内战争-地方政府),5,1834-09-26,1834-10-27,Russia,Shamil,,释放 (Released),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN525,Cabanos Revolt,Intra-State War (国内战争-地方政府),5,1835-01-06,1837-05-01,Brazil,Cabanos,,胜利 (Victory),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+NS1520,Bolivia Conquest of Peru,Non-State War (非国家战争),8,1835-06-16,1836-02-07,Bolivia; -8,Peru; -8; -8; -8; -8,Bolivia,胜利 (Victory),0,北美 (North America),Non-StateWarData_v4.0.csv
+IN526,Farroupilha War,Intra-State War (国内战争-地方政府),5,1835-09-19,1845-03-01,Brazil,Farrapos,,胜利 (Victory),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+IN527,Texan,Intra-State War (国内战争-地方政府),5,1835-10-01,1836-04-22,Mexico,Texans,,失败 (Defeat),2200,北美 (North America),Intra-StateWarData_v4.1.csv
+IN522,First Carlist War,Intra-State War (国内战争-中央政府),4,1835-10-15,1836-02-15,Portugal; Spain; France; United Kingdom,-8; Carlists; -8; -8,,胜利 (Victory),135226,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN528,First Bosnian,Intra-State War (国内战争-地方政府),5,1836-01-01,1837-01-01,Ottoman Empire,Bosnians,,胜利 (Victory),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN530,Third Murid,Intra-State War (国内战争-地方政府),5,1836-07-01,1852-01-01,Russia,Shamil,,胜利 (Victory),14991,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+NS1521,Boer-Matabele War,Non-State War (非国家战争),8,1836-08-15,1837-11-12,Boer Trekkers; -8,Matabele; -8; -8; -8; -8,Matabele,胜利 (Victory),3350,拉美 (Latin America),Non-StateWarData_v4.0.csv
+IN532,Druze Rebellion,Intra-State War (国内战争-非政府),6,1837-09-27,1838-08-22,Egypt & Bashir,Druze,,胜利 (Victory),14991,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+NS1523,Dissolution of the Bolivia-Peru Confederation,Non-State War (非国家战争),8,1837-11-01,1839-01-20,Chile  ; Argentina,Peru-Bolivia Confederation; -8; -8; -8; -8,Chile  ,胜利 (Victory),2900,北美 (North America),Non-StateWarData_v4.0.csv
+IN531,Sabinada Rebellion,Intra-State War (国内战争-地方政府),5,1837-11-07,1838-03-13,Brazil,Bahian Sabinada,,胜利 (Victory),1800,北美 (North America),Intra-StateWarData_v4.1.csv
+NS1524,Persian Siege of Heart,Non-State War (非国家战争),8,1837-11-22,1838-09-09,Persia; -8,Herat; -8; -8; -8; -8,Persia,失败 (Defeat),1700,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1525,Boer-Zulu War,Non-State War (非国家战争),8,1838-02-06,1838-12-20,Boer Trekkers; -8,Zulu; -8; -8; -8; -8,Zulu,胜利 (Victory),3700,拉美 (Latin America),Non-StateWarData_v4.0.csv
+ES321,First British-Zulu,Extra-State War (国家对外战争),3,1838-04-17,1838-04-01,United Kingdom,Zulu tribe,United Kingdom,失败 (Defeat),800,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES322,First British-Afghan,Extra-State War (国家对外战争),3,1839-02-14,1842-10-12,United Kingdom,Afghanistan,United Kingdom,失败 (Defeat),20000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+NS1527,Anti-Rosas War,Non-State War (非国家战争),8,1839-02-24,1840-12-31,Anti-Rosas Allies; -8,Rosas Federalist Army; -8; -8; -8; -8,Anti-Rosas Allies,转型 (Transformed),3000,北美 (North America),Non-StateWarData_v4.0.csv
+NS1528,Dissolution of  the Central American Confederation,Non-State War (非国家战争),8,1839-03-19,1840-03-21,Conservatives; -8,Liberals; -8; -8; -8; -8,Conservatives,胜利 (Victory),3700,北美 (North America),Non-StateWarData_v4.0.csv
+IN533,"Second Syrian, Phase 1",Intra-State War (国内战争-地方政府),5,1839-06-10,1839-06-24,Ottoman Empire,Egypt,,失败 (Defeat),3000,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+ES323,First Opium,Extra-State War (国家对外战争),3,1839-09-04,1842-08-29,United Kingdom,China,United Kingdom,胜利 (Victory),450,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES324,First Franco-Algerian,Extra-State War (国家对外战争),3,1839-11-01,1847-12-23,France,Algerian forces,,胜利 (Victory),15000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN535,Lebanon Insurgency,Intra-State War (国内战争-非政府),6,1840-05-27,1840-07-13,Lebanese Maronites,Amir Bashir & Egypt,,失败 (Defeat),4500,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN536,First Colombian,Intra-State War (国内战争-中央政府),4,1840-07-15,1842-07-15,Colombia,Progressives,,失败 (Defeat),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+IN537,"Second Syrian, Phase 2",Intra-State War (国内战争-地方政府),5,1840-09-09,1840-11-27,United Kingdom; Ottoman Empire,-8; Egypt,,胜利 (Victory),27006,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN540,Second Bosnian,Intra-State War (国内战争-地方政府),5,1841-01-01,1841-01-01,Ottoman Empire,Bosnians,,胜利 (Victory),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN538,"First Argentina War, Phase 2",Intra-State War (国内战争-中央政府),4,1841-01-01,1842-12-06,Argentina,Unitarios,,胜利 (Victory),3300,北美 (North America),Intra-StateWarData_v4.1.csv
+NS1530,Dogra-Tibet War,Non-State War (非国家战争),8,1841-05-01,1842-10-17,Jammu; -8,Tibet; -8; -8; -8; -8,Jammu,妥协 (Compromise),4000,亚洲 (Asia),Non-StateWarData_v4.0.csv
+IN541,Triangular Revolt,Intra-State War (国内战争-中央政府),4,1841-09-04,1841-10-06,Mexico,Military,,失败 (Defeat),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+ES325,Peru-Bolivian,Extra-State War (国家对外战争),3,1841-10-19,1841-11-28,Peru,Bolivia,,失败 (Defeat),600,北美 (North America),Extra-StateWarData_v4.0.csv
+IN542,Karbala Revolt,Intra-State War (国内战争-地方政府),5,1842-12-19,1843-01-13,Ottoman Empire,Karbala,,胜利 (Victory),4600,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+ES326,British-Sind,Extra-State War (国家对外战争),3,1843-01-06,1843-06-14,United Kingdom,Sind,United Kingdom,胜利 (Victory),200,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES327,Uruguay War,Extra-State War (国家对外战争),3,1843-02-16,1851-07-18,Argentina; -8; -8,Uruguay; United Kingdom; France,Argentina,转型 (Transformed),2500,北美 (North America),Extra-StateWarData_v4.0.csv
+ES329,Gwalior,Extra-State War (国家对外战争),3,1843-12-28,1843-12-29,United Kingdom,Gwalior,United Kingdom,胜利 (Victory),106,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+NS1531,First Haiti-Santo Domingo War,Non-State War (非国家战争),8,1844-02-27,1845-12-21,Santo Domingo; -8,Haitians; -8; -8; -8; -8,Santo Domingo,僵局 (Stalemate),0,北美 (North America),Non-StateWarData_v4.0.csv
+ES330,Franco-Moroccan,Extra-State War (国家对外战争),3,1844-08-06,1844-09-10,France,Morocco,France,胜利 (Victory),200,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN543,First Maronite-Druze,Intra-State War (国内战争-非政府),7,1845-04-30,1845-05-31,Maronites,Druze,,失败 (Defeat),3000,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+ES331,First British-Sikh,Extra-State War (国家对外战争),3,1845-12-13,1846-02-10,United Kingdom,Sikhs,,胜利 (Victory),1500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES332,Cracow Revolt,Extra-State War (国家对外战争),3,1846-02-01,1846-03-03,Russia; Prussia; Austria,-8; -8; Cracow,,胜利 (Victory),1000,西欧 (Western Europe),Extra-StateWarData_v4.0.csv
+ES333,First British-Xhosa,Extra-State War (国家对外战争),3,1846-04-16,1847-12-23,United Kingdom,Khosa,United Kingdom,胜利 (Victory),1000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IS7,Mexican-American,Inter-State War (国家间战争),1,1846-04-25,1847-09-14,United States of America,Mexico,United States of America,胜利 (Victory),19283,北美 (North America),Inter-StateWarData_v4.0.csv
+NS1533,War of  Seven Khojas,Non-State War (非国家战争),8,1847-01-01,1848-01-01,Kokand; -8,China; -8; -8; -8; -8,Kokand,失败 (Defeat),0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+IN545,"Mayan Caste War, Phase 1",Intra-State War (国内战争-非政府),6,1847-01-15,1848-08-16,Mayans,Yucutan,,转型 (Transformed),1791,北美 (North America),Intra-StateWarData_v4.1.csv
+IN546,Second Carlist,Intra-State War (国内战争-中央政府),4,1847-05-15,1849-05-01,Spain,Carlists,,胜利 (Victory),10000,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN547,Second Two Sicilies,Intra-State War (国内战争-中央政府),4,1848-01-12,1848-01-27,Two Sicilies,Liberals,,胜利 (Victory),1491,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN548,First Venezuelan,Intra-State War (国内战争-中央政府),4,1848-02-04,1849-08-15,Venezuela,Paez led Conservatives ,,胜利 (Victory),1491,北美 (North America),Intra-StateWarData_v4.1.csv
+IN550,Viennese Revolt,Intra-State War (国内战争-中央政府),4,1848-03-13,1848-10-31,Austria,Viennese,,胜利 (Victory),3249,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN551,Milan Five Day Revolt,Intra-State War (国内战争-地方政府),5,1848-03-18,1848-03-23,Austria,Milan,,转型 (Transformed),1030,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IS10,Austro-Sardinian,Inter-State War (国家间战争),1,1848-03-29,1848-08-09,Austria,Tuscany; Italy; Modena,Modena,胜利 (Victory),7527,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS13,First Schleswig-Holstein,Inter-State War (国家间战争),1,1848-04-10,1848-08-26,Prussia,Denmark,Denmark,胜利 (Victory),6000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+ES334,First Dutch-Bali,Extra-State War (国家对外战争),3,1848-04-12,1848-06-21,Netherlands,Bali,Netherlands,僵局 (Stalemate),300,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES335,Second British-Sikh,Extra-State War (国家对外战争),3,1848-05-18,1849-03-10,United Kingdom,Sikhs,United Kingdom,胜利 (Victory),1500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN552,Second French Insurrection,Intra-State War (国内战争-中央政府),4,1848-06-23,1848-06-26,France,Radicals,,胜利 (Victory),2800,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN553,"Mayan Caste War, Phase 2",Intra-State War (国内战争-地方政府),5,1848-08-17,1855-03-04,Mexico,Yucatan Maya,,胜利 (Victory),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+IN554,Hungarian,Intra-State War (国内战争-地方政府),5,1848-09-09,1849-08-13,Austria; Russia,Hungary; -8,,胜利 (Victory),80492,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IS16,Roman Republic,Inter-State War (国家间战争),1,1849-04-30,1849-07-02,France; Two Sicilies; Austria,Papal States,Papal States,胜利 (Victory),2600,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+ES336,Chinese Pirates,Extra-State War (国家对外战争),3,1849-10-20,1849-10-22,United Kingdom,Chinese Pirates,United Kingdom,胜利 (Victory),0,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+NS1534,Taiping Rebellion Phase 1,Non-State War (非国家战争),8,1850-12-01,1860-10-24,Taiping rebels; -8,China; -8; -8; -8; -8,Taiping rebels,转型 (Transformed),0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+ES337,Second British-Xhosa,Extra-State War (国家对外战争),2,1850-12-24,1852-04-08,United Kingdom,Xhosa,United Kingdom,胜利 (Victory),1400,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES338,Ottoman-Yam,Extra-State War (国家对外战争),3,1851-04-21,1851-07-09,Turkey/Ottoman Empire/Egypt,Yam,,胜利 (Victory),0,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IS19,La Plata,Inter-State War (国家间战争),1,1851-07-19,1852-02-03,Brazil,Argentina,Brazil,胜利 (Victory),1300,北美 (North America),Inter-StateWarData_v4.0.csv
+IN555,First Chilean,Intra-State War (国内战争-中央政府),4,1851-09-05,1851-12-15,Chile,Liberals,,胜利 (Victory),4000,北美 (North America),Intra-StateWarData_v4.1.csv
+NS1535,First Tukulor War,Non-State War (非国家战争),8,1852-01-01,1854-01-01,al-Hajj Umar's Tukulor army; -8,Malinke; -8; -8; -8; -8,al-Hajj Umar's Tukulor army,胜利 (Victory),10000,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1536,Kashmir-Dards of Chilas War,Non-State War (非国家战争),8,1852-01-01,1852-01-01,Kashmir; -8,Dards; -8; -8; -8; -8,Dards,失败 (Defeat),2000,亚洲 (Asia),Non-StateWarData_v4.0.csv
+ES339,Second British-Burmese,Extra-State War (国家对外战争),3,1852-04-05,1852-11-20,United Kingdom,Burma,United Kingdom,胜利 (Victory),400,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN556,First Turco-Montenegrin,Intra-State War (国内战争-地方政府),5,1852-12-02,1853-03-13,Ottoman Empire,Montenegro & Hercegovina,,失败 (Defeat),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IS22,Crimean,Inter-State War (国家间战争),1,1853-10-23,1856-03-01,Turkey; Italy; France; United Kingdom,Russia,Russia,胜利 (Victory),264200,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IN557,First Peru,Intra-State War (国内战争-中央政府),4,1853-12-21,1855-01-07,Peru,Liberals,,失败 (Defeat),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+ES340,French-Tukulor War,Extra-State War (国家对外战争),3,1854-01-01,1857-07-15,France,Tukulor,,僵局 (Stalemate),100,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+NS1537,Han-Miao War Phase 1,Non-State War (非国家战争),8,1854-03-25,1860-10-24,Han; -8,Miao; -8; -8; -8; -8,Miao,转型 (Transformed),0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1539,Han-Nien War,Non-State War (非国家战争),8,1855-01-01,1858-01-01,Han; -8,Nian; -8; -8; -8; -8,Nian,僵局 (Stalemate),0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+ES341,British-Santal,Extra-State War (国家对外战争),2,1855-01-01,1856-01-01,United Kingdom,Santal,,胜利 (Victory),0,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+NS1538,Second Haiti-Santo Domingo War,Non-State War (非国家战争),8,1855-11-01,1856-01-27,Haiti; -8,Santo-Domingo; -8; -8; -8; -8,Haiti,失败 (Defeat),0,北美 (North America),Non-StateWarData_v4.0.csv
+IN558,Puebla War,Intra-State War (国内战争-中央政府),4,1855-12-11,1856-03-21,Mexico,Puebla,,胜利 (Victory),3600,北美 (North America),Intra-StateWarData_v4.1.csv
+ES342,Hodeida Seige,Extra-State War (国家对外战争),2,1856-01-22,1856-02-22,Ottoman Empire,Beni Aseer tribe,,僵局 (Stalemate),1700,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+NS1540,Filibuster War,Non-State War (非国家战争),8,1856-02-26,1857-05-01,Nicaragua; -8,Costa Rica; Honduras; Guatemala;  El Salvador; -8,Costa Rica,失败 (Defeat),7700,北美 (North America),Non-StateWarData_v4.0.csv
+ES345,French Conquest of Kabylia,Extra-State War (国家对外战争),2,1856-05-17,1857-12-01,France,Kabylia,France,胜利 (Victory),1000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+NS1541,Han-Panthay War Phase 1,Non-State War (非国家战争),8,1856-05-19,1860-10-24,Han; -8,Yunnan Muslims; -8; -8; -8; -8,Yunnan Muslims,转型 (Transformed),0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+ES343,Second Opium,Extra-State War (国家对外战争),3,1856-10-22,1860-10-24,United Kingdom; France,China; -8,France,胜利 (Victory),300,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IS25,Anglo-Persian,Inter-State War (国家间战争),1,1856-10-25,1857-04-05,United Kingdom,Iran,Iran,胜利 (Victory),2000,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IN560,Second Peru,Intra-State War (国内战争-中央政府),4,1856-10-31,1858-03-07,Peru,Conservatives,,胜利 (Victory),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+NS1542,First Zulu Internecine War,Non-State War (非国家战争),8,1856-12-02,1856-12-02,Mbuyazi faction; -8,Cetshwayo faction; -8; -8; -8; -8,Mbuyazi faction,失败 (Defeat),5000,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1543,Kucha and Khoja Uprising,Non-State War (非国家战争),8,1857-01-01,1857-09-01,Kucha; Khoja,China; -8; -8; -8; -8,Kucha,失败 (Defeat),0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+ES347,Indian Mutiny,Extra-State War (国家对外战争),2,1857-05-10,1859-04-07,United Kingdom,Indian sepoys,,胜利 (Victory),11000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+NS1544,First Boer-Basuto War,Non-State War (非国家战争),8,1858-01-01,1858-01-01,Basuto; -8,Boers; -8; -8; -8; -8,Boers,僵局 (Stalemate),0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1545,First Ethiopian War,Non-State War (非国家战争),8,1858-01-01,1861-01-01,Ethiopia; -8,Provincial armies; -8; -8; -8; -8,Provincial armies,胜利 (Victory),0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+IN561,Mexican Reform,Intra-State War (国内战争-中央政府),4,1858-02-15,1861-01-01,Mexico,Liberals,,转型 (Transformed),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+IN562,Second Turco-Montenegrin,Intra-State War (国内战争-地方政府),5,1858-05-04,1859-06-01,Ottoman Empire,Montenegrins,,失败 (Defeat),4400,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES349,First Franco-Vietnamese,Extra-State War (国家对外战争),3,1858-08-31,1862-06-05,France,Vietnam,France,胜利 (Victory),1500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN563,Second Venezuelan/Federalist,Intra-State War (国内战争-中央政府),4,1859-02-01,1863-05-23,Venezuela,Liberals,,失败 (Defeat),20000,北美 (North America),Intra-StateWarData_v4.1.csv
+ES350,Netherlands-Bone,Extra-State War (国家对外战争),3,1859-02-20,1860-01-20,Netherlands,Bone,Netherlands,胜利 (Victory),500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IS28,Italian Unification,Inter-State War (国家间战争),1,1859-04-29,1859-07-12,Sardinia/Piedmont; France,Austria,,胜利 (Victory),22500,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+ES351,Argentine-Buenos Aires,Extra-State War (国家对外战争),3,1859-05-29,1859-10-23,Argentina,Buenos Aires,Argentina,胜利 (Victory),500,北美 (North America),Extra-StateWarData_v4.0.csv
+IS31,First Spanish-Moroccan,Inter-State War (国家间战争),1,1859-10-22,1860-03-25,Spain,Morocco,Spain,胜利 (Victory),10000,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+NS1546,Second Tukulor War,Non-State War (非国家战争),8,1860-01-01,1862-03-16,Umar Tal; -8,Bambara; -8; -8; -8; -8,Umar Tal,胜利 (Victory),0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+ES352,Garibaldi Expedition,Extra-State War (国家对外战争),3,1860-05-11,1860-10-14,Two Sicilies,Red Shirts,,转型 (Transformed),4500,西欧 (Western Europe),Extra-StateWarData_v4.0.csv
+IN565,Second Colombian,Intra-State War (国内战争-中央政府),4,1860-05-15,1861-07-18,Colombia,Liberals,,失败 (Defeat),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+IN566,Second Maronite-Druze,Intra-State War (国内战争-非政府),7,1860-05-26,1860-07-12,Maronites,Druze,,失败 (Defeat),9500,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IS34,Italian-Roman,Inter-State War (国家间战争),1,1860-09-11,1860-09-29,Sardinia/Piedmont,Papal States,Papal States,胜利 (Victory),1000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS37,Neapolitan,Inter-State War (国家间战争),1,1860-10-15,1861-02-13,Sardinia/Piedmont,Two Sicilies,Sardinia/Piedmont,胜利 (Victory),1000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IN570,Miao Revolt Phase 2,Intra-State War (国内战争-地方政府),5,1860-10-25,1872-05-01,China,Miaos,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN567,"Taiping Rebellion, Phase 2",Intra-State War (国内战争-中央政府),4,1860-10-25,1866-02-09,China; United Kingdom,Taipings; -8,,胜利 (Victory),111017,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN568,Second Nien Revolt,Intra-State War (国内战争-地方政府),5,1860-10-25,1868-08-16,China,Niens,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN571,Panthay Rebellion Phase 2,Intra-State War (国内战争-地方政府),5,1860-10-25,1872-12-26,China,Muslims (Hui),,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN572,U.S. Civil War,Intra-State War (国内战争-地方政府),5,1861-04-10,1865-04-09,United States of America,Confederacy,,胜利 (Victory),618000,北美 (North America),Intra-StateWarData_v4.1.csv
+IN573,Third Buenos Aires,Intra-State War (国内战争-地方政府),5,1861-08-20,1861-12-02,Argentina,Buenos Aires,,失败 (Defeat),1000,北美 (North America),Intra-StateWarData_v4.1.csv
+IN575,Third Turco-Montenegrin,Intra-State War (国内战争-地方政府),5,1861-12-01,1862-08-31,Turkey,Montenegro,,妥协 (Compromise),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+NS1548,Transvaal War,Non-State War (非国家战争),8,1862-04-01,1864-01-01,Regional governments; -8,Transvaal government; -8; -8; -8; -8,Regional governments,失败 (Defeat),6000,拉美 (Latin America),Non-StateWarData_v4.0.csv
+IS40,Franco-Mexican,Inter-State War (国家间战争),1,1862-04-16,1867-02-05,Mexico,France,,转型 (Transformed),20000,北美 (North America),Inter-StateWarData_v4.0.csv
+IN576,Tungan Rebellion,Intra-State War (国内战争-地方政府),5,1862-05-01,1873-10-24,China,Muslims  in Sinkiang,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN577,Sioux-Minnesota,Intra-State War (国内战争-非政府),6,1862-08-17,1862-09-26,Santee Sioux,Settlers & militia,,失败 (Defeat),1068,北美 (North America),Intra-StateWarData_v4.1.csv
+IN578,Bolivan Perez Rebellion,Intra-State War (国内战争-中央政府),4,1862-09-15,1862-09-15,Boliva,Gregorio Perez's followers,,胜利 (Victory),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+IN580,Second Polish,Intra-State War (国内战争-地方政府),5,1863-01-22,1864-04-19,Russia,Poles,,胜利 (Victory),16500,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+NS1550,Central American War,Non-State War (非国家战争),8,1863-01-23,1863-11-15,Guatemala; Nicaragua,El Salvador; Honduras; -8; -8; -8,Guatemala,胜利 (Victory),0,北美 (North America),Non-StateWarData_v4.0.csv
+ES353,Spanish-Santo Dominican,Extra-State War (国家对外战争),2,1863-04-01,1865-05-03,Spain,Santo Domingo,Spain,失败 (Defeat),28000,北美 (North America),Extra-StateWarData_v4.0.csv
+IN581,Second Argentina,Intra-State War (国内战争-中央政府),4,1863-04-02,1863-11-12,Argentina,Montoneros,,胜利 (Victory),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+ES355,British-Maori,Extra-State War (国家对外战争),2,1863-06-04,1866-01-14,United Kingdom,New Zealand Maori,United Kingdom,胜利 (Victory),700,跨地区 (Multi-regional),Extra-StateWarData_v4.0.csv
+ES356,Shimonoseki War,Extra-State War (国家对外战争),3,1863-06-25,1864-09-07,United States; United Kingdom; Netherlands; France,Choshu Daimyo; -8; -8; -8,,胜利 (Victory),26,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES357,British Umbeyla Campaign,Extra-State War (国家对外战争),3,1863-10-20,1863-12-21,United Kingdom,Pathan tribe,United Kingdom,胜利 (Victory),900,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IS43,Ecuadorian-Colombian,Inter-State War (国家间战争),1,1863-11-22,1863-12-06,Colombia,Ecuador,Ecuador,胜利 (Victory),1000,北美 (North America),Inter-StateWarData_v4.0.csv
+IS46,Second Schleswig-Holstein,Inter-State War (国家间战争),1,1864-02-01,1864-04-25,Germany; Austria,Denmark,Denmark,胜利 (Victory),4481,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+ES359,Russian-Kokand,Extra-State War (国家对外战争),3,1864-04-24,1865-06-17,Russia,Kokand,Russia,胜利 (Victory),120,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+NS1551,First Australian Aboriginal War,Non-State War (非国家战争),8,1864-12-18,1865-12-18,Aborigines; -8,White Settlers; -8; -8; -8; -8,White Settlers,释放 (Released),1000,跨地区 (Multi-regional),Non-StateWarData_v4.0.csv
+ES360,British-Bhutanese,Extra-State War (国家对外战争),3,1865-01-01,1865-11-11,United Kingdom,Bhutan,United Kingdom,胜利 (Victory),100,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IS49,Lopez,Inter-State War (国家间战争),1,1865-03-05,1870-03-01,Argentina; Brazil,Paraguay,,胜利 (Victory),310000,北美 (North America),Inter-StateWarData_v4.0.csv
+NS1552,Second Boer-Basuto War,Non-State War (非国家战争),8,1865-06-09,1866-04-03,Orange Free State; -8,Basuto; -8; -8; -8; -8,Orange Free State,胜利 (Victory),0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+IS52,Naval War,Inter-State War (国家间战争),1,1865-09-25,1866-05-09,Chile; Peru,Spain,,胜利 (Victory),1000,北美 (North America),Inter-StateWarData_v4.0.csv
+ES361,Russian-Bukharan,Extra-State War (国家对外战争),3,1866-01-12,1866-10-18,Russia,Bukhara,Russia,胜利 (Victory),100,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN583,First  Cretan,Intra-State War (国内战争-地方政府),5,1866-05-29,1867-02-22,Ottoman Empire,Cretans,,胜利 (Victory),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IS55,Seven Weeks,Inter-State War (国家间战争),1,1866-06-20,1866-07-26,Italy; Germany; Mecklenburg Schwerin,Hesse Grand Ducal; Wuerttemburg; Bavaria; Austria; Hesse Electoral; Saxony; Baden; Hanover,Hanover,胜利 (Victory),44100,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IN585,Yellow Cliff Revolt,Intra-State War (国内战争-地方政府),5,1866-10-01,,China,Zhang Jizhong's followers,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN586,Third Argentina,Intra-State War (国内战争-中央政府),4,1866-12-15,1867-10-15,Argentina,Montoneros,,胜利 (Victory),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+IN587,Queretaro,Intra-State War (国内战争-中央政府),4,1867-02-06,1867-05-14,Mexico,Liberals,,失败 (Defeat),2500,北美 (North America),Intra-StateWarData_v4.1.csv
+ES362,British-Ethiopian,Extra-State War (国家对外战争),3,1867-12-01,1868-04-13,United Kingdom,Ethiopians,United Kingdom,胜利 (Victory),400,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IN588,Meiji Restoration,Intra-State War (国内战争-中央政府),4,1868-01-03,1868-07-04,Japan,Tokugawa,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN590,Third Venezuelan,Intra-State War (国内战争-中央政府),4,1868-01-11,1868-08-14,Venezuela,Conservatives,,失败 (Defeat),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+NS1553,Second Ethiopian War,Non-State War (非国家战争),8,1868-04-13,1872-01-21,Tigray; -8,Ethiopia; -8; -8; -8; -8,Ethiopia,胜利 (Victory),35000,拉美 (Latin America),Non-StateWarData_v4.0.csv
+IN591,Spanish Liberals,Intra-State War (国内战争-中央政府),4,1868-09-18,1868-09-29,Spain,Liberals,,失败 (Defeat),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES363,First Spanish-Cuban,Extra-State War (国家对外战争),2,1868-10-10,1878-02-11,Spain,Cuba,,胜利 (Victory),100000,北美 (North America),Extra-StateWarData_v4.0.csv
+ES364,Attack on Bahr el-Ghazal,Extra-State War (国家对外战争),3,1869-01-01,1870-01-01,Egypt,Bahr el-Ghazal,Egypt,失败 (Defeat),0,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN592,Guerre des Cacos,Intra-State War (国内战争-中央政府),4,1869-02-01,1869-12-18,Haiti,Black peasants,,失败 (Defeat),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+NS1554,Uruguay Colorados-Blancos War,Non-State War (非国家战争),8,1870-03-05,1872-04-06,Blancos; -8,Colorados; -8; -8; -8; -8,Blancos,失败 (Defeat),0,北美 (North America),Non-StateWarData_v4.0.csv
+IN593,Fourth Argentina,Intra-State War (国内战争-地方政府),5,1870-05-20,1871-03-13,Argentina,Entre Rios Province,,胜利 (Victory),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+IS58,Franco-Prussian,Inter-State War (国家间战争),1,1870-07-19,1870-11-25,Wuerttemburg; Baden; Germany; Bavaria,France,,胜利 (Victory),204313,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IN595,Bolivia-Criollos,Intra-State War (国内战争-中央政府),4,1870-11-24,1871-01-15,Bolivia,Crillos,,失败 (Defeat),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+ES365,Ottoman Conquest of Arabia,Extra-State War (国家对外战争),3,1870-11-30,1872-12-30,Ottoman Empire,"Yemen, Asir, Hasa",,胜利 (Victory),4000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES366,Second Franco-Algerian,Extra-State War (国家对外战争),2,1871-03-01,1872-01-01,France,Algeria,,胜利 (Victory),2686,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN596,Paris Commune,Intra-State War (国内战争-中央政府),4,1871-04-02,1871-05-29,France,Communards,,胜利 (Victory),25879,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN582,Xinjiang Muslim Revolt,Intra-State War (国内战争-地方政府),5,1871-06-24,1871-07-03,Russia; China,-8; Muslims,,失败 (Defeat),-35,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN597,Third Carlist,Intra-State War (国内战争-中央政府),4,1872-04-20,1876-02-20,Spain,Carlists,,胜利 (Victory),50000,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES367,Second British-Ashanti,Extra-State War (国家对外战争),3,1873-01-01,1874-02-04,United Kingdom,Ashanti,,胜利 (Victory),100,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES370,First Dutch-Achinese,Extra-State War (国家对外战争),3,1873-03-26,1878-10-13,Netherlands,Aceh,,胜利 (Victory),12000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES369,Second Franco-Vietnamese,Extra-State War (国家对外战争),3,1873-11-20,1874-01-01,France,Vietnam,France,妥协 (Compromise),400,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN598,Catonalist Uprising,Intra-State War (国内战争-地方政府),5,1874-01-01,1875-01-01,Spain,Rebel cities (cantons),,胜利 (Victory),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN600,Fifth Argentina,Intra-State War (国内战争-中央政府),4,1874-09-01,1874-11-06,Argentina,Mitre led Rebels,,胜利 (Victory),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+IN601,Bosnia & Bulgaria Revolt,Intra-State War (国内战争-地方政府),5,1875-06-30,1876-06-29,Ottoman Empire,Bosnia & Bulgaria,,转型 (Transformed),9000,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES371,Kokand Rebellion,Extra-State War (国家对外战争),3,1875-08-09,1876-02-28,Russia,Kokand,,胜利 (Victory),100,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES372,Egyptian-Ethiopian,Extra-State War (国家对外战争),3,1875-09-01,1876-03-09,Egypt,Ethiopia,Egypt,失败 (Defeat),4250,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IN602,Diaz Revolt,Intra-State War (国内战争-中央政府),4,1876-03-01,1876-11-23,Mexico,Rebels,,失败 (Defeat),1891,北美 (North America),Intra-StateWarData_v4.1.csv
+IS60,First Central American,Inter-State War (国家间战争),1,1876-03-27,1876-04-25,Guatemala,El Salvador,El Salvador,胜利 (Victory),4000,北美 (North America),Inter-StateWarData_v4.0.csv
+IN603,Defeat of Xinjiang Muslims,Intra-State War (国内战争-地方政府),5,1876-04-01,1877-12-01,China,Muslims,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+ES373,Serbian-Turkish,Extra-State War (国家对外战争),3,1876-06-30,1877-04-23,Ottoman Empire,"Serbia, Montenegro",,转型 (Transformed),0,西欧 (Western Europe),Extra-StateWarData_v4.0.csv
+IN605,Third Colombian,Intra-State War (国内战争-中央政府),4,1876-07-26,1877-07-01,Colombia,Conservatives,,胜利 (Victory),3870,北美 (North America),Intra-StateWarData_v4.1.csv
+IN607,Satsuma Rebellion,Intra-State War (国内战争-地方政府),5,1877-01-29,1877-09-24,Japan,Satsumas,,胜利 (Victory),17000,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS61,Second Russo-Turkish,Inter-State War (国家间战争),1,1877-04-24,1878-01-31,Russia,Turkey,Russia,胜利 (Victory),285000,Unknown,Inter-StateWarData_v4.0.csv
+ES374,Third British-Xhosa,Extra-State War (国家对外战争),2,1877-08-01,1878-06-01,United Kingdom,S. Africa Xhosa,,胜利 (Victory),200,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES375,Egypt-Sudanese Slavers,Extra-State War (国家对外战争),3,1878-02-01,1879-07-01,Egypt,Sudanese Slavers,Egypt,胜利 (Victory),0,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES376,Russo-Turkoman,Extra-State War (国家对外战争),3,1878-05-01,1881-01-24,Russia,Turkomans,Russia,胜利 (Victory),2000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES377,Austrian-Bosnian,Extra-State War (国家对外战争),3,1878-07-29,1878-10-01,Austria-Hungary,Bosnia,Austria-Hungary,胜利 (Victory),3500,西欧 (Western Europe),Extra-StateWarData_v4.0.csv
+ES379,Second British-Afghan,Extra-State War (国家对外战争),3,1878-11-21,1879-05-26,United Kingdom,Afghanistan,United Kingdom,胜利 (Victory),10000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES380,Second British-Zulu,Extra-State War (国家对外战争),3,1879-01-11,1879-07-04,United Kingdom,Zulu,United Kingdom,胜利 (Victory),2500,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IS64,War of the Pacific,Inter-State War (国家间战争),1,1879-02-14,1883-12-11,Chile,Peru; Bolivia,Bolivia,胜利 (Victory),13868,北美 (North America),Inter-StateWarData_v4.0.csv
+IN608,Argentine Indians,Intra-State War (国内战争-地方政府),5,1879-04-06,1880-07-08,Argentina,Indians,,胜利 (Victory),1700,北美 (North America),Intra-StateWarData_v4.1.csv
+IN610,Fourth Buenos Aires,Intra-State War (国内战争-地方政府),5,1880-06-21,1880-07-21,Argentina,Buenos Aires,,胜利 (Victory),1200,北美 (North America),Intra-StateWarData_v4.1.csv
+ES381,Gun War,Extra-State War (国家对外战争),2,1880-09-01,1881-04-01,United Kingdom,Basuto,United Kingdom,胜利 (Victory),0,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES382,First Boer War,Extra-State War (国家对外战争),2,1880-12-16,1881-04-05,United Kingdom,Transvaal,,失败 (Defeat),900,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES383,Franco-Tunisian,Extra-State War (国家对外战争),3,1881-06-01,1882-04-04,France,Tunisia,,胜利 (Victory),3500,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES384,First British-Mahdi,Extra-State War (国家对外战争),2,1881-08-01,1882-09-15,Egypt; United Kingdom,-8; Mahdist Empire,,失败 (Defeat),30000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES385,Third Franco-Vietnamese,Extra-State War (国家对外战争),3,1882-04-25,1884-06-14,France; -8,"Vietnam, Black Flag; China",France,转型 (Transformed),5500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IS65,Conquest of Egypt,Inter-State War (国家间战争),1,1882-07-11,1882-09-15,United Kingdom,Egypt,United Kingdom,胜利 (Victory),10079,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IN611,Haitian Civil War,Intra-State War (国内战争-中央政府),4,1883-03-27,1884-01-08,Haiti,Liberals,,胜利 (Victory),8100,北美 (North America),Intra-StateWarData_v4.1.csv
+NS1556,Second Zulu Internecine War,Non-State War (非国家战争),8,1883-03-28,1884-06-04,Cetewayo faction; -8,Zibelu faction; -8; -8; -8; -8,Cetewayo faction,胜利 (Victory),0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+ES386,First Franco-Madagascan,Extra-State War (国家对外战争),3,1883-05-07,1885-12-12,France,Madagasar,France,胜利 (Victory),300,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+NS1557,Oman-Ibadi War,Non-State War (非国家战争),8,1883-10-01,1884-01-01,Oman; -8,Ibadi; -8; -8; -8; -8,Ibadi,胜利 (Victory),0,中东/北非 (Middle East/North Africa),Non-StateWarData_v4.0.csv
+IS67,Sino-French,Inter-State War (国家间战争),1,1884-06-15,1885-06-09,France,China,China,胜利 (Victory),12100,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+NS1558,Second Australian Aboriginal War,Non-State War (非国家战争),8,1884-08-01,1894-11-16,Aborigines; -8,White Settlers; -8; -8; -8; -8,White Settlers,释放 (Released),10000,跨地区 (Multi-regional),Non-StateWarData_v4.0.csv
+IN612,Fourth Colombian,Intra-State War (国内战争-中央政府),4,1884-11-15,1885-08-26,Colombia,Liberals,,胜利 (Victory),1000,北美 (North America),Intra-StateWarData_v4.1.csv
+ES389,French-Mandinka,Extra-State War (国家对外战争),3,1885-01-01,1886-01-01,France,Mandinka,France,胜利 (Victory),1000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IN613,Peru's National Problem,Intra-State War (国内战争-地方政府),5,1885-03-02,1885-05-25,Peru,Indians,,胜利 (Victory),2200,北美 (North America),Intra-StateWarData_v4.1.csv
+IS70,Second Central American,Inter-State War (国家间战争),1,1885-03-28,1885-04-15,El Salvador,Guatemala,,胜利 (Victory),1000,北美 (North America),Inter-StateWarData_v4.0.csv
+ES390,Russo-Afghan,Extra-State War (国家对外战争),3,1885-03-30,1885-04-01,Russia,Afghanistan,Russia,妥协 (Compromise),1000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+NS1559,Ethiopia-Mahdi War,Non-State War (非国家战争),8,1885-05-01,1889-03-12,Ethiopia; -8,Mahdist army; -8; -8; -8; -8,Ethiopia,失败 (Defeat),30000,拉美 (Latin America),Non-StateWarData_v4.0.csv
+ES391,Serbian-Bulgarian,Extra-State War (国家对外战争),3,1885-11-02,1885-12-07,Serbia,Bulgaria,Serbia,失败 (Defeat),2000,西欧 (Western Europe),Extra-StateWarData_v4.0.csv
+ES387,Third British-Burmese,Extra-State War (国家对外战争),3,1885-11-10,1889-01-01,United Kingdom,Burma,United Kingdom,胜利 (Victory),3000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES392,First Italian-Ethiopian,Extra-State War (国家对外战争),3,1887-01-24,1887-03-01,Italy,Ethiopia,Italy,妥协 (Compromise),1000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES393,Zambezi Conquest,Extra-State War (国家对外战争),3,1888-01-01,1888-01-01,Portugal,Prazero da Cruz,Portugal,胜利 (Victory),0,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+NS1560,German East Africa Company War,Non-State War (非国家战争),8,1888-09-01,1889-05-01,German East Africa Company; -8,Arabs; Swahili; -8; -8; -8,Arabs,胜利 (Victory),0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+ES394,First Franco-Dahomeyan,Extra-State War (国家对外战争),3,1890-03-01,1890-04-20,France,Dahomey,France,胜利 (Victory),200,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IN616,First Yemen Rebellion,Intra-State War (国内战争-地方政府),5,1890-04-01,1892-09-01,Ottoman Empire,Zaidi Imam,,胜利 (Victory),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+ES395,Franco-Jolof,Extra-State War (国家对外战争),3,1890-04-01,1891-02-24,France,Jolof/Tukulor,France,胜利 (Victory),100,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IN617,Second Chilean,Intra-State War (国内战争-中央政府),4,1891-01-07,1891-08-29,Chile,Congressists,,失败 (Defeat),1700,北美 (North America),Intra-StateWarData_v4.1.csv
+IN618,Zaili-Jinden Revolt,Intra-State War (国内战争-地方政府),5,1891-11-11,1891-12-27,China,Zaili & Jindan Sects,,胜利 (Victory),10500,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+ES396,Second Franco-Dahomeyan,Extra-State War (国家对外战争),3,1892-09-19,1893-11-09,France,Dahomey,France,胜利 (Victory),80,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES397,Belgian-Tib,Extra-State War (国家对外战争),3,1892-10-01,1894-02-01,Belgium,Tippu Tib Empire,Belgium,胜利 (Victory),7000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+NS1561,Rabih Zubayr-Bornu War,Non-State War (非国家战争),8,1893-01-01,1893-01-01,Rabah; -8,Bornu; -8; -8; -8; -8,Rabah,胜利 (Victory),0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+IN620,Brazil Federalists,Intra-State War (国内战争-地方政府),5,1893-02-02,1894-08-31,Brazil,Rio Grande do Sul,,胜利 (Victory),1491,北美 (North America),Intra-StateWarData_v4.1.csv
+IN621,Brazil Naval,Intra-State War (国内战争-中央政府),4,1893-09-06,1894-04-16,Brazil,Naval Royalists,,胜利 (Victory),991,北美 (North America),Intra-StateWarData_v4.1.csv
+ES398,Third British-Ashanti,Extra-State War (国家对外战争),3,1893-09-28,1894-01-01,United Kingdom,Ashanti,,胜利 (Victory),200,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES399,Melilla War,Extra-State War (国家对外战争),3,1893-09-29,1894-03-05,Spain,Rif tribes,,胜利 (Victory),1000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES400,Mahdist-Italian,Extra-State War (国家对外战争),3,1893-12-21,1894-07-12,Italy,Mahdist Empire,,胜利 (Victory),270,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES401,Second Franco-Madagascan,Extra-State War (国家对外战争),3,1894-06-16,1895-10-01,France,Madagasar,,胜利 (Victory),6000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES402,Second Dutch-Bali,Extra-State War (国家对外战争),3,1894-07-01,1894-11-22,Netherlands,Bali,Netherlands,胜利 (Victory),1000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IS73,First Sino-Japanese,Inter-State War (国家间战争),1,1894-07-25,1895-03-30,Japan,China,Japan,胜利 (Victory),15000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IN625,Third Peru,Intra-State War (国内战争-中央政府),4,1894-10-15,1895-03-19,Peru,Liberals,,失败 (Defeat),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+IN623,Tonghak Rebellion,Intra-State War (国内战争-中央政府),4,1894-10-24,1894-11-28,Japan; Korea,-8; Tonghak Society,,胜利 (Victory),-35,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN626,Fifth Colombian,Intra-State War (国内战争-中央政府),4,1895-01-22,1895-03-15,Colombia,Liberals,,胜利 (Victory),1200,北美 (North America),Intra-StateWarData_v4.1.csv
+ES403,Portuguese-Gaza Empire,Extra-State War (国家对外战争),3,1895-02-01,1895-12-28,Portugal,Gaza Empire,Portugal,胜利 (Victory),50,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IN627,Ecuador Liberals,Intra-State War (国内战争-中央政府),4,1895-02-18,1895-09-22,Ecuador,liberal caudillos,,失败 (Defeat),1000,北美 (North America),Intra-StateWarData_v4.1.csv
+ES404,Second Spanish-Cuban,Extra-State War (国家对外战争),2,1895-02-24,1898-04-21,Spain,Cuba,,转型 (Transformed),59000,北美 (North America),Extra-StateWarData_v4.0.csv
+IN628,First Gansu Muslim,Intra-State War (国内战争-地方政府),5,1895-04-01,1896-04-01,China,Gansu Muslims,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+ES405,Japan-Taiwanese,Extra-State War (国家对外战争),2,1895-05-29,1895-10-21,Japan,Taiwanese,,胜利 (Victory),4800,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES406,Mazrui Rebellion,Extra-State War (国家对外战争),3,1895-07-03,1896-04-21,United Kingdom,Mazrui clan of Kenya,,胜利 (Victory),200,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IN630,Druze-Turkish,Intra-State War (国内战争-地方政府),5,1895-10-01,1896-01-01,Ottoman Empire,Druze,,胜利 (Victory),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+ES407,Second Italian-Ethiopian,Extra-State War (国家对外战争),3,1895-12-07,1896-10-21,Italy,Ethiopia,Italy,失败 (Defeat),9000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IN631,Second Cretan,Intra-State War (国内战争-地方政府),5,1896-03-10,1897-02-14,Ottoman Empire,Cretan Muslims,,转型 (Transformed),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES409,Second British-Mahdi,Extra-State War (国家对外战争),3,1896-06-07,1899-11-24,United Kingdom,Mahdist Empire,United Kingdom,胜利 (Victory),1200,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES410,Spanish-Philippine,Extra-State War (国家对外战争),2,1896-08-30,1898-05-01,Spain,Philippines,,转型 (Transformed),4000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN632,Third Brazil-Canudos,Intra-State War (国内战争-地方政府),5,1896-10-01,1897-10-05,Brazil,Canudos,,胜利 (Victory),5200,北美 (North America),Intra-StateWarData_v4.1.csv
+ES411,British-South Nigerian,Extra-State War (国家对外战争),3,1897-01-06,1897-02-25,United Kingdom,Nigeria,United Kingdom,胜利 (Victory),20,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IS76,Greco-Turkish,Inter-State War (国家间战争),1,1897-02-15,1897-05-19,Turkey,Greece,,胜利 (Victory),2000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+ES412,British-Pathan,Extra-State War (国家对外战争),2,1897-07-26,1898-03-07,United Kingdom,Pathans,,胜利 (Victory),1100,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES413,Hut Tax,Extra-State War (国家对外战争),2,1898-02-01,1898-05-01,United Kingdom,Sierra Leone rebels,,胜利 (Victory),400,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IS79,Spanish-American,Inter-State War (国家间战争),1,1898-04-22,1898-08-12,United States of America,Spain,United States of America,胜利 (Victory),3685,Unknown,Inter-StateWarData_v4.0.csv
+ES414,American-Philippine,Extra-State War (国家对外战争),2,1899-02-04,1902-07-04,United States of America,Philippines,,胜利 (Victory),4500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN633,Fourth Venezuelan,Intra-State War (国内战争-中央政府),4,1899-05-24,1899-10-22,Venezuela,Castro Led Rebels,,失败 (Defeat),2100,北美 (North America),Intra-StateWarData_v4.1.csv
+ES415,French Conquest of Chad,Extra-State War (国家对外战争),3,1899-07-17,1900-04-22,France,Rabih az-Zubayr,France,胜利 (Victory),125,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IN635,Second Yaqui War,Intra-State War (国内战争-地方政府),5,1899-07-21,1900-01-18,Mexico,Yaqui Indians,,胜利 (Victory),1600,北美 (North America),Intra-StateWarData_v4.1.csv
+ES416,Second Boer War,Extra-State War (国家对外战争),3,1899-10-11,1902-05-31,United Kingdom,Boer Republics,,胜利 (Victory),22000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IN636,Sixth Colombian (War of the 1000 Days),Intra-State War (国内战争-中央政府),4,1899-10-17,1902-11-21,Colombia,Liberals,,胜利 (Victory),100000,北美 (North America),Intra-StateWarData_v4.1.csv
+ES417,Last Ashanti War,Extra-State War (国家对外战争),3,1900-04-02,1900-09-30,United Kingdom,Ashanti,,胜利 (Victory),1000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IS82,Boxer Rebellion,Inter-State War (国家间战争),1,1900-06-17,1900-08-14,Russia; Japan; United States of America; United Kingdom; France,China,France,胜利 (Victory),3003,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS83,Sino-Russian,Inter-State War (国家间战争),1,1900-07-17,1900-10-10,Russia,China,China,胜利 (Victory),4000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+ES419,Somali Rebellion,Extra-State War (国家对外战争),2,1901-03-22,1904-04-21,United Kingdom; Ethiopia,Mohammad Abdullah Hassans Dervishes; -8,,胜利 (Victory),400,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IN638,Fifth Venezuelan,Intra-State War (国内战争-中央政府),4,1901-12-19,1903-07-19,Venezuela,Matos Led Rebels,,胜利 (Victory),4000,北美 (North America),Intra-StateWarData_v4.1.csv
+ES421,Kuanhama Rebellion,Extra-State War (国家对外战争),3,1902-01-01,1904-01-01,Portugal,Kuanhama of Angola,,僵局 (Stalemate),2000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES420,Bailundu Revolt,Extra-State War (国家对外战争),3,1902-01-01,1903-01-01,Portugal,Bailundu of Angola,,胜利 (Victory),0,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES422,British Conquest of Kano & Sokoto,Extra-State War (国家对外战争),3,1903-01-29,1903-07-27,United Kingdom,Kano & Sokoto,United Kingdom,胜利 (Victory),0,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IN640,Ilinden,Intra-State War (国内战争-地方政府),5,1903-08-02,1903-11-02,Ottoman Empire,IMRO Rebels,,胜利 (Victory),6330,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES424,Second Dutch-Achinese,Extra-State War (国家对外战争),2,1904-01-01,1907-12-01,Netherlands,Aceh,,胜利 (Victory),13000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN641,First Uruguay,Intra-State War (国内战争-中央政府),4,1904-01-01,1904-09-01,Uruguay,Blancos,,胜利 (Victory),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+ES423,South West African Revolt,Extra-State War (国家对外战争),2,1904-01-12,1906-05-04,Germany,Herero & Nama,,胜利 (Victory),1800,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IS85,Russo-Japanese,Inter-State War (国家间战争),1,1904-02-08,1905-09-15,Japan,Russia,Russia,胜利 (Victory),151831,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+ES425,Younghusband Expedition,Extra-State War (国家对外战争),3,1904-03-31,1904-09-07,United Kingdom,Tibet,United Kingdom,胜利 (Victory),300,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN642,Second Yemen Rebellion,Intra-State War (国内战争-地方政府),5,1904-11-08,1906-01-10,Ottoman Empire,Imam Yahya's forces,,僵局 (Stalemate),29991,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN643,Bloody Sunday,Intra-State War (国内战争-中央政府),4,1905-01-22,1906-01-01,Russia,Workers/Peasants,,胜利 (Victory),1491,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES426,Maji-Maji Revolt,Extra-State War (国家对外战争),2,1905-07-31,1906-06-01,Germany,Maji-Maji in Tanganyika,,胜利 (Victory),3440,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES427,Sokoto Uprising,Extra-State War (国家对外战争),2,1906-01-01,1906-03-10,United Kingdom,Mahdist rebels,,胜利 (Victory),80,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES429,Third British-Zulu,Extra-State War (国家对外战争),2,1906-03-05,1906-06-10,United Kingdom,Zulu,,胜利 (Victory),56,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IS88,Third Central American,Inter-State War (国家间战争),1,1906-05-27,1906-07-20,Guatemala,Honduras; El Salvador,Guatemala,胜利 (Victory),1000,北美 (North America),Inter-StateWarData_v4.0.csv
+ES430,Dembos War,Extra-State War (国家对外战争),3,1907-01-01,1910-01-01,Portugal,Dembos,Portugal,胜利 (Victory),100,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IS91,Fourth Central American,Inter-State War (国家间战争),1,1907-02-19,1907-04-23,Nicaragua,El Salvador; Honduras,Honduras,胜利 (Victory),1000,北美 (North America),Inter-StateWarData_v4.0.csv
+IN645,Romanian Peasant Revolt,Intra-State War (国内战争-中央政府),4,1907-03-15,1907-04-30,Romania,Peasants,,胜利 (Victory),1991,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES431,Anti-Foreign Revolt,Extra-State War (国家对外战争),3,1907-07-30,1910-01-01,France,Sheikh Ma Al-Ainie,France,胜利 (Victory),150,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES432,Japan-Korean Guerrillas,Extra-State War (国家对外战争),2,1907-08-01,1910-08-16,Japan,Korea,,胜利 (Victory),136,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN646,Overthrow of Abd el-Aziz,Intra-State War (国内战争-中央政府),4,1907-08-07,1908-06-15,France; Morocco,-8; Mulai el-Hafid,,失败 (Defeat),1392,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN648,Young Turks Counter-coup,Intra-State War (国内战争-中央政府),4,1909-04-14,1909-04-28,Ottoman Empire,Anti-government troops,,胜利 (Victory),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN647,Iranian Constitution War,Intra-State War (国内战争-中央政府),4,1909-04-30,1909-07-17,Russia; Iran,-8; Constitutionalists,,失败 (Defeat),74,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+ES433,French Conquest of Wadai,Extra-State War (国家对外战争),3,1909-05-01,1911-01-01,France,Wadai sultanate,France,胜利 (Victory),4000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IS94,Second Spanish-Moroccan,Inter-State War (国家间战争),1,1909-07-07,1910-03-23,Spain,Morocco,Morocco,胜利 (Victory),10000,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IN650,Second Albanian Revolt,Intra-State War (国内战争-地方政府),5,1910-03-01,1912-10-16,Ottoman Empire,Albania,,转型 (Transformed),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN651,Asir-Yemen Revolt,Intra-State War (国内战争-地方政府),5,1910-10-15,1911-10-09,Ottoman Empire,Yemen & Asir Imam Ibn Idris & Sayyid Muhammad,,僵局 (Stalemate),9000,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN652,Third Mexican,Intra-State War (国内战争-中央政府),4,1910-11-20,1914-07-15,Mexico,Liberals & Radicals,,失败 (Defeat),93750,北美 (North America),Intra-StateWarData_v4.1.csv
+IN656,Paraguay,Intra-State War (国内战争-中央政府),4,1911-07-15,1912-05-11,Paraguay,Radicals,,失败 (Defeat),5000,北美 (North America),Intra-StateWarData_v4.1.csv
+IS97,Italian-Turkish,Inter-State War (国家间战争),1,1911-09-29,1912-10-18,Italy,Turkey,Turkey,胜利 (Victory),20000,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IN657,First Nationalist,Intra-State War (国内战争-中央政府),4,1911-10-11,1911-12-31,China,Nat. Rel. Alliance,,失败 (Defeat),1000,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN670,Ecuadorian Civil War,Intra-State War (国内战争-地方政府),5,1912-01-01,1914-01-01,Ecuador,Esmeraldas province,,胜利 (Victory),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+ES435,First Sino-Tibetan,Extra-State War (国家对外战争),2,1912-03-01,1913-01-01,China,Tibet,,失败 (Defeat),2000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES434,French-Berber,Extra-State War (国家对外战争),2,1912-03-31,1912-09-06,France,Berbers,,胜利 (Victory),200,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN658,Cuban Black Uprising,Intra-State War (国内战争-地方政府),5,1912-05-20,1912-06-27,Cuba,Patri do Indepentente,,胜利 (Victory),1050,北美 (North America),Intra-StateWarData_v4.1.csv
+IS100,First Balkan,Inter-State War (国家间战争),1,1912-10-17,1913-04-19,Greece; Bulgaria; Yugoslavia,Turkey,Yugoslavia,胜利 (Victory),82000,Unknown,Inter-StateWarData_v4.0.csv
+ES436,Moroccan Berber,Extra-State War (国家对外战争),2,1913-03-26,1915-05-16,France; Spain,Berbers; Berbers,France,释放 (Released),900,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES437,Moro Rebellion,Extra-State War (国家对外战争),2,1913-06-11,1913-10-22,United States,Moro,United States,胜利 (Victory),50,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN671,Second Nationalist,Intra-State War (国内战争-中央政府),4,1913-07-12,1913-09-01,China,Republicans,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS103,Second Balkan,Inter-State War (国家间战争),1,1913-07-15,1913-07-30,Turkey; Yugoslavia; Greece; Romania,Bulgaria,,胜利 (Victory),60500,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IN672,China Pai Ling (White Wolf),Intra-State War (国内战争-地方政府),5,1914-03-15,1914-09-15,China,Pai-Lings,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS106,World War I,Inter-State War (国家间战争),1,1914-07-29,1918-11-11,Yugoslavia; Russia; United Kingdom; Japan; Portugal; Belgium; Greece; Romania; France; Italy; United States of America,Bulgaria; Turkey; Germany; Austria-Hungary,Germany,胜利 (Victory),8578031,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IN673,Fourth Mexican,Intra-State War (国内战争-中央政府),4,1915-03-15,1917-02-05,United States; Mexico,-8; Conventionists,,胜利 (Victory),31257,北美 (North America),Intra-StateWarData_v4.1.csv
+IN675,Southern China Revolt,Intra-State War (国内战争-地方政府),5,1916-01-01,1918-11-17,China,Yunnan Rebels,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN676,Russia-Turkestan,Intra-State War (国内战争-地方政府),5,1916-07-04,1917-02-27,Russia,Kirghiz & Kazaks,,胜利 (Victory),1350,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES440,Second Sino-Tibetan,Extra-State War (国家对外战争),3,1918-01-07,1918-08-01,China,Tibet,China,僵局 (Stalemate),1000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN680,Finnish Civil War,Intra-State War (国内战争-中央政府),4,1918-04-03,1918-05-16,Germany; -8; Finland,-8; USSR; Red Guard,,胜利 (Victory),15134,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES441,Caco Revolt,Extra-State War (国家对外战争),2,1918-10-17,1920-05-19,United States,Caco Rebels,,胜利 (Victory),98,北美 (North America),Extra-StateWarData_v4.0.csv
+IN681,Western Ukrainian,Intra-State War (国内战争-非政府),6,1918-11-01,1919-02-13,Ukraine Poles,Ukrainians,,转型 (Transformed),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IS107,Estonian Liberation,Inter-State War (国家间战争),1,1918-11-22,1920-01-03,Estonia; Finland,Russia,,胜利 (Victory),11750,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS108,Latvian Liberation,Inter-State War (国家间战争),1,1918-12-07,1919-04-15,Germany; Estonia; Latvia,Russia; Germany,Germany,胜利 (Victory),13246,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IN682,Sparticist Rising,Intra-State War (国内战争-非政府),7,1919-01-06,,Socialists,German Freikorps,,失败 (Defeat),2170,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IS109,Russo-Polish,Inter-State War (国家间战争),1,1919-02-14,1920-10-18,Poland,Russia,,胜利 (Victory),100000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IN683,Hungary's Red Terror,Intra-State War (国内战争-中央政府),4,1919-03-25,1920-02-15,Hungary,Anti-Communists,,失败 (Defeat),1500,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN677,Russian Civil War,Intra-State War (国内战争-中央政府),4,1919-04-15,1919-04-30,-8; -8; USSR; -8; -8; -8,Finland; Japan; Anti-Bolsheviks; United Kingdom; United States of America; France,,胜利 (Victory),802185,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IS112,Hungarian Adversaries,Inter-State War (国家间战争),1,1919-04-16,1919-08-04,Czechoslovakia; Romania,Hungary,Romania,胜利 (Victory),11000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+ES442,Third British-Afghan,Extra-State War (国家对外战争),3,1919-05-03,1919-08-08,United Kingdom,Afghanistan,,妥协 (Compromise),1136,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IS115,Second Greco-Turkish,Inter-State War (国家间战争),1,1919-05-05,1922-10-11,Turkey,Greece,,胜利 (Victory),50000,Unknown,Inter-StateWarData_v4.0.csv
+NS1567,First Nejd-Hejaz War,Non-State War (非国家战争),8,1919-05-25,1919-05-25,Nejd; -8,Hejaz; -8; -8; -8; -8,Nejd,胜利 (Victory),4000,中东/北非 (Middle East/North Africa),Non-StateWarData_v4.0.csv
+ES443,First British-Waziristan,Extra-State War (国家对外战争),3,1919-05-26,1920-03-01,United Kingdom,Waziristan,,胜利 (Victory),800,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IS116,Franco-Turkish,Inter-State War (国家间战争),1,1919-11-01,1921-10-20,France,Turkey,France,妥协 (Compromise),40000,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+ES444,Franco-Syrian,Extra-State War (国家对外战争),3,1920-03-01,1920-08-07,France,Syrians,France,胜利 (Victory),3500,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES445,Iraqi-British,Extra-State War (国家对外战争),2,1920-06-05,1920-10-17,United Kingdom,Iraq,,胜利 (Victory),1040,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN685,First Chinese Warlord,Intra-State War (国内战争-非政府),7,1920-07-14,1920-07-19,Anhui army,Chihli & Fengtien,,失败 (Defeat),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS117,Lithuanian-Polish,Inter-State War (国家间战争),1,1920-07-15,1920-12-01,Poland,Lithuania,Poland,胜利 (Victory),1000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IN686,Green Rebellion,Intra-State War (国内战争-地方政府),5,1920-08-01,1921-08-01,USSR,Peasants in Ta,,胜利 (Victory),6700,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN687,Gilan Marxists,Intra-State War (国内战争-中央政府),4,1920-08-10,1921-11-11,-8; Iran,USSR; SSRI,,胜利 (Victory),-35,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN688,Italian Fascist,Intra-State War (国内战争-非政府),7,1920-10-01,1922-10-01,Blackshirts,Leftists,,胜利 (Victory),3300,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN690,Kronstadt Rebellion,Intra-State War (国内战争-地方政府),5,1921-03-07,1921-03-18,USSR,Sailors,,胜利 (Victory),2600,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES446,Conquest of Mongolia,Extra-State War (国家对外战争),3,1921-05-28,1921-08-22,USSR; China,-8; Baron von Ungern-Sternbergs White army,,胜利 (Victory),4000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES450,Moplah Rebellion,Extra-State War (国家对外战争),2,1921-08-20,1922-02-01,United Kingdom,Muslim Moplahs,,胜利 (Victory),50,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN691,Bashmachi in Turkestan,Intra-State War (国内战争-地方政府),5,1921-11-10,1923-07-01,USSR,Basmachi/Enver Pasha,,胜利 (Victory),3500,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN692,Second Chinese Warlord,Intra-State War (国内战争-非政府),7,1922-04-08,1922-05-05,Chihli army,Fengtien army,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+ES447,Italian-Sanusi,Extra-State War (国家对外战争),2,1923-03-23,1931-09-12,Italy,Sanusi tribe,,胜利 (Victory),5000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN693,Agrarian Rising,Intra-State War (国内战争-中央政府),4,1923-09-23,1923-09-28,Bulgaria,Agrarian League,,胜利 (Victory),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN695,De La Huerta Rebellion,Intra-State War (国内战争-中央政府),4,1923-12-04,1924-02-01,Mexico,Huerta Led Rebels,,胜利 (Victory),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+IN696,Honduran Conservative,Intra-State War (国内战争-中央政府),4,1924-02-09,1924-03-31,Honduras,Conservatives,,失败 (Defeat),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+IN697,First Afghan Anti-Reform,Intra-State War (国内战争-中央政府),4,1924-03-15,1925-01-15,Afghanistan,Khost rebels (anti-reformists),,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+NS1568,Second Nejd-Hejaz War,Non-State War (非国家战争),8,1924-09-04,1925-12-23,Nejd; -8,Hejaz; -8; -8; -8; -8,Nejd,胜利 (Victory),0,中东/北非 (Middle East/North Africa),Non-StateWarData_v4.0.csv
+ES449,Rif Rebellion,Extra-State War (国家对外战争),2,1925-04-12,1926-05-27,France; Spain,-8; Riffs,Spain,胜利 (Victory),60000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+ES451,Franco-Druze,Extra-State War (国家对外战争),2,1925-07-18,1927-05-27,France,Druze,,胜利 (Victory),4000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN698,Third Chinese Warlord,Intra-State War (国内战争-非政府),6,1925-10-15,1926-04-20,Feng Yu-Lxiang army,Chang Tso-lin army,,失败 (Defeat),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN700,Chinese Northern Expedition,Intra-State War (国内战争-中央政府),4,1926-07-01,1928-06-30,War Lord Gov't.; -8,Guomindang; Japan,,失败 (Defeat),126492,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN701,Cristeros Revolt,Intra-State War (国内战争-中央政府),4,1926-08-31,1929-06-21,Mexico,Cristeros,,妥协 (Compromise),10000,北美 (North America),Intra-StateWarData_v4.1.csv
+IN703,Second Gansu Muslim,Intra-State War (国内战争-地方政府),5,1928-01-01,1930-01-01,China,Gansu Muslims,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN702,Ethiopian Northern Resistance,Intra-State War (国内战争-地方政府),5,1928-08-01,1930-04-01,Ethiopia,Northern Resistance,,胜利 (Victory),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN705,Second Afghan Anti-Reform,Intra-State War (国内战争-中央政府),4,1928-11-10,1929-10-15,Afghanistan,Habibullah (anti-reformists),,胜利 (Victory),15000,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN706,Intra-Guomindang,Intra-State War (国内战争-中央政府),4,1929-03-01,1930-11-04,China,War Lords,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN707,Escobar Rebellion,Intra-State War (国内战争-中央政府),4,1929-03-03,1929-05-04,Mexico,Escobar Led Rebels,,胜利 (Victory),2000,北美 (North America),Intra-StateWarData_v4.1.csv
+IN708,Ikhwan Revolt,Intra-State War (国内战争-中央政府),4,1929-03-30,1930-01-10,Saudi Arabia,Ikhwan,,胜利 (Victory),5500,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IS118,Manchurian,Inter-State War (国家间战争),1,1929-08-17,1929-12-03,USSR,China,China,胜利 (Victory),3200,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+ES452,Yen Bai Uprising,Extra-State War (国家对外战争),2,1930-02-09,1931-01-01,France,Vietnamese Nationalists,,胜利 (Victory),1,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN710,"Chinese Civil War, Phase 1",Intra-State War (国内战争-中央政府),4,1930-11-15,1936-12-31,China,Communists,,僵局 (Stalemate),500000,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+ES453,Saya San's Rebellion,Extra-State War (国家对外战争),2,1930-12-22,1932-06-01,United Kingdom,Peasant Rebels,,胜利 (Victory),140,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IS121,Second Sino-Japanese,Inter-State War (国家间战争),1,1931-12-19,1933-05-22,Japan,China,China,胜利 (Victory),60000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IN712,Matanza,Intra-State War (国内战争-中央政府),4,1932-01-20,1932-01-29,El Salvador,Leftists,,胜利 (Victory),2600,北美 (North America),Intra-StateWarData_v4.1.csv
+IN713,Aprista Revolt,Intra-State War (国内战争-中央政府),4,1932-05-07,1932-07-17,Peru,Aprista Rebels,,胜利 (Victory),1100,北美 (North America),Intra-StateWarData_v4.1.csv
+IN715,Paulista Rebellion,Intra-State War (国内战争-中央政府),4,1932-06-09,1932-08-31,Brazil,Paolistas,,胜利 (Victory),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+IS124,Chaco,Inter-State War (国家间战争),1,1932-06-15,1935-06-12,Paraguay,Bolivia,,胜利 (Victory),92661,北美 (North America),Inter-StateWarData_v4.0.csv
+IN711,Xinjiang Muslim Revolt,Intra-State War (国内战争-地方政府),5,1934-01-01,1934-08-01,USSR; China,-8; Central Asian Rebels,,胜利 (Victory),20992,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN716,Fukien Revolt,Intra-State War (国内战争-中央政府),4,1934-01-05,1934-01-15,China,19th Route Army,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS125,Saudi-Yemeni,Inter-State War (国家间战争),1,1934-03-20,1934-05-13,Saudi Arabia,Yemen Arab Republic,Yemen Arab Republic,胜利 (Victory),2100,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IN717,Spanish Miners,Intra-State War (国内战争-地方政府),5,1934-10-04,1934-10-08,Spain,Asturian Miners,,胜利 (Victory),1335,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IS127,Conquest of Ethiopia,Inter-State War (国家间战争),1,1935-10-03,1936-05-09,Italy,Ethiopia,Ethiopia,胜利 (Victory),20000,拉美 (Latin America),Inter-StateWarData_v4.0.csv
+ES454,British-Palestinian,Extra-State War (国家对外战争),2,1936-04-20,1936-10-01,United Kingdom,Palestinians,,胜利 (Victory),126,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN718,Spanish Civil War,Intra-State War (国内战争-中央政府),4,1936-07-18,1939-03-29,Spain; -8; -8; -8,Falange; Portugal; Germany; Italy,,失败 (Defeat),466276,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES455,Second British-Waziristan,Extra-State War (国家对外战争),3,1936-11-25,1938-01-08,United Kingdom,Pathan tribes,,胜利 (Victory),200,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IS130,Third Sino-Japanese,Inter-State War (国家间战争),1,1937-07-07,1941-12-06,Japan,China,Japan,胜利 (Victory),1000000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS133,Changkufeng,Inter-State War (国家间战争),1,1938-07-29,1938-08-11,Japan,USSR,Japan,失败 (Defeat),1726,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS136,Nomonhan,Inter-State War (国家间战争),1,1939-05-11,1939-09-16,USSR; Mongolia,Japan,,胜利 (Victory),28000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS142,Russo-Finnish,Inter-State War (国家间战争),1,1939-11-30,1940-03-12,USSR,Finland,USSR,胜利 (Victory),151798,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IS145,Franco-Thai,Inter-State War (国家间战争),1,1940-12-01,1941-01-28,Thailand,France,Thailand,胜利 (Victory),1400,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IS139,World War II,Inter-State War (国家间战争),1,1941-06-27,1945-01-20,Belgium; Yugoslavia; Norway; Canada; United States of America; United Kingdom; Netherlands; Romania; Bulgaria; Greece; Brazil; Italy; Australia; New Zealand; USSR; Poland; France; Mongolia; China; South Africa; Ethiopia,Hungary; France; Finland; Italy; Romania; Bulgaria; Germany; Japan,Japan,胜利 (Victory),16634907,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IN720,Greek Civil War,Intra-State War (国内战争-中央政府),4,1944-12-05,1945-01-11,United Kingdom; Greece,-8; Communists,,胜利 (Victory),68199,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN723,Forest Brethren,Intra-State War (国内战争-地方政府),5,1945-05-08,1951-12-31,USSR,Baltic Guerillas,,胜利 (Victory),32400,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN722,Ukrainian Partisans,Intra-State War (国内战争-地方政府),5,1945-05-08,1947-12-31,USSR,UPA,,胜利 (Victory),34991,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN721,Polish Ukrainians,Intra-State War (国内战争-地方政府),5,1945-05-08,1947-11-18,Poland; USSR,UPA; -8,,胜利 (Victory),24692,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+ES456,Indonesian,Extra-State War (国家对外战争),2,1945-11-10,1946-10-15,United Kingdom; Netherlands,-8; Indonesia,,妥协 (Compromise),1800,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN725,"Chinese Civil War, Phase 2",Intra-State War (国内战争-中央政府),4,1946-03-15,1950-04-21,China,Communists,,失败 (Defeat),1200000,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+NS1570,Partition Communal War,Non-State War (非国家战争),8,1946-08-16,1947-08-01,Muslims; -8,Hindus;  Sikhs; -8; -8; -8,Muslims,胜利 (Victory),0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+ES457,French-Indochina,Extra-State War (国家对外战争),2,1946-11-20,1954-06-01,France,Vietminh,,失败 (Defeat),94500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN726,Taiwan Revolt,Intra-State War (国内战争-地方政府),5,1947-02-28,1947-03-21,China,Taiwanese,,胜利 (Victory),1250,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN727,Paraguay,Intra-State War (国内战争-中央政府),4,1947-03-07,1947-08-20,Paraguay,Leftists,,胜利 (Victory),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+ES459,Third Franco-Madagascan,Extra-State War (国家对外战争),2,1947-03-29,1948-12-01,France,Madagascar,,胜利 (Victory),1000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+NS1571,Hyderabad War,Non-State War (非国家战争),8,1947-08-15,1948-09-12,Telenganans; -8,Razakars; -8; -8; -8; -8,Telenganans,转型 (Transformed),0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+IS147,First Kashmir,Inter-State War (国家间战争),1,1947-10-26,1949-01-01,India,Pakistan,Pakistan,僵局 (Stalemate),3500,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+NS1572,Palestine War,Non-State War (非国家战争),8,1947-11-29,1948-05-14,Arabs; -8,Zionists; -8; -8; -8; -8,Zionists,转型 (Transformed),1886,中东/北非 (Middle East/North Africa),Non-StateWarData_v4.0.csv
+IN728,Yemeni Imamate,Intra-State War (国内战争-中央政府),4,1948-02-17,1948-03-20,Yemen,Anti-Imam Coalition,,胜利 (Victory),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN730,Costa Rica,Intra-State War (国内战争-中央政府),4,1948-03-12,1948-04-17,Costa Rica,National Union Party,,失败 (Defeat),2000,北美 (North America),Intra-StateWarData_v4.1.csv
+NS1573,Cheju Rebellion,Non-State War (非国家战争),8,1948-04-03,1949-05-01,Communists; military,South Korea; -8; -8; -8; -8,Communists,失败 (Defeat),17000,亚洲 (Asia),Non-StateWarData_v4.0.csv
+IN731,"Seventh Colombian ""La Violencia""",Intra-State War (国内战争-中央政府),4,1948-04-09,1958-08-07,Colombia,Liberals,,胜利 (Victory),29800,北美 (North America),Intra-StateWarData_v4.1.csv
+IS148,Arab-Israeli,Inter-State War (国家间战争),1,1948-05-15,1948-07-18,Israel,Egypt; Syria; Lebanon; Jordan; Iraq,Iraq,胜利 (Victory),8000,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+ES460,Malayan Rebellion,Extra-State War (国家对外战争),2,1948-06-18,1957-08-31,United Kingdom,Malayan Communists,,胜利 (Victory),2400,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN732,First Burmese,Intra-State War (国内战争-地方政府),5,1948-08-15,1951-07-31,Burma,Karens & Communists,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+ES461,Indo-Hyderabad,Extra-State War (国家对外战争),3,1948-09-13,1948-09-17,India,Hyderabad,India,胜利 (Victory),10,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES462,Third Sino-Tibetan,Extra-State War (国家对外战争),3,1950-05-01,1950-10-28,China,Tibet,China,胜利 (Victory),10000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN733,South Moluccas,Intra-State War (国内战争-地方政府),5,1950-05-31,1950-11-03,Indonesia,Moluccans,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN735,Hukbalahap Rebellion,Intra-State War (国内战争-中央政府),4,1950-09-01,1954-05-01,Philippines,Huks,,胜利 (Victory),11300,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS151,Korean,Inter-State War (国家间战争),1,1950-10-27,1953-07-27,Belgium; Canada; Colombia; United Kingdom; Netherlands; Greece; France; Turkey; Philippines; Thailand; Ethiopia; Australia; South Korea; United States of America,China; North Korea,China,僵局 (Stalemate),910084,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+ES463,Franco-Tunisian,Extra-State War (国家对外战争),2,1952-01-18,1954-07-31,France,Tunisia,,失败 (Defeat),2000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN737,Bolivia,Intra-State War (国内战争-中央政府),4,1952-04-08,1952-04-11,Bolivia,Leftists,,失败 (Defeat),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+ES464,British-Mau Mau,Extra-State War (国家对外战争),2,1952-10-20,1956-10-01,United Kingdom,Mau Mau,,胜利 (Victory),600,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+ES465,Moroccan Independence,Extra-State War (国家对外战争),2,1953-08-20,1956-03-12,France,Morocco,,失败 (Defeat),2000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN738,Indonesia Darul Islam,Intra-State War (国内战争-中央政府),4,1953-09-20,1953-11-23,Indonesia,Darul Islam,,胜利 (Victory),2700,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS153,Off-shore Islands,Inter-State War (国家间战争),1,1954-09-03,1955-04-23,China,Taiwan,Taiwan,胜利 (Victory),2370,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+ES466,Third Franco-Algerian,Extra-State War (国家对外战争),2,1954-11-01,1962-03-17,France,Algeria,,失败 (Defeat),18000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN740,Argentine Military,Intra-State War (国内战争-中央政府),4,1955-06-15,1955-09-19,Argentina,Military,,失败 (Defeat),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+IN741,Tibetan Khamba Rebellion,Intra-State War (国内战争-地方政府),5,1956-03-01,1959-04-14,China,Khamba Tibetans,,胜利 (Victory),16000,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS155,Sinai War,Inter-State War (国家间战争),1,1956-10-31,1956-11-06,France; Israel; United Kingdom,Egypt,Egypt,胜利 (Victory),3221,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS156,Soviet Invasion of Hungary,Inter-State War (国家间战争),1,1956-11-04,1956-11-14,USSR,Hungary,USSR,胜利 (Victory),2426,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IN742,Indonesian Leftists,Intra-State War (国内战争-中央政府),4,1956-12-15,1962-06-04,Indonesia,Leftists,,胜利 (Victory),27200,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+ES467,French-Cameroon,Extra-State War (国家对外战争),2,1957-01-01,1958-01-05,France,UPC,,胜利 (Victory),1000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IS158,IfniWar,Inter-State War (国家间战争),1,1958-02-10,1958-04-10,France; Spain,Morocco,,胜利 (Victory),1122,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IN745,Cuban Revolution,Intra-State War (国内战争-中央政府),4,1958-05-24,1959-01-02,Cuba,Castroites,,失败 (Defeat),3000,北美 (North America),Intra-StateWarData_v4.1.csv
+IN743,First Lebanese,Intra-State War (国内战争-中央政府),4,1958-07-16,1958-09-15,United States of America; Lebanon,-8; National Front,,胜利 (Victory),-25,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IS159,Taiwan Straits,Inter-State War (国家间战争),1,1958-08-23,1958-11-23,China (PRC),Taiwan (ROC),Taiwan (ROC),僵局 (Stalemate),1800,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IN746,Second Burmese,Intra-State War (国内战争-中央政府),4,1958-11-01,1960-04-01,Burma,Karens & Communists,,释放 (Released),3150,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN747,Iraq-Shammar,Intra-State War (国内战争-中央政府),4,1959-03-06,1959-03-10,Iraq,Shammar Tribe & Pro-WesternOfficers,,胜利 (Victory),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+NS1574,Rwandan Social Revolution,Non-State War (非国家战争),8,1959-10-19,1962-07-01,Hutu; -8,Tutsi; -8; -8; -8; -8,Hutu,胜利 (Victory),0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+IN750,First DRC (Zaire),Intra-State War (国内战争-地方政府),5,1960-07-11,1960-09-14,-8; Zaire,Belgium; Katanga & Leftists,,胜利 (Victory),24,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN748,Vietnam Phase 1,Intra-State War (国内战争-中央政府),4,1961-01-01,1965-02-06,"United States of America; Vietnam, Republic of",-8; NLF,,转型 (Transformed),100698,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+ES469,Angolan-Portuguese,Extra-State War (国家对外战争),2,1961-02-03,1974-10-14,Portugal,Angola,,转型 (Transformed),4000,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IN751,First Laotian,Intra-State War (国内战争-中央政府),4,1961-05-01,1962-06-15,-8; Laos,"Vietnam, Democratic Rep.; Pathet Lao",,妥协 (Compromise),4983,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN752,First Iraqi Kurd,Intra-State War (国内战争-地方政府),5,1961-09-11,1963-11-22,Iraq,Kurds,,僵局 (Stalemate),2500,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN753,Algerian Revolutionaries,Intra-State War (国内战争-中央政府),4,1962-07-28,1963-01-15,Algeria,ALN,,失败 (Defeat),1500,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IS160,Assam,Inter-State War (国家间战争),1,1962-10-20,1962-11-22,China (PRC),India,China (PRC),胜利 (Victory),1853,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IN755,North Yemen,Intra-State War (国内战争-中央政府),4,1962-12-15,1967-10-16,Egypt/United Arab Republic; Yemen Arab Republic,-8; Royalists,,胜利 (Victory),9974,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN760,Second DRC (Jeunesse),Intra-State War (国内战争-地方政府),5,1963-10-01,1965-01-01,Congo,Juenesse warriors,,胜利 (Victory),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN758,First South Sudan,Intra-State War (国内战争-地方政府),5,1963-10-01,1972-02-28,Sudan,Anya Nya,,妥协 (Compromise),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN757,First Ogaden,Intra-State War (国内战争-地方政府),5,1963-11-01,1964-03-30,-8; Ethiopia,Somalia; Ogaden,,胜利 (Victory),-35,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN761,First Rwanda,Intra-State War (国内战争-中央政府),4,1963-11-15,1964-02-06,Rwanda,Watusi,,胜利 (Victory),1000,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN763,Zanzibar Arab-African,Intra-State War (国内战争-中央政府),4,1964-01-12,1964-01-15,Zanzibar,Africans,,失败 (Defeat),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN756,Second Laotian Phase 1,Intra-State War (国内战争-中央政府),4,1964-05-19,1968-01-12,United States of America; Laos; -8,"-8; Pathet Lao; Vietnam, Democratic Rep.",,转型 (Transformed),20934,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+ES471,Mozambique-Portuguese,Extra-State War (国家对外战争),2,1964-09-25,1975-06-25,Portugal,Mozambique,,失败 (Defeat),3500,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IN762,Third DRC (Simba) Rebellion,Intra-State War (国内战争-中央政府),4,1964-11-24,1965-09-14,Belgium; Congo,-8; Gbenye followers,,胜利 (Victory),4246,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IS163,"Vietnam War, Phase 2",Inter-State War (国家间战争),1,1965-02-07,1973-01-27,Vietnam,United States of America; Cambodia; South Korea; Philippines; South Vietnam; Thailand; Australia,Australia,胜利 (Victory),1021442,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IN765,Second Iraqi Kurds,Intra-State War (国内战争-地方政府),5,1965-04-03,1966-06-21,Iraq,Kurds,,妥协 (Compromise),3000,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN766,Dominican Republic,Intra-State War (国内战争-中央政府),4,1965-04-29,1965-09-06,United States of America; Dominican Republic,-8; Leftists,,释放 (Released),2510,北美 (North America),Intra-StateWarData_v4.1.csv
+IN767,First West Papua,Intra-State War (国内战争-地方政府),5,1965-07-26,1969-07-17,Indonesia,"OPM, West Papua",,僵局 (Stalemate),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS166,Second Kashmir,Inter-State War (国家间战争),1,1965-08-05,1965-09-23,Pakistan,India,Pakistan,胜利 (Victory),7061,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IN768,First Uganda,Intra-State War (国内战争-地方政府),5,1966-05-23,1966-06-01,Uganda,Buganda Tribe,,胜利 (Victory),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN770,First Guatemala,Intra-State War (国内战争-中央政府),4,1966-10-01,1968-08-01,United States; Guatemala,-8; Leftists,,胜利 (Victory),1020,北美 (North America),Intra-StateWarData_v4.1.csv
+IN772,Cultural Revolution Phase 1,Intra-State War (国内战争-非政府),6,1967-01-09,1967-09-04,Red Guard,Regional military,,转型 (Transformed),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN773,Third Burmese,Intra-State War (国内战争-地方政府),5,1967-06-01,1980-10-22,Burma,Karens & Communists,,释放 (Released),29200,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS169,Six Day War,Inter-State War (国家间战争),1,1967-06-05,1967-06-10,Israel,Egypt; Jordan; Syria,Syria,胜利 (Victory),19600,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IN775,Biafra,Intra-State War (国内战争-地方政府),5,1967-07-06,1970-01-12,Nigeria,Biafrans,,胜利 (Victory),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN776,Cultural Revolution Phase 2,Intra-State War (国内战争-中央政府),4,1967-09-05,1968-09-01,China,Red Guard,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS170,"Second Laotian, Phase 2",Inter-State War (国家间战争),1,1968-01-13,1973-04-17,Vietnam,United States of America; Thailand; Laos,Vietnam,胜利 (Victory),13875,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IN771,First Chad (FROLINAT) Rebellion,Intra-State War (国内战争-地方政府),5,1968-08-01,1971-06-16,France; Chad,-8; Frolinat Rebels,,胜利 (Victory),3542,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+NS1577,Dhofar Rebellion Phase 1,Non-State War (非国家战争),8,1968-09-01,1971-10-06,Dhofar; -8,Oman; -8; -8; -8; -8,Dhofar,僵局 (Stalemate),0,中东/北非 (Middle East/North Africa),Non-StateWarData_v4.0.csv
+IN777,Third Iraqi Kurds,Intra-State War (国内战争-地方政府),5,1969-01-03,1970-03-11,Iraq,Kurds,,妥协 (Compromise),4000,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IS172,War of Attrition,Inter-State War (国家间战争),1,1969-03-06,1970-08-07,Israel,Egypt,,僵局 (Stalemate),5368,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IS175,Football War,Inter-State War (国家间战争),1,1969-07-14,1969-07-18,El Salvador,Honduras,El Salvador,胜利 (Victory),1900,北美 (North America),Inter-StateWarData_v4.0.csv
+IN778,Naxalite Rebellion,Intra-State War (国内战争-地方政府),5,1970-02-01,1971-11-01,India,Naxalite Marxists,,胜利 (Victory),2100,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS176,Communist Coalition,Inter-State War (国家间战争),1,1970-03-23,1971-07-02,Vietnam,United States of America; Cambodia; South Vietnam,South Vietnam,转型 (Transformed),6525,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IN780,Black September,Intra-State War (国内战争-中央政府),4,1970-09-20,1970-09-23,-8; Jordan,Syria; Palestinians,,胜利 (Victory),3532,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN781,Second Guatemala,Intra-State War (国内战争-中央政府),4,1970-11-15,1971-09-15,Guatemala,Leftists,,胜利 (Victory),1000,北美 (North America),Intra-StateWarData_v4.1.csv
+IN782,Pakistan-Bengal,Intra-State War (国内战争-地方政府),5,1971-03-25,1971-12-02,Pakistan,Bengalis,,转型 (Transformed),2491,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN783,First Sri Lanka-JVP,Intra-State War (国内战争-中央政府),4,1971-04-06,1971-05-16,Sri Lanka,Janatha Vimukthi- JVP,,胜利 (Victory),4053,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN785,Khmer Rouge,Intra-State War (国内战争-中央政府),4,1971-07-03,1973-08-15,United States of America; Cambodia,-8; Khmer Rouge,,失败 (Defeat),85367,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS178,Bangladesh,Inter-State War (国家间战争),1,1971-12-03,1971-12-17,India,Pakistan,,胜利 (Victory),11223,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IN786,First Philippine-Moro,Intra-State War (国内战争-地方政府),5,1972-01-01,1981-04-19,Philippines,MNLF Moros,,胜利 (Victory),30000,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN787,Communist Insurgency,Intra-State War (国内战争-中央政府),4,1972-01-01,1973-10-15,Thailand,Communists,,僵局 (Stalemate),2200,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN788,Eritrean Split,Intra-State War (国内战争-非政府),7,1972-02-01,1974-01-01,ELF,EPLF,,僵局 (Stalemate),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN789,First Burundi,Intra-State War (国内战争-中央政府),4,1972-04-29,1972-05-25,Burundi,Hutu,,胜利 (Victory),2000,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN790,Philippines-NPA,Intra-State War (国内战争-中央政府),4,1972-10-01,1992-12-31,Philippines,NPA,,僵局 (Stalemate),31000,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN791,Rhodesia,Intra-State War (国内战争-中央政府),4,1972-12-28,1979-12-28,Rhodesia,Patriotic Front,,失败 (Defeat),11000,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN792,Baluchi Separatists,Intra-State War (国内战争-地方政府),5,1973-01-23,1977-07-01,Pakistan,Baluchi Rebels,,胜利 (Victory),8600,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN793,Chilean Coup of 1973,Intra-State War (国内战争-中央政府),4,1973-09-11,1973-09-15,Chile,Pinochet led military,,失败 (Defeat),3400,北美 (North America),Intra-StateWarData_v4.1.csv
+IN795,Dhofar Rebellion Phase 2,Intra-State War (国内战争-地方政府),5,1973-10-01,1975-12-11,United Kingdom; Iran; Oman,-8; -8; PFLOAG,,胜利 (Victory),2989,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IS181,Yom Kippur War,Inter-State War (国家间战争),1,1973-10-06,1973-10-24,Israel,Egypt; Saudi Arabia; Jordan; Syria; Iraq,Iraq,胜利 (Victory),14439,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IN797,Fourth Iraqi Kurds,Intra-State War (国内战争-地方政府),5,1974-03-18,1975-03-06,-8; Iraq,Iran; Kurds,,胜利 (Victory),19983,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IS184,Turco-Cypriot,Inter-State War (国家间战争),1,1974-07-20,1974-07-29,Turkey,Cyprus,Cyprus,胜利 (Victory),1500,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+NS1581,Angola Guerilla War,Non-State War (非国家战争),8,1974-10-15,1975-10-22,MPLA; -8,FLNA; UNITA; -8; -8; -8,MPLA,转型 (Transformed),0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+IN800,Argentine Leftists,Intra-State War (国内战争-中央政府),4,1975-02-01,1977-03-01,Argentina,"Montoneros, ERP",,胜利 (Victory),2850,北美 (North America),Intra-StateWarData_v4.1.csv
+IN801,Second Lebanese,Intra-State War (国内战争-非政府),7,1975-04-13,1976-11-15,Maronite militias; Syria,Lebanese National Movement; -8,,妥协 (Compromise),474,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+NS1582,East Timorese War Phase 1,Non-State War (非国家战争),8,1975-08-11,1975-10-15,Fretilin;  Apodeti,UDT; -8; -8; -8; -8,UDT,转型 (Transformed),0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+ES472,"East Timorese, Phase 2",Extra-State War (国家对外战争),3,1975-10-16,1976-07-17,Indonesia,Fretilin & UDT,Indonesia,转型 (Transformed),12500,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+ES473,Namibian,Extra-State War (国家对外战争),2,1975-10-17,1988-12-13,South Africa,SWAPO-Namibia,South Africa,失败 (Defeat),1100,拉美 (Latin America),Extra-StateWarData_v4.0.csv
+IS186,War over Angola,Inter-State War (国家间战争),1,1975-10-23,1976-02-12,Cuba; Angola,South Africa; Democratic Republic of the Congo,Democratic Republic of the Congo,转型 (Transformed),2700,拉美 (Latin America),Inter-StateWarData_v4.0.csv
+ES474,Western Saharan,Extra-State War (国家对外战争),3,1975-12-11,1983-12-23,Morocco; -8; Mauritania,Polisario; Algeria; -8,,释放 (Released),12000,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN802,Second West Papua,Intra-State War (国内战争-地方政府),5,1976-01-01,1978-04-14,Indonesia,"OPR, West Papua",,僵局 (Stalemate),2100,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN804,Angolan Control,Intra-State War (国内战争-中央政府),4,1976-02-13,1991-05-15,Cuba; Angola; -8,-8; UNITA; South Africa,,妥协 (Compromise),6266,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN803,Third Laotian,Intra-State War (国内战争-地方政府),5,1976-04-01,1979-05-01,Laos; Vietnam,Hmong; -8,,胜利 (Victory),6992,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN805,Second Ogaden Phase 1,Intra-State War (国内战争-地方政府),5,1976-07-01,1977-07-22,Cuba; -8; Ethiopia,-8; Somalia; WSLF,,转型 (Transformed),32384,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN806,East Timorese War Phase 3,Intra-State War (国内战争-地方政府),5,1976-07-18,1979-05-26,Indonesia,Fretilin,,胜利 (Victory),1791,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN798,Eritrean War,Intra-State War (国内战争-地方政府),5,1976-12-05,1978-12-01,Cuba; Ethiopia,-8; Eritrean Peo. Lib.,,胜利 (Victory),12483,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IS187,"Second Ogaden War, Phase 2",Inter-State War (国家间战争),1,1977-07-23,1978-03-09,Ethiopia; Cuba,Somalia,,转型 (Transformed),10500,拉美 (Latin America),Inter-StateWarData_v4.0.csv
+IS189,Vietnamese-Cambodian,Inter-State War (国家间战争),1,1977-09-24,1979-01-08,Vietnam,Cambodia,,转型 (Transformed),8000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IN807,Third Lebanese,Intra-State War (国内战争-非政府),7,1978-02-01,1978-10-04,Lebanese Forces; -8; Israel,PLO & Shiite militia; Syria; -8,,僵局 (Stalemate),3075,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN808,Second Ogaden Phase 3,Intra-State War (国内战争-地方政府),5,1978-03-10,1980-12-03,Cuba; Ethiopia; -8,"-8; Ogaden, WSLF; Somalia",,胜利 (Victory),23975,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN809,Third Guatemala,Intra-State War (国内战争-中央政府),4,1978-03-12,1984-04-13,Guatemala,The Democratic Front Against Repression (FDCR),,胜利 (Victory),6000,北美 (North America),Intra-StateWarData_v4.1.csv
+IN810,Saur Revolution,Intra-State War (国内战争-中央政府),4,1978-04-27,1978-04-28,Afghanistan,Leftist Military,,失败 (Defeat),3000,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN811,Fourth DRC (Shaba),Intra-State War (国内战争-中央政府),4,1978-05-20,1978-06-06,Belgium; France; DRC,-8; -8; FNLC,,胜利 (Victory),980,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN813,Overthrow of the Shah,Intra-State War (国内战争-中央政府),4,1978-09-03,1979-02-11,Iran,Anti-Shah Coalition,,失败 (Defeat),1100,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN815,Sandinista Rebellion,Intra-State War (国内战争-中央政府),4,1978-09-09,1979-07-18,Nicaragua,Sandinistas,,失败 (Defeat),4000,北美 (North America),Intra-StateWarData_v4.1.csv
+IS190,Ugandian-Tanzanian,Inter-State War (国家间战争),1,1978-10-28,1979-04-11,Tanzania,Uganda; Libya,Libya,胜利 (Victory),3000,拉美 (Latin America),Inter-StateWarData_v4.0.csv
+ES475,Khmer Insurgency,Extra-State War (国家对外战争),3,1979-01-09,1989-09-25,Vietnam; Cambodia,Khmer Rouge; -8,Vietnam,转型 (Transformed),40300,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN816,Anti-Khomeini Coalition,Intra-State War (国内战争-中央政府),4,1979-02-12,1984-03-01,Iran,Anti-Khmoneini Coalition: Fedayeen Kalq & Kurds,,胜利 (Victory),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IS193,Sino-Vietnamese Punitive,Inter-State War (国家间战争),1,1979-02-17,1979-03-16,China,Vietnam,Vietnam,胜利 (Victory),21000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IN812,First Afghan Mujahideen Uprising,Intra-State War (国内战争-中央政府),4,1979-03-15,1980-02-21,Russia; Afghanistan,-8; Mujahideen,,转型 (Transformed),34992,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN817,El Salvador,Intra-State War (国内战争-中央政府),4,1979-07-01,1992-02-01,El Salvador,Salvadorean Democratic Front,,妥协 (Compromise),-18,北美 (North America),Intra-StateWarData_v4.1.csv
+ES476,Soviet Quagmire,Extra-State War (国家对外战争),3,1980-02-22,1989-02-15,USSR; Afghanistan,Muhajadin; -8,,转型 (Transformed),70000,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IS199,Iran-Iraq,Inter-State War (国家间战争),1,1980-09-22,1988-08-20,Iran,Iraq,,僵局 (Stalemate),1250000,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IN822,Second Uganda,Intra-State War (国内战争-地方政府),5,1980-12-08,1986-03-19,Uganda,National Resistance Army,,失败 (Defeat),46000,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN823,Nigeria-Muslim,Intra-State War (国内战争-地方政府),5,1980-12-18,1981-01-01,Nigeria,Muslim fundamentalists,,胜利 (Victory),1050,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN825,Hama,Intra-State War (国内战争-中央政府),4,1981-11-01,1982-02-23,Syria,Muslim Brotherhood,,胜利 (Victory),3000,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN826,Tigrean and Eritrean,Intra-State War (国内战争-地方政府),5,1982-01-23,1991-05-28,Ethiopia,Tigray & Eritrea,,失败 (Defeat),75000,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN827,Shining Path,Intra-State War (国内战争-中央政府),4,1982-03-04,1992-09-12,Peru,Shining Path & TARM,,胜利 (Victory),16000,北美 (North America),Intra-StateWarData_v4.1.csv
+IN828,Contra War,Intra-State War (国内战争-中央政府),4,1982-03-18,1990-04-19,Nicaragua,Contras,,僵局 (Stalemate),32200,北美 (North America),Intra-StateWarData_v4.1.csv
+IS202,Falkland Islands,Inter-State War (国家间战争),1,1982-03-25,1982-06-15,United Kingdom,Argentina,,胜利 (Victory),1001,北美 (North America),Inter-StateWarData_v4.0.csv
+IS205,War over Lebanon,Inter-State War (国家间战争),1,1982-04-21,1982-09-15,Israel,Syria,Syria,僵局 (Stalemate),1655,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IN831,Matabeleland,Intra-State War (国内战争-中央政府),4,1983-01-01,1987-12-27,Zimbabwe,ZAPU,,胜利 (Victory),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN832,Fourth Burmese,Intra-State War (国内战争-地方政府),5,1983-02-01,1988-01-01,Burma,Karen & Kachin Rebels,,胜利 (Victory),4000,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN833,Fourth Lebanese Civil,Intra-State War (国内战争-中央政府),4,1983-04-18,1984-02-29,United States; France; Lebanon,-8; -8; Shi'ites & Druze,,失败 (Defeat),334,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN820,Second Chad (Habre Revolt),Intra-State War (国内战争-地方政府),5,1983-08-09,1984-09-01,-8; Chad; Libya,France; FAN; -8,,失败 (Defeat),6184,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN836,Second South Sudan,Intra-State War (国内战争-中央政府),4,1983-11-17,1991-08-27,Sudan,SPLA-Garang faction,,妥协 (Compromise),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN837,Indian Golden Temple,Intra-State War (国内战争-地方政府),5,1984-06-01,1984-07-30,India,Sikhs,,僵局 (Stalemate),1191,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN838,First Turkish Kurds,Intra-State War (国内战争-地方政府),5,1984-08-14,1986-03-01,Turkey,"Kurds, PKK",,释放 (Released),10500,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN818,Mozambique,Intra-State War (国内战争-中央政府),4,1985-01-01,1992-10-04,Tanzania; Mozambique; Zimbabwe,-8; Renamo; -8,,胜利 (Victory),516,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN840,Fifth Iraqi  Kurds,Intra-State War (国内战争-地方政府),5,1985-01-01,1988-07-17,-8; Iraq,Iran; Kurds,,胜利 (Victory),-35,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN842,South Yemen,Intra-State War (国内战争-中央政府),4,1986-01-13,1986-01-29,Yemen People's Republic,Leftist Factions,,失败 (Defeat),13000,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN843,Holy Spirit Movement,Intra-State War (国内战争-中央政府),4,1986-08-01,1987-10-01,Uganda,HSMF,,胜利 (Victory),7000,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IS207,War over the Aouzou Strip,Inter-State War (国家间战争),1,1986-11-15,1987-09-11,Chad,Libya,Libya,胜利 (Victory),8000,Unknown,Inter-StateWarData_v4.0.csv
+IS208,Sino-Vietnamese Border War,Inter-State War (国家间战争),1,1987-01-05,1987-02-06,China,Vietnam,China,僵局 (Stalemate),4000,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IN835,First Sri Lanka Tamil,Intra-State War (国内战争-地方政府),5,1987-07-25,1990-05-24,India; Sri Lanka,-8; Tamils,,妥协 (Compromise),26647,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN845,Second Sri Lanka-JVP,Intra-State War (国内战争-中央政府),4,1987-07-29,1989-12-29,Sri Lanka,JVP,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN846,Inkatha-ANC,Intra-State War (国内战争-非政府),7,1987-12-20,1994-04-26,Inkatha,ANC,,僵局 (Stalemate),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN847,Fifth Burmese,Intra-State War (国内战争-中央政府),4,1988-03-01,1988-10-03,Burma,Pro-democracy,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN848,First Somalia,Intra-State War (国内战争-中央政府),4,1988-05-26,1991-01-26,Somalia,rebel clans,,失败 (Defeat),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN850,Fifth Lebanese,Intra-State War (国内战争-中央政府),4,1989-02-01,1990-10-13,-8; Lebanon,Syria; militias,,失败 (Defeat),2633,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN851,Second Afghan Mujahideen Uprising,Intra-State War (国内战争-中央政府),4,1989-02-16,2001-10-06,Afghanistan,Mujahadin,,转型 (Transformed),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN852,Third Chad (Deby Coup),Intra-State War (国内战争-中央政府),4,1989-03-01,1990-12-04,Chad,Deby's MPS,,失败 (Defeat),3800,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN853,First Aceh,Intra-State War (国内战争-地方政府),5,1989-06-01,1991-06-01,Indonesia,GAM,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN854,Bougainville Secession,Intra-State War (国内战争-地方政府),5,1989-07-14,1992-09-01,Papua New Guinea,BRA,,释放 (Released),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN856,Eighth Colombia,Intra-State War (国内战争-地方政府),5,1989-08-19,-007-01-01,Colombia,FARC & Drug Lords,,继续 (Ongoing),28161,北美 (North America),Intra-StateWarData_v4.1.csv
+IN857,First Cambodian Civil War,Intra-State War (国内战争-中央政府),4,1989-09-26,1991-10-23,Cambodia,Khmer Rouge & KPNFL,,妥协 (Compromise),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN858,Romania,Intra-State War (国内战争-中央政府),4,1989-12-18,1989-12-26,Romania,Anti-Ceaucescu Rebels,,失败 (Defeat),1000,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN860,First Liberia,Intra-State War (国内战争-中央政府),4,1989-12-24,1990-11-28,Liberia; Nigeria,NPFL; -8,,释放 (Released),-26,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IS211,Gulf War,Inter-State War (国家间战争),1,1990-08-02,1991-04-11,Kuwait; United States of America; Canada; United Kingdom; Italy; Morocco; Egypt; Oman; France; United Arab Emirates; Qatar; Saudi Arabia; Syria,Iraq,,胜利 (Victory),41466,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+IN861,Kashmir Insurgents,Intra-State War (国内战争-地方政府),5,1990-09-19,2005-10-08,India,Kashmiri Guerillas,,释放 (Released),27700,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN862,Shiite and Kurdish,Intra-State War (国内战争-地方政府),5,1991-03-01,1991-03-31,Iraq,Shiites & Kurds,,胜利 (Victory),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN863,First Sierra Leone,Intra-State War (国内战争-中央政府),4,1991-03-23,1996-04-23,Sierra Leone,RUF,,胜利 (Victory),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN864,Croatian Independence,Intra-State War (国内战争-地方政府),5,1991-05-02,1992-01-02,Yugoslavia/Serbia,Croatia,,失败 (Defeat),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN865,Second Turkish Kurds,Intra-State War (国内战争-地方政府),5,1991-07-10,1999-02-16,Turkey,"Kurds, PKK",,僵局 (Stalemate),16500,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+ES477,First PKK in Iraq,Extra-State War (国家对外战争),3,1991-08-04,1992-03-25,Turkey,PKK in Iraq,Turkey,僵局 (Stalemate),300,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN866,The SPLA Division (Dinka-Nuer) War,Intra-State War (国内战争-非政府),7,1991-08-28,1992-11-01,Garang faction,Nuer faction,,释放 (Released),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN868,Jukun-Tiv War,Intra-State War (国内战争-非政府),7,1991-10-01,1992-03-01,Jukun,Tiv,,僵局 (Stalemate),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN872,Nagorno-Karabakh,Intra-State War (国内战争-地方政府),5,1991-12-26,1993-02-05,-8; Azerbaijan,Armenia; Nagorno-Karabakh,,转型 (Transformed),10992,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN873,Dniestrian Independence,Intra-State War (国内战争-地方政府),5,1991-12-26,1992-07-02,Moldova,Dniestria,,妥协 (Compromise),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN871,Georgia,Intra-State War (国内战争-中央政府),4,1991-12-26,1992-03-01,Georgia,Reform,,失败 (Defeat),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN875,Algerian Islamic Front,Intra-State War (国内战争-中央政府),4,1992-02-07,1999-06-01,Algeria,Islamic Front,,妥协 (Compromise),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IS215,Bosnian Independence,Inter-State War (国家间战争),1,1992-04-07,1992-05-13,Croatia; Bosnia,Yugoslavia,,转型 (Transformed),5240,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IN877,Bosnian-Serb Rebellion,Intra-State War (国内战争-地方政府),5,1992-06-06,1994-12-31,Bosnia; United States; -8; Croatia,Bosnian Serbs; -8; Croatia; -8,,胜利 (Victory),46195,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN878,Second Liberia,Intra-State War (国内战争-中央政府),4,1992-10-15,1995-08-19,Liberia; Nigeria,NPFL & ULIMO; -8,,妥协 (Compromise),-35,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN880,Angolan War of the Cities,Intra-State War (国内战争-中央政府),4,1992-10-28,1994-11-15,Angola,UNITA,,妥协 (Compromise),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN870,Second Somalia,Intra-State War (国内战争-中央政府),4,1992-12-13,1995-03-01,Nigeria; Somalia; Pakistan; Australia; France; United States of America; Italy,-8; Aideed Faction; -8; -8; -8; -8; -8,,妥协 (Compromise),-23,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN881,Second Cambodia Civil,Intra-State War (国内战争-中央政府),4,1993-01-29,1997-07-01,Cambodia,Khmer Rouge,,胜利 (Victory),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS216,Azeri-Armenian,Inter-State War (国家间战争),1,1993-02-06,1994-05-12,Armenia,Azerbaijan,Armenia,胜利 (Victory),14000,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IN876,Tajikistan,Intra-State War (国内战争-中央政府),4,1993-03-01,1997-06-27,Russia; Tadzhikistan,-8; United Tajik Opposition,,妥协 (Compromise),-35,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN882,Abkhazia Revolt,Intra-State War (国内战争-地方政府),5,1993-08-18,1994-04-14,Georgia,Abkhazia,,失败 (Defeat),8000,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN883,Second Burundi,Intra-State War (国内战争-中央政府),4,1993-10-21,1998-06-01,Burundi,Tutsi army,,释放 (Released),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN885,South Yemeni Secessionist,Intra-State War (国内战争-地方政府),5,1994-02-21,1994-07-07,Yemen,South Yemen,,胜利 (Victory),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN886,Second Rwanda,Intra-State War (国内战争-中央政府),4,1994-04-06,1994-07-18,Rwanda,Patriotic Front,,失败 (Defeat),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN888,First Chechnya,Intra-State War (国内战争-地方政府),5,1994-12-11,1996-08-31,Russia,Chechnya,,失败 (Defeat),10000,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN890,Iraqi Kurd Internecine,Intra-State War (国内战争-非政府),7,1994-12-20,1995-08-11,PUK,KDP,,僵局 (Stalemate),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IS217,Cenepa Valley,Inter-State War (国家间战争),1,1995-01-09,1995-02-27,Peru,Ecuador,,妥协 (Compromise),1500,北美 (North America),Inter-StateWarData_v4.0.csv
+IN891,Croatia-Krajina War,Intra-State War (国内战争-地方政府),5,1995-05-01,1995-11-01,Croatia,Krajinia Serbs,,胜利 (Victory),-18,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN892,Third Liberia,Intra-State War (国内战争-中央政府),4,1996-04-05,1996-08-20,Liberia,NPFL,,妥协 (Compromise),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN893,Sixth Iraqi Kurds,Intra-State War (国内战争-地方政府),5,1996-08-31,1996-10-23,Iraq,PUK,,僵局 (Stalemate),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN895,Fifth DRC,Intra-State War (国内战争-中央政府),4,1997-01-01,1997-01-30,-8; -8; -8; DRC,Uganda; Rwanda; Angola; ADFL,,失败 (Defeat),-69,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN896,Third Rwanda,Intra-State War (国内战争-中央政府),4,1997-03-17,1998-10-30,Rwanda,Hutu rebels,,胜利 (Victory),3300,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+ES479,Second PKK in Iraq,Extra-State War (国家对外战争),3,1997-05-14,1997-06-14,Turkey,PKK in Iraq,Turkey,僵局 (Stalemate),100,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN897,First Congo (Brazzaville),Intra-State War (国内战争-中央政府),4,1997-10-10,1997-10-15,-8; Congo,Angola; FDU (Cobra militia),,失败 (Defeat),-35,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN898,Second Sierra Leone,Intra-State War (国内战争-中央政府),4,1998-02-06,1999-07-07,Sierra Leone; -8; -8; -8; -8,Kabbah faction; Ghana; Nigeria; Guinea; United Kingdom,,失败 (Defeat),-86,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN900,Kosovo Independence,Intra-State War (国内战争-地方政府),5,1998-02-28,1999-03-23,Yugoslavia,KLA,,转型 (Transformed),1200,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IS219,Badme Border,Inter-State War (国家间战争),1,1998-05-06,2000-12-12,Eritrea,Ethiopia,Ethiopia,僵局 (Stalemate),120000,拉美 (Latin America),Inter-StateWarData_v4.0.csv
+IN902,Guinea-Bissau Military,Intra-State War (国内战争-中央政府),4,1998-06-09,1998-11-01,Guinea; Guinea-Bissau; Senegal,-8; Mané Junta; -8,,失败 (Defeat),-52,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN905,Africa's World War,Intra-State War (国内战争-中央政府),4,1998-08-24,2002-11-04,Angola; Sudan; Namibia; Zimbabwe; -8; -8; -8; Chad; Democratic Republic of Congo,"-8; -8; -8; -8; Rwanda; Burundi; Uganda; -8; RCD, MLC, et al",,妥协 (Compromise),-154,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN906,Fourth Chad (Togoimi Revolt),Intra-State War (国内战争-中央政府),4,1998-10-16,2000-04-28,Chad,MDD & MDJT,,释放 (Released),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN907,Third Angolan,Intra-State War (国内战争-中央政府),4,1998-12-04,2002-02-22,Angola,UNITA,,胜利 (Victory),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN908,Second Congo (Brazzaville),Intra-State War (国内战争-中央政府),4,1998-12-15,1999-11-16,Congo (Brazzaville),Ninjas and Cocoye militias,,胜利 (Victory),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN910,Moluccas Sectarian,Intra-State War (国内战争-非政府),7,1999-01-01,2000-08-22,Laskar Jihad,FKM & RMS,,释放 (Released),1791,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS221,War for Kosovo,Inter-State War (国家间战争),1,1999-03-24,1999-06-10,Turkey; Italy; United Kingdom; United States of America; Netherlands; France; Germany,Yugoslavia,Germany,胜利 (Victory),5002,西欧 (Western Europe),Inter-StateWarData_v4.0.csv
+IN911,First Nigeria Christian-Muslim,Intra-State War (国内战争-非政府),7,1999-05-01,2000-05-31,Christian Tarok,Muslim Fulani,,胜利 (Victory),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN912,Second Aceh,Intra-State War (国内战争-地方政府),5,1999-05-03,2002-12-09,Indonesia,GAM,,妥协 (Compromise),3830,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IS223,Kargil War,Inter-State War (国家间战争),1,1999-05-08,1999-07-17,India,Pakistan,,胜利 (Victory),1172,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IN913,Oromo Liberation,Intra-State War (国内战争-地方政府),5,1999-05-30,1999-08-18,Ethiopia,Oromo Lib. Front,,胜利 (Victory),1000,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+NS1594,Hemda-Lendu War,Unknown,9,1999-06-01,2005-03-01,Hemda; -8,Lendu; -8; -8; -8; -8,Lendu,僵局 (Stalemate),0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+IN915,Second Chechen,Intra-State War (国内战争-地方政府),5,1999-08-07,2003-10-03,Russia,Chechnya,,胜利 (Victory),20000,西欧 (Western Europe),Intra-StateWarData_v4.1.csv
+IN916,Second Philippine-Moro,Intra-State War (国内战争-地方政府),5,2000-04-23,2001-06-22,Philippines,MILF,,妥协 (Compromise),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN917,Guinean,Intra-State War (国内战争-中央政府),4,2000-09-11,2001-04-01,Guinea ,RDFG,,僵局 (Stalemate),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+ES480,Al Aqsa Intifada,Extra-State War (国家对外战争),2,2000-09-28,2003-09-09,Israel,Palestinians,,胜利 (Victory),900,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN918,Third Burundi,Intra-State War (国内战争-中央政府),4,2001-03-21,2003-10-08,Burundi,FNL & FROLINA,,妥协 (Compromise),3150,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN920,Fourth Rwanda,Intra-State War (国内战争-中央政府),4,2001-05-21,2001-09-04,Rwanda,Army for the Liberation of Rwanda,,胜利 (Victory),1791,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IS225,Invasion of Afghanistan,Inter-State War (国家间战争),1,2001-11-15,2001-12-22,Canada; France; United Kingdom; United States of America; Australia,Afghanistan,Afghanistan,转型 (Transformed),4002,亚洲 (Asia),Inter-StateWarData_v4.0.csv
+IN921,First Nepal Maoist Insurgency,Intra-State War (国内战争-中央政府),4,2001-11-23,2003-01-29,Nepal ,CPN,,僵局 (Stalemate),3780,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+ES481,Afghan Resistance,Extra-State War (国家对外战争),3,2001-12-23,-007-01-01,France; Australia; Germany; United Kingdom; Canada; United States; Afghanistan,-8; -8; -8; -8; -8; al-Qaeda & Taliban; -8,Afghanistan,继续 (Ongoing),2393,亚洲 (Asia),Extra-StateWarData_v4.0.csv
+IN922,Fourth Liberian,Intra-State War (国内战争-中央政府),4,2002-02-01,2003-08-11,Liberia,LURD & MODEL,,失败 (Defeat),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN923,Ethiopian Anyuaa-Nuer,Intra-State War (国内战争-非政府),7,2002-08-01,2003-01-01,Anyuaa,Nuer,,释放 (Released),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN925,Cote d'Ivoire Military,Intra-State War (国内战争-中央政府),4,2002-12-11,2004-11-16,France; Cote d'Ivoire,"-8; MPCI, MPIGO, MJP",,失败 (Defeat),2701,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN926,Third Philippine-Moro,Intra-State War (国内战争-地方政府),5,2003-02-11,2003-07-01,Phillippines,MILF & ASG,,释放 (Released),1000,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN927,Darfur,Intra-State War (国内战争-地方政府),5,2003-02-26,2006-12-11,Sudan,SLA & JEM,,僵局 (Stalemate),-18,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IS227,Invasion of Iraq,Inter-State War (国家间战争),1,2003-03-19,2003-05-02,Australia; United Kingdom; United States of America,Iraq,Iraq,转型 (Transformed),7173,中东/北非 (Middle East/North Africa),Inter-StateWarData_v4.0.csv
+ES482,Iraqi Resistance,Extra-State War (国家对外战争),3,2003-05-03,-007-01-01,Australia; United States; United Kingdom; Netherlands; Spain; Poland; Italy; Ukraine; Iraq; Republic of Korea,-8; al-Qaeda & Iraqi resistence; -8; -8; -8; -8; -8; -8; -8; -8,United Kingdom,继续 (Ongoing),15017,中东/北非 (Middle East/North Africa),Extra-StateWarData_v4.0.csv
+IN930,Third Aceh,Intra-State War (国内战争-地方政府),5,2003-05-18,2003-11-18,Indonesia,GAM,,胜利 (Victory),1550,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN931,Second Nepal Maoists,Intra-State War (国内战争-中央政府),4,2003-08-27,2006-04-26,Nepal,CPN,,妥协 (Compromise),7030,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN932,Waziristan,Intra-State War (国内战争-地方政府),5,2004-02-20,2006-09-05,United States; Pakistan,-8; Waziri tribes,,失败 (Defeat),2983,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN933,Second Nigeria Christian-Muslim,Intra-State War (国内战争-非政府),7,2004-03-01,2004-09-16,Christian Tarok,Muslim Fulani,,僵局 (Stalemate),-18,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN935,First Yemeni Cleric,Intra-State War (国内战争-中央政府),4,2004-06-21,2005-04-08,Yemen,Zaidi Muslims,,胜利 (Victory),2250,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv
+IN936,Philippine Joint Offensive,Intra-State War (国内战争-地方政府),5,2005-01-17,2006-07-11,Phillippines,MILF & NPA,,释放 (Released),2823,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN937,Fifth Chad,Intra-State War (国内战争-中央政府),4,2005-12-18,2006-12-20,Chad,FUDC,,胜利 (Victory),1100,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN940,Second Sri Lanka Tamil,Intra-State War (国内战争-地方政府),5,2006-10-11,-007-01-01,Sri Lanka,LTTE,,继续 (Ongoing),-18,亚洲 (Asia),Intra-StateWarData_v4.1.csv
+IN938,Third Somalia,Intra-State War (国内战争-中央政府),4,2007-01-07,2007-06-03,United States; Somalia; Ethiopia; -8,-8; SCIC; -8; Eritrea,,胜利 (Victory),-69,拉美 (Latin America),Intra-StateWarData_v4.1.csv
+IN941,Second Yemeni Cleric,Intra-State War (国内战争-中央政府),4,2007-01-29,2007-06-16,Yemen,Zaidi Muslims,,僵局 (Stalemate),3500,中东/北非 (Middle East/North Africa),Intra-StateWarData_v4.1.csv

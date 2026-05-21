@@ -1,0 +1,63 @@
+﻿war_id,war_name,war_type,war_type_code,start_date,end_date,belligerents_side1,belligerents_side2,initiator,outcome,side_a_deaths,side_b_deaths,total_deaths,where_fought,source_file
+NS1500,First Maori Tribal War,Non-State War (非国家战争),8,1818-01-01,1824-01-01,Te Rauparaha's Ngati Toa; -8,Taranaki; Ngai Tahu; Waikato;  Ngati Ira; Rangitikei,Te Rauparaha's Ngati Toa,胜利 (Victory),1500,6000,7500,跨地区 (Multi-regional),Non-StateWarData_v4.0.csv
+NS1501,Shaka Zulu-Bantu War,Non-State War (非国家战争),8,1819-01-01,1828-09-24,Shaka Zulu; -8,Bantu; -8; -8; -8; -8,Shaka Zulu,胜利 (Victory),20000,40000,60000,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1502,Burma-Assam War,Non-State War (非国家战争),8,1819-01-01,1822-01-01,Burma; -8,Assam; -8; -8; -8; -8,Burma,胜利 (Victory),0,0,0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1503,Buenos Aires War,Non-State War (非国家战争),8,1820-01-08,1820-02-23,Buenos Aires; -8,Provinces; -8; -8; -8; -8,Provinces,失败 (Defeat),0,0,0,北美 (North America),Non-StateWarData_v4.0.csv
+NS1505,Second Maori Tribal War,Non-State War (非国家战争),8,1821-09-01,1823-01-01,Hongi Hika's Nga Phuhi; -8,Ngati Paoa;  Ngati Maru;  Waikato River Maori;  Te Arawa; -8,Hongi Hika's Nga Phuhi,胜利 (Victory),500,2000,2500,跨地区 (Multi-regional),Non-StateWarData_v4.0.csv
+NS1506,Siam-Kedah War,Non-State War (非国家战争),8,1821-11-01,1821-12-01,Thailand; -8,Kedah; -8; -8; -8; -8,Thailand,胜利 (Victory),0,0,0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1508,China-Kashgaria War,Non-State War (非国家战争),8,1825-01-01,1828-01-01,China; -8,Muslim rebels; -8; -8; -8; -8,China,胜利 (Victory),0,0,0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1509,Mexico-Yaqui Indian War,Non-State War (非国家战争),8,1825-10-25,1827-04-13,Mexico; -8,Yaqui Indians; -8; -8; -8; -8,Mexico,妥协 (Compromise),0,0,0,北美 (North America),Non-StateWarData_v4.0.csv
+NS1510,Central American Confederation War,Non-State War (非国家战争),8,1826-01-01,1829-04-12,Conservative Confederation; -8,Liberals; -8; -8; -8; -8,Liberals,失败 (Defeat),2000,1300,3300,北美 (North America),Non-StateWarData_v4.0.csv
+NS1511,Viang Chan- Siamese War,Non-State War (非国家战争),8,1826-01-01,1827-05-15,Viang Chan; -8,Siam; -8; -8; -8; -8,Viang Chan,失败 (Defeat),24000,7000,31000,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1512,Peru-Gran Colombia War,Non-State War (非国家战争),8,1828-07-03,1829-02-28,Peru; -8,Gran Colombia; -8; -8; -8; -8,Peru,失败 (Defeat),3000,1000,4000,北美 (North America),Non-StateWarData_v4.0.csv
+NS1513,Argentine War for Unity,Non-State War (非国家战争),8,1829-04-26,1831-11-30,Unitarians; -8,Provinces; -8; -8; -8; -8,Unitarians,失败 (Defeat),0,0,0,北美 (North America),Non-StateWarData_v4.0.csv
+NS1514,Sayyid Said War,Non-State War (非国家战争),8,1829-12-18,1830-05-09,Sayyid Said; -8,Mombasa; -8; -8; -8; -8,Sayyid Said,胜利 (Victory),0,0,0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1515,China-Kokand War,Non-State War (非国家战争),8,1830-09-01,1831-11-01,China; -8,Kokand; -8; -8; -8; -8,China,胜利 (Victory),0,0,0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1516,Siam-Cambodia-Vietnam War,Non-State War (非国家战争),8,1831-01-01,1834-01-01,Thailand; -8,Cambodia; Vietnam; -8; -8; -8,Thailand,失败 (Defeat),0,0,0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1518,Argentina-Ranqueles Indian War,Non-State War (非国家战争),8,1833-03-16,1834-03-25,Argentina; -8,Ranqueles Indians; -8; -8; -8; -8,Argentina,胜利 (Victory),0,6000,6000,北美 (North America),Non-StateWarData_v4.0.csv
+NS1520,Bolivia Conquest of Peru,Non-State War (非国家战争),8,1835-06-16,1836-02-07,Bolivia; -8,Peru; -8; -8; -8; -8,Bolivia,胜利 (Victory),0,0,0,北美 (North America),Non-StateWarData_v4.0.csv
+NS1521,Boer-Matabele War,Non-State War (非国家战争),8,1836-08-15,1837-11-12,Boer Trekkers; -8,Matabele; -8; -8; -8; -8,Matabele,胜利 (Victory),350,3000,3350,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1523,Dissolution of the Bolivia-Peru Confederation,Non-State War (非国家战争),8,1837-11-01,1839-01-20,Chile  ; Argentina,Peru-Bolivia Confederation; -8; -8; -8; -8,Chile  ,胜利 (Victory),1400,1500,2900,北美 (North America),Non-StateWarData_v4.0.csv
+NS1524,Persian Siege of Heart,Non-State War (非国家战争),8,1837-11-22,1838-09-09,Persia; -8,Herat; -8; -8; -8; -8,Persia,失败 (Defeat),1700,0,1700,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1525,Boer-Zulu War,Non-State War (非国家战争),8,1838-02-06,1838-12-20,Boer Trekkers; -8,Zulu; -8; -8; -8; -8,Zulu,胜利 (Victory),700,3000,3700,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1527,Anti-Rosas War,Non-State War (非国家战争),8,1839-02-24,1840-12-31,Anti-Rosas Allies; -8,Rosas Federalist Army; -8; -8; -8; -8,Anti-Rosas Allies,转型 (Transformed),2500,500,3000,北美 (North America),Non-StateWarData_v4.0.csv
+NS1528,Dissolution of  the Central American Confederation,Non-State War (非国家战争),8,1839-03-19,1840-03-21,Conservatives; -8,Liberals; -8; -8; -8; -8,Conservatives,胜利 (Victory),1700,2000,3700,北美 (North America),Non-StateWarData_v4.0.csv
+NS1530,Dogra-Tibet War,Non-State War (非国家战争),8,1841-05-01,1842-10-17,Jammu; -8,Tibet; -8; -8; -8; -8,Jammu,妥协 (Compromise),3000,1000,4000,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1531,First Haiti-Santo Domingo War,Non-State War (非国家战争),8,1844-02-27,1845-12-21,Santo Domingo; -8,Haitians; -8; -8; -8; -8,Santo Domingo,僵局 (Stalemate),0,0,0,北美 (North America),Non-StateWarData_v4.0.csv
+NS1533,War of  Seven Khojas,Non-State War (非国家战争),8,1847-01-01,1848-01-01,Kokand; -8,China; -8; -8; -8; -8,Kokand,失败 (Defeat),0,0,0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1534,Taiping Rebellion Phase 1,Non-State War (非国家战争),8,1850-12-01,1860-10-24,Taiping rebels; -8,China; -8; -8; -8; -8,Taiping rebels,转型 (Transformed),0,0,0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1535,First Tukulor War,Non-State War (非国家战争),8,1852-01-01,1854-01-01,al-Hajj Umar's Tukulor army; -8,Malinke; -8; -8; -8; -8,al-Hajj Umar's Tukulor army,胜利 (Victory),4000,6000,10000,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1536,Kashmir-Dards of Chilas War,Non-State War (非国家战争),8,1852-01-01,1852-01-01,Kashmir; -8,Dards; -8; -8; -8; -8,Dards,失败 (Defeat),1600,400,2000,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1537,Han-Miao War Phase 1,Non-State War (非国家战争),8,1854-03-25,1860-10-24,Han; -8,Miao; -8; -8; -8; -8,Miao,转型 (Transformed),0,0,0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1538,Second Haiti-Santo Domingo War,Non-State War (非国家战争),8,1855-11-01,1856-01-27,Haiti; -8,Santo-Domingo; -8; -8; -8; -8,Haiti,失败 (Defeat),0,0,0,北美 (North America),Non-StateWarData_v4.0.csv
+NS1539,Han-Nien War,Non-State War (非国家战争),8,1855-01-01,1858-01-01,Han; -8,Nian; -8; -8; -8; -8,Nian,僵局 (Stalemate),0,0,0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1540,Filibuster War,Non-State War (非国家战争),8,1856-02-26,1857-05-01,Nicaragua; -8,Costa Rica; Honduras; Guatemala;  El Salvador; -8,Costa Rica,失败 (Defeat),1000,6700,7700,北美 (North America),Non-StateWarData_v4.0.csv
+NS1541,Han-Panthay War Phase 1,Non-State War (非国家战争),8,1856-05-19,1860-10-24,Han; -8,Yunnan Muslims; -8; -8; -8; -8,Yunnan Muslims,转型 (Transformed),0,0,0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1542,First Zulu Internecine War,Non-State War (非国家战争),8,1856-12-02,1856-12-02,Mbuyazi faction; -8,Cetshwayo faction; -8; -8; -8; -8,Mbuyazi faction,失败 (Defeat),5000,0,5000,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1543,Kucha and Khoja Uprising,Non-State War (非国家战争),8,1857-01-01,1857-09-01,Kucha; Khoja,China; -8; -8; -8; -8,Kucha,失败 (Defeat),0,0,0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1544,First Boer-Basuto War,Non-State War (非国家战争),8,1858-01-01,1858-01-01,Basuto; -8,Boers; -8; -8; -8; -8,Boers,僵局 (Stalemate),0,0,0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1545,First Ethiopian War,Non-State War (非国家战争),8,1858-01-01,1861-01-01,Ethiopia; -8,Provincial armies; -8; -8; -8; -8,Provincial armies,胜利 (Victory),0,0,0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1546,Second Tukulor War,Non-State War (非国家战争),8,1860-01-01,1862-03-16,Umar Tal; -8,Bambara; -8; -8; -8; -8,Umar Tal,胜利 (Victory),0,0,0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1548,Transvaal War,Non-State War (非国家战争),8,1862-04-01,1864-01-01,Regional governments; -8,Transvaal government; -8; -8; -8; -8,Regional governments,失败 (Defeat),3000,3000,6000,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1550,Central American War,Non-State War (非国家战争),8,1863-01-23,1863-11-15,Guatemala; Nicaragua,El Salvador; Honduras; -8; -8; -8,Guatemala,胜利 (Victory),0,0,0,北美 (North America),Non-StateWarData_v4.0.csv
+NS1551,First Australian Aboriginal War,Non-State War (非国家战争),8,1864-12-18,1865-12-18,Aborigines; -8,White Settlers; -8; -8; -8; -8,White Settlers,释放 (Released),890,110,1000,跨地区 (Multi-regional),Non-StateWarData_v4.0.csv
+NS1552,Second Boer-Basuto War,Non-State War (非国家战争),8,1865-06-09,1866-04-03,Orange Free State; -8,Basuto; -8; -8; -8; -8,Orange Free State,胜利 (Victory),0,0,0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1553,Second Ethiopian War,Non-State War (非国家战争),8,1868-04-13,1872-01-21,Tigray; -8,Ethiopia; -8; -8; -8; -8,Ethiopia,胜利 (Victory),5000,30000,35000,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1554,Uruguay Colorados-Blancos War,Non-State War (非国家战争),8,1870-03-05,1872-04-06,Blancos; -8,Colorados; -8; -8; -8; -8,Blancos,失败 (Defeat),0,0,0,北美 (North America),Non-StateWarData_v4.0.csv
+NS1556,Second Zulu Internecine War,Non-State War (非国家战争),8,1883-03-28,1884-06-04,Cetewayo faction; -8,Zibelu faction; -8; -8; -8; -8,Cetewayo faction,胜利 (Victory),0,0,0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1557,Oman-Ibadi War,Non-State War (非国家战争),8,1883-10-01,1884-01-01,Oman; -8,Ibadi; -8; -8; -8; -8,Ibadi,胜利 (Victory),0,0,0,中东/北非 (Middle East/North Africa),Non-StateWarData_v4.0.csv
+NS1558,Second Australian Aboriginal War,Non-State War (非国家战争),8,1884-08-01,1894-11-16,Aborigines; -8,White Settlers; -8; -8; -8; -8,White Settlers,释放 (Released),8900,1100,10000,跨地区 (Multi-regional),Non-StateWarData_v4.0.csv
+NS1559,Ethiopia-Mahdi War,Non-State War (非国家战争),8,1885-05-01,1889-03-12,Ethiopia; -8,Mahdist army; -8; -8; -8; -8,Ethiopia,失败 (Defeat),15000,15000,30000,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1560,German East Africa Company War,Non-State War (非国家战争),8,1888-09-01,1889-05-01,German East Africa Company; -8,Arabs; Swahili; -8; -8; -8,Arabs,胜利 (Victory),0,0,0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1561,Rabih Zubayr-Bornu War,Non-State War (非国家战争),8,1893-01-01,1893-01-01,Rabah; -8,Bornu; -8; -8; -8; -8,Rabah,胜利 (Victory),0,0,0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1567,First Nejd-Hejaz War,Non-State War (非国家战争),8,1919-05-25,1919-05-25,Nejd; -8,Hejaz; -8; -8; -8; -8,Nejd,胜利 (Victory),0,4000,4000,中东/北非 (Middle East/North Africa),Non-StateWarData_v4.0.csv
+NS1568,Second Nejd-Hejaz War,Non-State War (非国家战争),8,1924-09-04,1925-12-23,Nejd; -8,Hejaz; -8; -8; -8; -8,Nejd,胜利 (Victory),0,0,0,中东/北非 (Middle East/North Africa),Non-StateWarData_v4.0.csv
+NS1570,Partition Communal War,Non-State War (非国家战争),8,1946-08-16,1947-08-01,Muslims; -8,Hindus;  Sikhs; -8; -8; -8,Muslims,胜利 (Victory),0,0,0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1571,Hyderabad War,Non-State War (非国家战争),8,1947-08-15,1948-09-12,Telenganans; -8,Razakars; -8; -8; -8; -8,Telenganans,转型 (Transformed),0,0,0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1572,Palestine War,Non-State War (非国家战争),8,1947-11-29,1948-05-14,Arabs; -8,Zionists; -8; -8; -8; -8,Zionists,转型 (Transformed),991,895,1886,中东/北非 (Middle East/North Africa),Non-StateWarData_v4.0.csv
+NS1573,Cheju Rebellion,Non-State War (非国家战争),8,1948-04-03,1949-05-01,Communists; military,South Korea; -8; -8; -8; -8,Communists,失败 (Defeat),17000,0,17000,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1574,Rwandan Social Revolution,Non-State War (非国家战争),8,1959-10-19,1962-07-01,Hutu; -8,Tutsi; -8; -8; -8; -8,Hutu,胜利 (Victory),0,0,0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1577,Dhofar Rebellion Phase 1,Non-State War (非国家战争),8,1968-09-01,1971-10-06,Dhofar; -8,Oman; -8; -8; -8; -8,Dhofar,僵局 (Stalemate),0,0,0,中东/北非 (Middle East/North Africa),Non-StateWarData_v4.0.csv
+NS1581,Angola Guerilla War,Non-State War (非国家战争),8,1974-10-15,1975-10-22,MPLA; -8,FLNA; UNITA; -8; -8; -8,MPLA,转型 (Transformed),0,0,0,拉美 (Latin America),Non-StateWarData_v4.0.csv
+NS1582,East Timorese War Phase 1,Non-State War (非国家战争),8,1975-08-11,1975-10-15,Fretilin;  Apodeti,UDT; -8; -8; -8; -8,UDT,转型 (Transformed),0,0,0,亚洲 (Asia),Non-StateWarData_v4.0.csv
+NS1594,Hemda-Lendu War,Unknown,9,1999-06-01,2005-03-01,Hemda; -8,Lendu; -8; -8; -8; -8,Lendu,僵局 (Stalemate),0,0,0,拉美 (Latin America),Non-StateWarData_v4.0.csv
